@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "agentberg": {
-      "type": "http",
-      "url": "https://agentberg.ai/mcp"
-    }
-  }
-}

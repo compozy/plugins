@@ -1,0 +1,1574 @@
+[
+  {
+    "name": "42crunch-api-security-testing",
+    "status": "vendored",
+    "repository": "42Crunch-AI/claude-plugins",
+    "commit": "faf5305385de8afed9468904e8639be737aff39e",
+    "license": "plugins/api-security-testing/LICENSE"
+  },
+  {
+    "name": "activecampaign",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "adobe-for-creativity",
+    "status": "vendored",
+    "repository": "adobe/skills",
+    "commit": "0f487c9b1b98d8e62dfc80ee4d28b29f5471261f",
+    "license": "LICENSE"
+  },
+  {
+    "name": "adspirer-ads-agent",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "agentforce-adlc",
+    "status": "retained external",
+    "reason": "Error: no recognized permissive publisher license"
+  },
+  {
+    "name": "ai-firstify",
+    "status": "vendored",
+    "repository": "techwolf-ai/ai-first-toolkit",
+    "commit": "f6380c947b04ae0817c2723fbf589784d4501357",
+    "license": "LICENSE"
+  },
+  {
+    "name": "ai-plugins",
+    "status": "retained external",
+    "reason": "Error: package exceeds catalog vendoring size allowance"
+  },
+  {
+    "name": "aikido",
+    "status": "retained external",
+    "reason": "Error: no recognized permissive publisher license"
+  },
+  {
+    "name": "airtable",
+    "status": "vendored",
+    "repository": "Airtable/skills",
+    "commit": "812ee67f1fd3d76fb45ff8df40afaa0448602ba8",
+    "license": "LICENSE.md"
+  },
+  {
+    "name": "airwallex-agentos",
+    "status": "vendored",
+    "repository": "airwallex/airwallex-marketplace",
+    "commit": "877551077786664d1cbeb32013443291c66e69e6",
+    "license": "LICENSE"
+  },
+  {
+    "name": "airwallex-dev",
+    "status": "vendored",
+    "repository": "airwallex/airwallex-marketplace",
+    "commit": "877551077786664d1cbeb32013443291c66e69e6",
+    "license": "LICENSE"
+  },
+  {
+    "name": "aiven",
+    "status": "vendored",
+    "repository": "aiven/aiven-ai-plugins",
+    "commit": "634f41d6852957cb9280e9245f2ea6f74645b4f1",
+    "license": "LICENSE"
+  },
+  {
+    "name": "alloydb",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "alloydb-omni",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "altimate-code",
+    "status": "vendored",
+    "repository": "AltimateAI/altimate-claude-plugin",
+    "commit": "b7c8f68b3dfd303ab3ccf2f43934098811dfe2aa",
+    "license": "LICENSE"
+  },
+  {
+    "name": "amazon-location-service",
+    "status": "vendored",
+    "repository": "awslabs/agent-plugins",
+    "commit": "097fe8ad56d8a1d5e2c81d7880adf145553cf244",
+    "license": "LICENSE"
+  },
+  {
+    "name": "amazon-selling-partner",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "amd-skills",
+    "status": "vendored",
+    "repository": "amd/skills",
+    "commit": "6916fb371d1cba40757b223cf16b4cd4912b202f",
+    "license": "LICENSE"
+  },
+  {
+    "name": "amplitude",
+    "status": "vendored",
+    "repository": "amplitude/mcp-marketplace",
+    "commit": "c4bcb5feff54cf3332290ee0071a2def2b1f149d",
+    "license": "LICENSE"
+  },
+  {
+    "name": "apollo",
+    "status": "vendored",
+    "repository": "apolloio/apollo-mcp-plugin",
+    "commit": "bd0513c961f02105492fcff0d7d29c9cccf1ed23",
+    "license": "LICENSE"
+  },
+  {
+    "name": "apollo-skills",
+    "status": "retained external",
+    "reason": "Error: package contains symlinks requiring publisher review"
+  },
+  {
+    "name": "appwrite",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "astronomer-data-agents",
+    "status": "retained external",
+    "reason": "Error: package contains symlinks requiring publisher review"
+  },
+  {
+    "name": "atlan",
+    "status": "retained external",
+    "reason": "Error: package contains symlinks requiring publisher review"
+  },
+  {
+    "name": "atlassian",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "atlassian-twg-cli",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "atomic-agents",
+    "status": "vendored",
+    "repository": "BrainBlend-AI/atomic-agents",
+    "commit": "33d2ec94f42d4a65393a336e35edf21ee5700303",
+    "license": "claude-plugin/atomic-agents/LICENSE"
+  },
+  {
+    "name": "auth0",
+    "status": "vendored",
+    "repository": "auth0/agent-skills",
+    "commit": "7b3821d533430eef35fd7406a87b7b8d02302bdf",
+    "license": "LICENSE"
+  },
+  {
+    "name": "aws-agents",
+    "status": "vendored",
+    "repository": "aws/agent-toolkit-for-aws",
+    "commit": "0d6167ad2e6dfb858098c4162fe74d04c975532f",
+    "license": "LICENSE"
+  },
+  {
+    "name": "aws-agents-for-devsecops",
+    "status": "vendored",
+    "repository": "aws/agent-toolkit-for-aws",
+    "commit": "7bde20faede49dd5764c02b54f5e306849f7e3ca",
+    "license": "LICENSE"
+  },
+  {
+    "name": "aws-amplify",
+    "status": "vendored",
+    "repository": "awslabs/agent-plugins",
+    "commit": "097fe8ad56d8a1d5e2c81d7880adf145553cf244",
+    "license": "LICENSE"
+  },
+  {
+    "name": "aws-core",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "aws-data-analytics",
+    "status": "vendored",
+    "repository": "aws/agent-toolkit-for-aws",
+    "commit": "0d6167ad2e6dfb858098c4162fe74d04c975532f",
+    "license": "LICENSE"
+  },
+  {
+    "name": "aws-serverless",
+    "status": "vendored",
+    "repository": "awslabs/agent-plugins",
+    "commit": "097fe8ad56d8a1d5e2c81d7880adf145553cf244",
+    "license": "LICENSE"
+  },
+  {
+    "name": "aws-startup-advisor",
+    "status": "retained external",
+    "reason": "Error: package exceeds catalog vendoring size allowance"
+  },
+  {
+    "name": "aws-transform",
+    "status": "vendored",
+    "repository": "awslabs/agent-plugins",
+    "commit": "097fe8ad56d8a1d5e2c81d7880adf145553cf244",
+    "license": "LICENSE"
+  },
+  {
+    "name": "azure",
+    "status": "retained external",
+    "reason": "Error: package exceeds catalog vendoring size allowance"
+  },
+  {
+    "name": "azure-cosmos-db-assistant",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "azure-sql-developer",
+    "status": "retained external",
+    "reason": "Error: package exceeds catalog vendoring size allowance"
+  },
+  {
+    "name": "b12-claude-plugin",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "base44",
+    "status": "retained external",
+    "reason": "Error: package contains symlinks requiring publisher review"
+  },
+  {
+    "name": "bigdata-com",
+    "status": "retained external",
+    "reason": "Error: no recognized permissive publisher license"
+  },
+  {
+    "name": "bigquery-data-analytics",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "blackrock-advisor-center-plugin",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "boltz",
+    "status": "vendored",
+    "repository": "boltz-bio/boltz-api-skills",
+    "commit": "beafb3c16236347ab10fb54f78a5da49cbf7c7bb",
+    "license": "LICENSE"
+  },
+  {
+    "name": "box",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "brightdata-plugin",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "browser-use",
+    "status": "retained external",
+    "reason": "Error: no recognized permissive publisher license"
+  },
+  {
+    "name": "build-with-wordpress",
+    "status": "retained external",
+    "reason": "Error: no recognized permissive publisher license"
+  },
+  {
+    "name": "buildkite",
+    "status": "retained external",
+    "reason": "Error: package contains symlinks requiring publisher review"
+  },
+  {
+    "name": "canva",
+    "status": "retained external",
+    "reason": "Error: package contains symlinks requiring publisher review"
+  },
+  {
+    "name": "carbone-skill",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "carta-cap-table",
+    "status": "retained external",
+    "reason": "Error: package exceeds catalog vendoring size allowance"
+  },
+  {
+    "name": "carta-crm",
+    "status": "retained external",
+    "reason": "Error: package exceeds catalog vendoring size allowance"
+  },
+  {
+    "name": "carta-investors",
+    "status": "retained external",
+    "reason": "Error: package exceeds catalog vendoring size allowance"
+  },
+  {
+    "name": "catalyst-by-zoho",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "cds-mcp",
+    "status": "retained external",
+    "reason": "Error: package contains symlinks requiring publisher review"
+  },
+  {
+    "name": "chrome-devtools-mcp",
+    "status": "retained external",
+    "reason": "Error: package exceeds catalog vendoring size allowance"
+  },
+  {
+    "name": "chronograph-gp",
+    "status": "vendored",
+    "repository": "chronograph-pe/chronograph-gp-claude-plugin",
+    "commit": "35cb3d12cf4e24823c0efca4abe6f13c2fd0e5f5",
+    "license": "LICENSE"
+  },
+  {
+    "name": "chronograph-lp",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "circle-skills",
+    "status": "vendored",
+    "repository": "circlefin/skills",
+    "commit": "58ab8648bb1ae9d037a3bf5197ad3bb01262f5b1",
+    "license": "LICENSE"
+  },
+  {
+    "name": "circleback",
+    "status": "retained external",
+    "reason": "Error: no recognized permissive publisher license"
+  },
+  {
+    "name": "ckeditor",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "claude-for-financial-advisors",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "clay",
+    "status": "retained external",
+    "reason": "Error: no recognized permissive publisher license"
+  },
+  {
+    "name": "clickhouse",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "clickhouse-best-practices",
+    "status": "retained external",
+    "reason": "Error: package exceeds catalog vendoring size allowance"
+  },
+  {
+    "name": "cloud-sql-mysql",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "cloud-sql-postgresql",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "cloud-sql-sqlserver",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "cloudflare",
+    "status": "retained external",
+    "reason": "Error: package exceeds catalog vendoring size allowance"
+  },
+  {
+    "name": "cloudinary",
+    "status": "retained external",
+    "reason": "Error: no recognized permissive publisher license"
+  },
+  {
+    "name": "cockroachdb",
+    "status": "retained external",
+    "reason": "Error: package exceeds catalog vendoring size allowance"
+  },
+  {
+    "name": "coderabbit",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "codspeed",
+    "status": "retained external",
+    "reason": "Error: no recognized permissive publisher license"
+  },
+  {
+    "name": "confidence",
+    "status": "retained external",
+    "reason": "Error: package exceeds catalog vendoring size allowance"
+  },
+  {
+    "name": "convex",
+    "status": "retained external",
+    "reason": "Error: no recognized permissive publisher license"
+  },
+  {
+    "name": "crowdsec",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "crowdstrike-falcon-foundry",
+    "status": "retained external",
+    "reason": "Error: package exceeds catalog vendoring size allowance"
+  },
+  {
+    "name": "crowdstrike-falcon-fusion",
+    "status": "retained external",
+    "reason": "Error: package exceeds catalog vendoring size allowance"
+  },
+  {
+    "name": "daloopa",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "dash0",
+    "status": "retained external",
+    "reason": "Error: package exceeds catalog vendoring size allowance"
+  },
+  {
+    "name": "data",
+    "status": "retained external",
+    "reason": "Error: package contains symlinks requiring publisher review"
+  },
+  {
+    "name": "data-agent-kit",
+    "status": "retained external",
+    "reason": "Error: package exceeds catalog vendoring size allowance"
+  },
+  {
+    "name": "databases-on-aws",
+    "status": "vendored",
+    "repository": "awslabs/agent-plugins",
+    "commit": "fbefb3764e67558fe10ac834dd85db49734aa9b6",
+    "license": "LICENSE"
+  },
+  {
+    "name": "databricks",
+    "status": "retained external",
+    "reason": "Error: no recognized permissive publisher license"
+  },
+  {
+    "name": "datadog",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "datahub-skills",
+    "status": "retained external",
+    "reason": "Error: package contains symlinks requiring publisher review"
+  },
+  {
+    "name": "dataproc",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "datarobot-agent-skills",
+    "status": "retained external",
+    "reason": "Error: package contains symlinks requiring publisher review"
+  },
+  {
+    "name": "dataverse",
+    "status": "vendored",
+    "repository": "microsoft/Dataverse-skills",
+    "commit": "669e71519886d4602753c34bff3db787d616d761",
+    "license": "LICENSE"
+  },
+  {
+    "name": "deepeval",
+    "status": "retained external",
+    "reason": "Error: package exceeds catalog vendoring size allowance"
+  },
+  {
+    "name": "deploy-on-aws",
+    "status": "vendored",
+    "repository": "awslabs/agent-plugins",
+    "commit": "fbefb3764e67558fe10ac834dd85db49734aa9b6",
+    "license": "LICENSE"
+  },
+  {
+    "name": "desktop-commander",
+    "status": "retained external",
+    "reason": "Error: curl: (56) Exceeded the maximum allowed file size (33554432) with 33554432 bytes\n"
+  },
+  {
+    "name": "dominodatalab",
+    "status": "retained external",
+    "reason": "Error: package exceeds catalog vendoring size allowance"
+  },
+  {
+    "name": "dropbox",
+    "status": "vendored",
+    "repository": "dropbox/dropbox-ai-plugins",
+    "commit": "078f0ca36df40f054829b58731a5f86a561d9668",
+    "license": "claude/LICENSE"
+  },
+  {
+    "name": "duckdb-skills",
+    "status": "vendored",
+    "repository": "duckdb/duckdb-skills",
+    "commit": "7feda8e01e22bc0886c86123f3884947e36d8c69",
+    "license": "LICENSE"
+  },
+  {
+    "name": "duende-skills",
+    "status": "retained external",
+    "reason": "Error: package exceeds catalog vendoring size allowance"
+  },
+  {
+    "name": "dynatrace",
+    "status": "retained external",
+    "reason": "Error: package exceeds catalog vendoring size allowance"
+  },
+  {
+    "name": "exa",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "expo",
+    "status": "vendored",
+    "repository": "expo/skills",
+    "commit": "d4f484024fec15196bfd3c272e953e3f983972cf",
+    "license": "plugins/expo/LICENSE"
+  },
+  {
+    "name": "fastly-agent-toolkit",
+    "status": "retained external",
+    "reason": "Error: package exceeds catalog vendoring size allowance"
+  },
+  {
+    "name": "fiftyone",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "figma",
+    "status": "retained external",
+    "reason": "Error: no recognized permissive publisher license"
+  },
+  {
+    "name": "firecrawl",
+    "status": "vendored",
+    "repository": "firecrawl/firecrawl-claude-plugin",
+    "commit": "3e1fb0c319d71b067906b8b602208dded3932cdb",
+    "license": "LICENSE"
+  },
+  {
+    "name": "firestore-native",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "forge-skills",
+    "status": "retained external",
+    "reason": "Error: package exceeds catalog vendoring size allowance"
+  },
+  {
+    "name": "fullstory",
+    "status": "retained external",
+    "reason": "Error: no recognized permissive publisher license"
+  },
+  {
+    "name": "gc-ai",
+    "status": "vendored",
+    "repository": "GC-AI-Inc/gc-ai-claude-plugin",
+    "commit": "efda779972c7b7162e79234e164bc2f359a8a518",
+    "license": "LICENSE"
+  },
+  {
+    "name": "gitkraken",
+    "status": "vendored",
+    "repository": "gitkraken/claude-plugin",
+    "commit": "f7a53b2cd138c22eccb977b9d93494ea6d423d12",
+    "license": "LICENSE"
+  },
+  {
+    "name": "google-cloud-storage",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "govtribe",
+    "status": "retained external",
+    "reason": "Error: package exceeds catalog vendoring size allowance"
+  },
+  {
+    "name": "grafana-assistant",
+    "status": "vendored",
+    "repository": "grafana/ai-marketplace",
+    "commit": "a5c72f2d74c640e9675eb0249526447968535015",
+    "license": "LICENSE"
+  },
+  {
+    "name": "grafana-cloud-mcp",
+    "status": "vendored",
+    "repository": "grafana/ai-marketplace",
+    "commit": "6c28ba1961d502d82301cbd64d2322e6e960477c",
+    "license": "LICENSE"
+  },
+  {
+    "name": "grafana-mcp",
+    "status": "vendored",
+    "repository": "grafana/ai-marketplace",
+    "commit": "6c28ba1961d502d82301cbd64d2322e6e960477c",
+    "license": "LICENSE"
+  },
+  {
+    "name": "grasp",
+    "status": "retained external",
+    "reason": "Error: no recognized permissive publisher license"
+  },
+  {
+    "name": "greptile",
+    "status": "retained external",
+    "reason": "Error: package exceeds catalog vendoring size allowance"
+  },
+  {
+    "name": "growthbook",
+    "status": "retained external",
+    "reason": "Error: package contains symlinks requiring publisher review"
+  },
+  {
+    "name": "honeycomb",
+    "status": "vendored",
+    "repository": "honeycombio/agent-skill",
+    "commit": "6bb09279fc3fb69abf113228be939dbb929e34f1",
+    "license": "LICENSE"
+  },
+  {
+    "name": "hostinger",
+    "status": "retained external",
+    "reason": "Error: no recognized permissive publisher license"
+  },
+  {
+    "name": "hubspot-sales",
+    "status": "vendored",
+    "repository": "HubSpot/hubspot-mcp-plugins",
+    "commit": "a0c59600fc1ddcf03ceca71aebf0c28aa55f49e3",
+    "license": "LICENSE"
+  },
+  {
+    "name": "huggingface-skills",
+    "status": "retained external",
+    "reason": "Error: package exceeds catalog vendoring size allowance"
+  },
+  {
+    "name": "hunter",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "hyperframes",
+    "status": "retained external",
+    "reason": "Error: curl: (56) Exceeded the maximum allowed file size (33554432) with 33554432 bytes\n"
+  },
+  {
+    "name": "idmp-plugin",
+    "status": "vendored",
+    "repository": "taosdata/agent-skills",
+    "commit": "bf5197716bacc38908cf8025e594d15be9e00b8c",
+    "license": "LICENSE"
+  },
+  {
+    "name": "incident-io",
+    "status": "vendored",
+    "repository": "incident-io/skills",
+    "commit": "00f7d1dc80892deb1656f1cf577dd073a4a2de10",
+    "license": "LICENSE"
+  },
+  {
+    "name": "informatica-for-claude-platform",
+    "status": "vendored",
+    "repository": "forcedotcom/informatica-claude-plugins",
+    "commit": "554d02e0f7f2adafeaeeedbde04435b7bd310a47",
+    "license": "LICENSE"
+  },
+  {
+    "name": "intercom",
+    "status": "vendored",
+    "repository": "intercom/claude-plugin-external",
+    "commit": "62773a7d4b8aac31545d6888fe6479be3bc53804",
+    "license": "LICENSE"
+  },
+  {
+    "name": "intuit-quickbooks",
+    "status": "vendored",
+    "repository": "intuit/quickbooks-claude-plugin",
+    "commit": "c8daa17a64d4d0fdeabdf0516524f72549b6ad19",
+    "license": "LICENSE"
+  },
+  {
+    "name": "jfrog",
+    "status": "retained external",
+    "reason": "Error: package exceeds catalog vendoring size allowance"
+  },
+  {
+    "name": "knowledge-catalog",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "langfuse",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "langfuse-observability",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "leadfeeder",
+    "status": "vendored",
+    "repository": "Leadfeeder/leadfeeder-mcp-plugin",
+    "commit": "cddf27f0771393b01a9a91335b8972e44f48cf45",
+    "license": "LICENSE"
+  },
+  {
+    "name": "learn-with-coursera",
+    "status": "retained external",
+    "reason": "Error: no recognized permissive publisher license"
+  },
+  {
+    "name": "legalzoom",
+    "status": "retained external",
+    "reason": "Error: no recognized permissive publisher license"
+  },
+  {
+    "name": "linq-alpha",
+    "status": "vendored",
+    "repository": "linq-lab/linq-alpha-plugin",
+    "commit": "bfb594b7ccca28dfdcbdb0a64673dfe2e819fd87",
+    "license": "plugins/linq-alpha/LICENSE"
+  },
+  {
+    "name": "liquid-lsp",
+    "status": "retained external",
+    "reason": "Error: no recognized permissive publisher license"
+  },
+  {
+    "name": "liquid-skills",
+    "status": "retained external",
+    "reason": "Error: no recognized permissive publisher license"
+  },
+  {
+    "name": "logfire",
+    "status": "vendored",
+    "repository": "pydantic/skills",
+    "commit": "238d97102650c1caa51f35027aee13c469c59542",
+    "license": "LICENSE"
+  },
+  {
+    "name": "logrocket",
+    "status": "retained external",
+    "reason": "Error: no recognized permissive publisher license"
+  },
+  {
+    "name": "looker",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "lovable",
+    "status": "vendored",
+    "repository": "lovablelabs/mcp",
+    "commit": "0336e6db8026b0f02cb89d1451cc48ea3f469791",
+    "license": "LICENSE"
+  },
+  {
+    "name": "lseg",
+    "status": "retained external",
+    "reason": "Error: no recognized permissive publisher license"
+  },
+  {
+    "name": "lumen",
+    "status": "retained external",
+    "reason": "Error: package exceeds catalog vendoring size allowance"
+  },
+  {
+    "name": "lusha",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "mapbox",
+    "status": "retained external",
+    "reason": "Error: package exceeds catalog vendoring size allowance"
+  },
+  {
+    "name": "mattpocock-skills",
+    "status": "retained external",
+    "reason": "Error: package contains symlinks requiring publisher review"
+  },
+  {
+    "name": "maven-bio",
+    "status": "retained external",
+    "reason": "Error: no recognized permissive publisher license"
+  },
+  {
+    "name": "mcp-apps",
+    "status": "vendored",
+    "repository": "modelcontextprotocol/ext-apps",
+    "commit": "6d9bdc7babf275b759225aa722cbf5510c4c6021",
+    "license": "LICENSE"
+  },
+  {
+    "name": "mercadopago",
+    "status": "vendored",
+    "repository": "mercadopago/mercadopago-claude-marketplace",
+    "commit": "755d33740af23351b4ca7043c51077ce67ebf4d1",
+    "license": "LICENSE"
+  },
+  {
+    "name": "mergify",
+    "status": "retained external",
+    "reason": "Error: no recognized permissive publisher license"
+  },
+  {
+    "name": "microsoft-docs",
+    "status": "retained external",
+    "reason": "Error: no recognized permissive publisher license"
+  },
+  {
+    "name": "migration-to-aws",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "mintlify",
+    "status": "vendored",
+    "repository": "mintlify/mintlify-claude-plugin",
+    "commit": "acd6d2e0128c4f235d55cfb8d8c91ecbdd5df8cc",
+    "license": "LICENSE"
+  },
+  {
+    "name": "miro",
+    "status": "vendored",
+    "repository": "miroapp/miro-ai",
+    "commit": "b6408e1bdfe0c842f209d40b52e92caf118a4d39",
+    "license": "LICENSE"
+  },
+  {
+    "name": "mlflow",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "modern-web-guidance",
+    "status": "retained external",
+    "reason": "Error: package exceeds catalog vendoring size allowance"
+  },
+  {
+    "name": "monday-com",
+    "status": "vendored",
+    "repository": "mondaycom/monday-claude-cowork-plugin",
+    "commit": "ce381e93a0a6c2ed3b9942ff1803b8078ba89389",
+    "license": "LICENSE"
+  },
+  {
+    "name": "monday-crm",
+    "status": "vendored",
+    "repository": "mondaycom/mcp",
+    "commit": "5eb0835e921de42ba603d7a8315ab4a2575a46b2",
+    "license": "plugins/monday-crm/LICENSE"
+  },
+  {
+    "name": "mongodb",
+    "status": "vendored",
+    "repository": "mongodb/agent-skills",
+    "commit": "c370a63b27075008a92134686b24af3817edeb00",
+    "license": "LICENSE"
+  },
+  {
+    "name": "mongodb-atlas",
+    "status": "vendored",
+    "repository": "mongodb/agent-skills",
+    "commit": "c370a63b27075008a92134686b24af3817edeb00",
+    "license": "LICENSE"
+  },
+  {
+    "name": "neon",
+    "status": "vendored",
+    "repository": "neondatabase/agent-skills",
+    "commit": "827249744ed96416d799b68fb6bf033f4068b18a",
+    "license": "LICENSE"
+  },
+  {
+    "name": "netlify-skills",
+    "status": "retained external",
+    "reason": "Error: package exceeds catalog vendoring size allowance"
+  },
+  {
+    "name": "netsuite-ai-companion",
+    "status": "retained external",
+    "reason": "Error: no recognized permissive publisher license"
+  },
+  {
+    "name": "netsuite-finance-analyst",
+    "status": "retained external",
+    "reason": "Error: no recognized permissive publisher license"
+  },
+  {
+    "name": "netsuite-suitecloud",
+    "status": "retained external",
+    "reason": "Error: no recognized permissive publisher license"
+  },
+  {
+    "name": "newrelic",
+    "status": "retained external",
+    "reason": "Error: no recognized permissive publisher license"
+  },
+  {
+    "name": "nightvision",
+    "status": "vendored",
+    "repository": "nvsecurity/nightvision-skills",
+    "commit": "957db6bb934839275c0f643042101bbb675ddbf7",
+    "license": "LICENSE"
+  },
+  {
+    "name": "nimble",
+    "status": "retained external",
+    "reason": "Error: package exceeds catalog vendoring size allowance"
+  },
+  {
+    "name": "noibu",
+    "status": "vendored",
+    "repository": "Noibu/ai-plugin",
+    "commit": "9fa2eddc3a86937b7956dedfaab32fac6cabf868",
+    "license": "LICENSE"
+  },
+  {
+    "name": "notion",
+    "status": "retained external",
+    "reason": "Error: no recognized permissive publisher license"
+  },
+  {
+    "name": "nvidia-skills",
+    "status": "retained external",
+    "reason": "Error: no recognized permissive publisher license"
+  },
+  {
+    "name": "oracle-ai-data-platform-workbench-databricks-migrator",
+    "status": "vendored",
+    "repository": "oracle-samples/oracle-aidp-samples",
+    "commit": "a7225cbdd935ad47ed9a17ee8f1533e324f42623",
+    "license": "ai/claude-code-plugins/oracle-ai-data-platform-workbench-databricks-migrator/LICENSE"
+  },
+  {
+    "name": "oracle-ai-data-platform-workbench-engineer-agent",
+    "status": "vendored",
+    "repository": "oracle-samples/oracle-aidp-samples",
+    "commit": "a7225cbdd935ad47ed9a17ee8f1533e324f42623",
+    "license": "ai/claude-code-plugins/oracle-ai-data-platform-workbench-engineer-agent/LICENSE"
+  },
+  {
+    "name": "oracle-ai-data-platform-workbench-spark-connectors",
+    "status": "vendored",
+    "repository": "oracle-samples/oracle-aidp-samples",
+    "commit": "a7225cbdd935ad47ed9a17ee8f1533e324f42623",
+    "license": "ai/claude-code-plugins/oracle-ai-data-platform-workbench-spark-connectors/LICENSE"
+  },
+  {
+    "name": "oracledb",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "outputai",
+    "status": "vendored",
+    "repository": "growthxai/output",
+    "commit": "2032ff617a62840ae786f0721ebb2941c5e2bd00",
+    "license": "LICENSE"
+  },
+  {
+    "name": "pagerduty",
+    "status": "vendored",
+    "repository": "PagerDuty/claude-code-plugins",
+    "commit": "761cba75bd50fd561405c3b173ecf36084432089",
+    "license": "LICENSE"
+  },
+  {
+    "name": "paypal",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "pendo-analytics",
+    "status": "vendored",
+    "repository": "pendo-io/claude-pendo-plugin",
+    "commit": "a0f85260c61b93c4511f59545612323a41c3f845",
+    "license": "LICENSE"
+  },
+  {
+    "name": "pendo-guides",
+    "status": "vendored",
+    "repository": "pendo-io/claude-pendo-plugin",
+    "commit": "340d503c23eed487be83693aa4c1837df4a7dcd4",
+    "license": "LICENSE"
+  },
+  {
+    "name": "pendo-orchestrate",
+    "status": "vendored",
+    "repository": "pendo-io/claude-pendo-plugin",
+    "commit": "a0f85260c61b93c4511f59545612323a41c3f845",
+    "license": "LICENSE"
+  },
+  {
+    "name": "pigment",
+    "status": "retained external",
+    "reason": "Error: no recognized permissive publisher license"
+  },
+  {
+    "name": "pinecone",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "pixeltable",
+    "status": "retained external",
+    "reason": "Error: package exceeds catalog vendoring size allowance"
+  },
+  {
+    "name": "planetscale",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "posthog",
+    "status": "retained external",
+    "reason": "Error: no recognized permissive publisher license"
+  },
+  {
+    "name": "postiz",
+    "status": "retained external",
+    "reason": "Error: no recognized permissive publisher license"
+  },
+  {
+    "name": "postman",
+    "status": "retained external",
+    "reason": "Error: package exceeds catalog vendoring size allowance"
+  },
+  {
+    "name": "preset-cli-skills",
+    "status": "vendored",
+    "repository": "preset-io/agent-skills",
+    "commit": "838f0a408dc1a50adc94175b387550c81371554e",
+    "license": "LICENSE"
+  },
+  {
+    "name": "prisma",
+    "status": "retained external",
+    "reason": "Error: no recognized permissive publisher license"
+  },
+  {
+    "name": "product-tracking-skills",
+    "status": "retained external",
+    "reason": "Error: package exceeds catalog vendoring size allowance"
+  },
+  {
+    "name": "pydantic-ai",
+    "status": "vendored",
+    "repository": "pydantic/skills",
+    "commit": "238d97102650c1caa51f35027aee13c469c59542",
+    "license": "LICENSE"
+  },
+  {
+    "name": "qdrant-skills",
+    "status": "retained external",
+    "reason": "Error: package exceeds catalog vendoring size allowance"
+  },
+  {
+    "name": "qodo",
+    "status": "vendored",
+    "repository": "qodo-ai/qodo-skills",
+    "commit": "b8c21854199c538b1c35c981c12a93bab4839ef2",
+    "license": "LICENSE"
+  },
+  {
+    "name": "qodo-standards",
+    "status": "vendored",
+    "repository": "qodo-ai/qodo-skills",
+    "commit": "b8c21854199c538b1c35c981c12a93bab4839ef2",
+    "license": "LICENSE"
+  },
+  {
+    "name": "qt-development-skills",
+    "status": "retained external",
+    "reason": "Error: package exceeds catalog vendoring size allowance"
+  },
+  {
+    "name": "quarkus-agent",
+    "status": "retained external",
+    "reason": "Error: package exceeds catalog vendoring size allowance"
+  },
+  {
+    "name": "railway",
+    "status": "vendored",
+    "repository": "railwayapp/railway-skills",
+    "commit": "a100f93e482c5153774fed74d0b3fb8f8ca63342",
+    "license": "LICENSE"
+  },
+  {
+    "name": "rc",
+    "status": "vendored",
+    "repository": "RevenueCat/rc-claude-code-plugin",
+    "commit": "ccfc038185ec457b2ac9077f3bbf1ba947a44dbb",
+    "license": "LICENSE"
+  },
+  {
+    "name": "redis-development",
+    "status": "vendored",
+    "repository": "redis/agent-skills",
+    "commit": "a84871d065f398fed55e1633f66b66f731eb4e2b",
+    "license": "LICENSE"
+  },
+  {
+    "name": "remember",
+    "status": "retained external",
+    "reason": "Error: package exceeds catalog vendoring size allowance"
+  },
+  {
+    "name": "render",
+    "status": "retained external",
+    "reason": "Error: package exceeds catalog vendoring size allowance"
+  },
+  {
+    "name": "resend",
+    "status": "retained external",
+    "reason": "Error: package contains symlinks requiring publisher review"
+  },
+  {
+    "name": "rill",
+    "status": "vendored",
+    "repository": "rilldata/agent-skills",
+    "commit": "adfce5762be435c026f4731f72e388520cb133cc",
+    "license": "LICENSE"
+  },
+  {
+    "name": "rootly",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "runway-api",
+    "status": "vendored",
+    "repository": "runwayml/skills",
+    "commit": "6e98d3f3540705331acd748d75427f4bd7c90ce1",
+    "license": "LICENSE"
+  },
+  {
+    "name": "sagemaker-ai",
+    "status": "vendored",
+    "repository": "awslabs/agent-plugins",
+    "commit": "097fe8ad56d8a1d5e2c81d7880adf145553cf244",
+    "license": "LICENSE"
+  },
+  {
+    "name": "salesforce-development",
+    "status": "retained external",
+    "reason": "Error: package exceeds catalog vendoring size allowance"
+  },
+  {
+    "name": "sanity-plugin",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "sap-fiori-mcp-server",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "sap-hana-cli",
+    "status": "retained external",
+    "reason": "Error: no recognized permissive publisher license"
+  },
+  {
+    "name": "sap-mdk-server",
+    "status": "retained external",
+    "reason": "Error: curl: (56) Maximum file size exceeded\n"
+  },
+  {
+    "name": "save-to-spotify",
+    "status": "vendored",
+    "repository": "spotify/save-to-spotify",
+    "commit": "9d05c8cd8c8559552f84e27fe30f46b7693ce69a",
+    "license": "LICENSE"
+  },
+  {
+    "name": "scandit-sdk",
+    "status": "retained external",
+    "reason": "Error: package exceeds catalog vendoring size allowance"
+  },
+  {
+    "name": "searchfit-seo",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "security-guidance",
+    "status": "vendored",
+    "repository": "anthropics/claude-plugins-official",
+    "commit": "c07c748f1c680734a813eefd909bc073f8a9103f",
+    "license": "plugins/security-guidance/LICENSE"
+  },
+  {
+    "name": "semgrep",
+    "status": "retained external",
+    "reason": "Error: no recognized permissive publisher license"
+  },
+  {
+    "name": "sentry",
+    "status": "retained external",
+    "reason": "Error: package exceeds catalog vendoring size allowance"
+  },
+  {
+    "name": "sentry-cli",
+    "status": "vendored",
+    "repository": "getsentry/cli",
+    "commit": "3567c3c937b5cc06667d5b023bda0b2d3f472c54",
+    "license": "LICENSE.md"
+  },
+  {
+    "name": "servicenow-sdk",
+    "status": "retained external",
+    "reason": "Error: no recognized permissive publisher license"
+  },
+  {
+    "name": "setup-agent-analytics",
+    "status": "vendored",
+    "repository": "pendo-io/claude-pendo-plugin",
+    "commit": "340d503c23eed487be83693aa4c1837df4a7dcd4",
+    "license": "LICENSE"
+  },
+  {
+    "name": "setup-mcp-agent-analytics",
+    "status": "vendored",
+    "repository": "pendo-io/claude-pendo-plugin",
+    "commit": "a0f85260c61b93c4511f59545612323a41c3f845",
+    "license": "LICENSE"
+  },
+  {
+    "name": "shippo",
+    "status": "vendored",
+    "repository": "goshippo/ai",
+    "commit": "cf8e96532f243883ff84f6d4035e72884b46d132",
+    "license": "providers/claude/plugin/LICENSE"
+  },
+  {
+    "name": "shopify-ai-toolkit",
+    "status": "retained external",
+    "reason": "Error: package exceeds catalog vendoring size allowance"
+  },
+  {
+    "name": "signoz",
+    "status": "vendored",
+    "repository": "SigNoz/agent-skills",
+    "commit": "cc3724d8c4b305f6c767507fd34b68a6364a2a9d",
+    "license": "LICENSE"
+  },
+  {
+    "name": "slack",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "snowflake-cortex-code",
+    "status": "vendored",
+    "repository": "Snowflake-Labs/snowflake-ai-kit",
+    "commit": "e2a3cbb45a9a62b5648266c5777c1b2edb3f8579",
+    "license": "LICENSE"
+  },
+  {
+    "name": "sonarqube",
+    "status": "retained external",
+    "reason": "Error: no recognized permissive publisher license"
+  },
+  {
+    "name": "sonatype-guide",
+    "status": "retained external",
+    "reason": "Error: no recognized permissive publisher license"
+  },
+  {
+    "name": "sourcegraph",
+    "status": "retained external",
+    "reason": "Error: no recognized permissive publisher license"
+  },
+  {
+    "name": "sp-global",
+    "status": "vendored",
+    "repository": "kensho-technologies/spglobal-agent-skills",
+    "commit": "1d7d364a07d755d401b6f66d41affe71bc62a9b9",
+    "license": "LICENSE"
+  },
+  {
+    "name": "spanner",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "spotify-ads-api",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "stackhawk-api",
+    "status": "vendored",
+    "repository": "stackhawk/agent-skills",
+    "commit": "d0eea864c42f7c2e872334bb3df424daa1fbaadc",
+    "license": "LICENSE"
+  },
+  {
+    "name": "stackhawk-hawkscan",
+    "status": "vendored",
+    "repository": "stackhawk/agent-skills",
+    "commit": "66cac9baa5883a1007575faf1b22855a1124834a",
+    "license": "LICENSE"
+  },
+  {
+    "name": "streaming-skills-plugin",
+    "status": "retained external",
+    "reason": "Error: package exceeds catalog vendoring size allowance"
+  },
+  {
+    "name": "stripe",
+    "status": "vendored",
+    "repository": "stripe/ai",
+    "commit": "deae744bc0cbf6034b4b6f22f51c690b71a4e779",
+    "license": "LICENSE"
+  },
+  {
+    "name": "sumup",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "supabase",
+    "status": "retained external",
+    "reason": "Error: no recognized permissive publisher license"
+  },
+  {
+    "name": "superdesign",
+    "status": "retained external",
+    "reason": "Error: package contains symlinks requiring publisher review"
+  },
+  {
+    "name": "superpowers",
+    "status": "retained external",
+    "reason": "Error: package exceeds catalog vendoring size allowance"
+  },
+  {
+    "name": "synthflow",
+    "status": "vendored",
+    "repository": "SynthFlowAI/AnthropicPlugin",
+    "commit": "205871ee83508502d2c982ee1bb7e65a2a29190b",
+    "license": "LICENSE"
+  },
+  {
+    "name": "tavily",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "teamcity-cli",
+    "status": "retained external",
+    "reason": "Error: package contains symlinks requiring publisher review"
+  },
+  {
+    "name": "tinyfish",
+    "status": "vendored",
+    "repository": "tinyfish-io/tinyfish-web-agent-integrations",
+    "commit": "1172d9ceac8acda0b722f8d16ce8b27422a11906",
+    "license": "LICENSE"
+  },
+  {
+    "name": "togetherai-skills",
+    "status": "retained external",
+    "reason": "Error: package exceeds catalog vendoring size allowance"
+  },
+  {
+    "name": "twilio-developer-kit",
+    "status": "retained external",
+    "reason": "Error: package exceeds catalog vendoring size allowance"
+  },
+  {
+    "name": "ui-theme-designer",
+    "status": "vendored",
+    "repository": "SAP/ui-theme-designer-plugins-for-coding-agents",
+    "commit": "3eff5832700d85e550b28a3ae58c1763382e405a",
+    "license": "LICENSE"
+  },
+  {
+    "name": "ui5",
+    "status": "vendored",
+    "repository": "UI5/plugins-coding-agents",
+    "commit": "a99b882ce364ef4b9f52fb4054f5f410c1636563",
+    "license": "LICENSE"
+  },
+  {
+    "name": "ui5-modernization",
+    "status": "vendored",
+    "repository": "UI5/plugins-coding-agents",
+    "commit": "2b8c4a944e39609214bce7aef3b05260985f0e91",
+    "license": "LICENSE"
+  },
+  {
+    "name": "ui5-typescript-conversion",
+    "status": "vendored",
+    "repository": "UI5/plugins-coding-agents",
+    "commit": "2b8c4a944e39609214bce7aef3b05260985f0e91",
+    "license": "LICENSE"
+  },
+  {
+    "name": "unity",
+    "status": "retained external",
+    "reason": "Error: no recognized permissive publisher license"
+  },
+  {
+    "name": "unreal-engine-skills-for-claude-code",
+    "status": "vendored",
+    "repository": "EpicGames/unreal-engine-skills-for-claude-code-plugin",
+    "commit": "0e27bde2b55c5d3f6948532f4296aaa3654d8f4b",
+    "license": "LICENSE"
+  },
+  {
+    "name": "unstructured-foundation",
+    "status": "vendored",
+    "repository": "Unstructured-IO/unstructured-foundation-marketplace",
+    "commit": "492770f062ba9f01e8a0ae9b111c89e4642fdb29",
+    "license": "LICENSE.md"
+  },
+  {
+    "name": "valtown",
+    "status": "vendored",
+    "repository": "val-town/plugins",
+    "commit": "555ff7492c9c70ada2c4e9b66d7dea9367d7ce71",
+    "license": "LICENSE"
+  },
+  {
+    "name": "vanguard-advisor-tools",
+    "status": "retained external",
+    "reason": "Error: no recognized permissive publisher license"
+  },
+  {
+    "name": "vanta-mcp-plugin",
+    "status": "vendored",
+    "repository": "VantaInc/vanta-mcp-plugin",
+    "commit": "345d86b55faa649e955b7ea5569cf52d8425c2d5",
+    "license": "LICENSE"
+  },
+  {
+    "name": "vercel",
+    "status": "retained external",
+    "reason": "Error: package exceeds catalog vendoring size allowance"
+  },
+  {
+    "name": "vibe-prospecting",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "vsql-extension-builder",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "windsor-ai",
+    "status": "vendored",
+    "repository": "windsor-ai/claude-windsor-ai-plugin",
+    "commit": "d7ba1cb036c7ca765536355fb85f13a3237ea3f9",
+    "license": "LICENSE"
+  },
+  {
+    "name": "wingspan",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "wix",
+    "status": "retained external",
+    "reason": "Error: package exceeds catalog vendoring size allowance"
+  },
+  {
+    "name": "workos",
+    "status": "vendored",
+    "repository": "workos/skills",
+    "commit": "e25141bae047a7c837d93817347f95977598720f",
+    "license": "LICENSE"
+  },
+  {
+    "name": "youdotcom-agent-skills",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "zapier",
+    "status": "vendored",
+    "repository": "zapier/zapier-mcp",
+    "commit": "54a12277a12c60df51ec16cf4e4ef0b27b166649",
+    "license": "LICENSE"
+  },
+  {
+    "name": "zilliz",
+    "status": "vendored",
+    "repository": "zilliztech/zilliz-plugin",
+    "commit": "35c86c000c91abb35f3eeed5cca15ebd69cba4d5",
+    "license": "LICENSE"
+  },
+  {
+    "name": "zocks-advisor",
+    "status": "retained external",
+    "reason": "Error: no recognized permissive publisher license"
+  },
+  {
+    "name": "zoom-plugin",
+    "status": "retained external",
+    "reason": "Error: package exceeds catalog vendoring size allowance"
+  },
+  {
+    "name": "zoominfo",
+    "status": "retained external",
+    "reason": "catalog snapshot quota reserve"
+  },
+  {
+    "name": "zscaler",
+    "status": "retained external",
+    "reason": "Error: package exceeds catalog vendoring size allowance"
+  },
+  {
+    "name": "zyte-web-data",
+    "status": "retained external",
+    "reason": "Error: no recognized permissive publisher license"
+  }
+]

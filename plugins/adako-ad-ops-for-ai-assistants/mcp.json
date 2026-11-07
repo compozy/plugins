@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "adako-ad-ops-for-ai-assistants": {
-      "type": "http",
-      "url": "https://adako.ai/mcp"
-    }
-  }
-}

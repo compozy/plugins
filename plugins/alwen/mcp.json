@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "alwen": {
-      "type": "http",
-      "url": "https://api.alwen.ai/mcp"
-    }
-  }
-}

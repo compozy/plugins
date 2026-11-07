@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "inside-ads": {
-      "type": "http",
-      "url": "https://app.inside.ad/api/mcp"
-    }
-  }
-}

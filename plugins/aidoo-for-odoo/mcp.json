@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "aidoo-for-odoo": {
-      "type": "http",
-      "url": "https://mcp.aidoo.ai/mcp"
-    }
-  }
-}

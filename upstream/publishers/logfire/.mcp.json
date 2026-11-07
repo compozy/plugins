@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "logfire": {
+      "type": "http",
+      "url": "${LOGFIRE_MCP_URL:-https://logfire-us.pydantic.dev/mcp}"
+    }
+  }
+}

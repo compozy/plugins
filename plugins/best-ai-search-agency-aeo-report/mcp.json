@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "best-ai-search-agency-aeo-report": {
-      "type": "http",
-      "url": "https://aeoengine.ai/mcp"
-    }
-  }
-}

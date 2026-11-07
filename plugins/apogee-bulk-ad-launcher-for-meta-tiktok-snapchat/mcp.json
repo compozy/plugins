@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "apogee-bulk-ad-launcher-for-meta-tiktok-snapchat": {
-      "type": "http",
-      "url": "https://app.apogee.ad/mcp"
-    }
-  }
-}

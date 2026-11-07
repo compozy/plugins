@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "agilex-docs": {
-      "type": "http",
-      "url": "https://service.agilex.ai/agilex-docs/mcp"
-    }
-  }
-}

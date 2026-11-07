@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "agentic-news": {
-      "type": "http",
-      "url": "https://api.agentic-news.ai/mcp"
-    }
-  }
-}

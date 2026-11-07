@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "agent-bev": {
-      "type": "http",
-      "url": "https://mcp.bev-buyer.ai/mcp"
-    }
-  }
-}

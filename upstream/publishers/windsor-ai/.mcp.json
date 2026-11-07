@@ -1,0 +1,7 @@
+{
+  "windsor-ai": {
+    "type": "url",
+    "url": "https://mcp.windsor.ai",
+    "description": "Windsor.ai marketing data — query ad spend, campaigns, and analytics from 50+ sources"
+  }
+}

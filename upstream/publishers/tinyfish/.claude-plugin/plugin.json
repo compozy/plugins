@@ -1,0 +1,24 @@
+{
+  "name": "tinyfish",
+  "version": "1.4.0",
+  "description": "The complete web toolkit for your agent. Search the web and read any URL as clean markdown, for free. Send a browser agent to log in, fill out forms, and extract data from any website, or open a headless browser for Playwright and Puppeteer. Monitor website changes and get alerts on prices, restocks, and news.",
+  "author": {
+    "name": "TinyFish",
+    "email": "support@tinyfish.io",
+    "url": "https://tinyfish.ai"
+  },
+  "homepage": "https://docs.tinyfish.ai",
+  "repository": "https://github.com/tinyfish-io/tinyfish-web-agent-integrations",
+  "license": "MIT",
+  "keywords": [
+    "web-automation",
+    "web-agent",
+    "browser-automation",
+    "web-scraping",
+    "data-extraction",
+    "search",
+    "fetch",
+    "monitoring",
+    "website-change-detection"
+  ]
+}

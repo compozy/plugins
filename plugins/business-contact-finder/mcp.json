@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "business-contact-finder": {
-      "type": "http",
-      "url": "https://business-contact-finder-mcp.ottobot2025.workers.dev/mcp"
-    }
-  }
-}

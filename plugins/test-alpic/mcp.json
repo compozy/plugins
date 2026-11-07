@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "test-alpic": {
-      "type": "http",
-      "url": "https://test.alpic.ai/"
-    }
-  }
-}

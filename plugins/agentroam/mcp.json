@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "agentroam": {
-      "type": "http",
-      "url": "https://agentroam.ai/api/mcp"
-    }
-  }
-}

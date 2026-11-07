@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "adramp": {
-      "type": "http",
-      "url": "https://mcp.adramp.ai"
-    }
-  }
-}

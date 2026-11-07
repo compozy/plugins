@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "dev.lovable/mcp",
+  "title": "Lovable",
+  "description": "Official MCP server for Lovable, the AI-powered full-stack app builder.",
+  "version": "0.1.3",
+  "repository": {
+    "url": "https://github.com/lovablelabs/mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://lovable.dev",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.lovable.dev"
+    }
+  ]
+}

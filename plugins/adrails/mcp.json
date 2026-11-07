@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "adrails": {
-      "type": "http",
-      "url": "https://adrails.ai/api/mcp"
-    }
-  }
-}

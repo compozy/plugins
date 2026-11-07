@@ -1,5 +1,0 @@
-{
-  "name": "28-28-agent-service-desk-fix-verify",
-  "version": "1.1.0",
-  "description": "Check SPF/DKIM/DMARC of a domain, get a non-binding Fix & Verify quote, re-verify after the DNS fix."
-}

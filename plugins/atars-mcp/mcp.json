@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "atars-mcp": {
-      "type": "http",
-      "url": "https://mcp.aarna.ai/mcp"
-    }
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "aisma": {
-      "type": "http",
-      "url": "https://api.aisma.ai/mcp"
-    }
-  }
-}

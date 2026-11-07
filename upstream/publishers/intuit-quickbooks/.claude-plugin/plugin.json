@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "intuit-quickbooks",
+  "displayName": "Intuit QuickBooks",
+  "version": "0.1.0",
+  "description": "QuickBooks business insights and actions for Claude: financial health briefings, industry benchmarking, invoicing, payroll, and lending.",
+  "author": {
+    "name": "Intuit QuickBooks"
+  },
+  "homepage": "https://quickbooks.intuit.com",
+  "license": "Apache-2.0",
+  "keywords": [
+    "quickbooks",
+    "accounting",
+    "business",
+    "finance",
+    "reports",
+    "payroll",
+    "invoicing",
+    "lending",
+    "profit and loss",
+    "balance sheet",
+    "cash flow"
+  ]
+}

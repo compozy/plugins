@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "gc-ai",
+  "displayName": "GC AI",
+  "version": "0.1.0",
+  "description": "Work in your GC AI legal knowledge base from Claude: upload documents, run review playbooks, and ask questions grounded in your own files, all as you.",
+  "author": {
+    "name": "GC AI",
+    "email": "support@gc.ai",
+    "url": "https://gc.ai"
+  },
+  "homepage": "https://github.com/GC-AI-Inc/gc-ai-claude-plugin",
+  "repository": "https://github.com/GC-AI-Inc/gc-ai-claude-plugin",
+  "license": "MIT",
+  "keywords": ["legal", "contracts", "document-review", "playbooks", "gc-ai"]
+}

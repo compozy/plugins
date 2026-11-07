@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "projectory": {
-      "type": "http",
-      "url": "https://mcp.projectory.ae/mcp"
-    }
-  }
-}

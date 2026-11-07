@@ -1,0 +1,28 @@
+{
+  "name": "grafana-mcp",
+  "version": "0.2.0",
+  "description": "MCP server for AI-assisted Grafana dashboard, datasource, alerting, and incident management.",
+  "author": {
+    "name": "Grafana Labs",
+    "email": "grafana-assistant@grafana.com"
+  },
+  "homepage": "https://github.com/grafana/ai-marketplace/tree/main/plugins/grafana-mcp",
+  "repository": "https://github.com/grafana/ai-marketplace",
+  "license": "Apache-2.0",
+  "keywords": ["grafana", "mcp", "observability", "dashboards", "prometheus", "loki"],
+  "userConfig": {
+    "grafana_url": {
+      "type": "string",
+      "title": "Grafana instance URL",
+      "description": "Your Grafana instance URL. For Grafana Cloud: https://<stack>.grafana.net. For self-hosted: e.g. http://localhost:3000.",
+      "required": true
+    },
+    "grafana_service_account_token": {
+      "type": "string",
+      "title": "Grafana service account token",
+      "description": "Create a service account token at <your-grafana-url>/org/serviceaccounts with at least Viewer role (Editor for write operations).",
+      "required": true,
+      "sensitive": true
+    }
+  }
+}

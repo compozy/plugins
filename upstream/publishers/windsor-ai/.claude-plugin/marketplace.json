@@ -1,0 +1,13 @@
+{
+  "name": "windsor-ai",
+  "owner": {
+    "name": "Windsor.ai"
+  },
+  "plugins": [
+    {
+      "name": "windsor-ai",
+      "description": "Connect Claude Code to 350+ business data sources via Windsor.ai. Query marketing, sales, CRM, ecommerce, finance, and analytics data.",
+      "source": "./"
+    }
+  ]
+}

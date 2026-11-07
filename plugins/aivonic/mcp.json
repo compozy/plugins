@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "aivonic": {
-      "type": "http",
-      "url": "https://mcp.aivonic.ai"
-    }
-  }
-}

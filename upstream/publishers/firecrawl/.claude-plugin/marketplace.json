@@ -1,0 +1,20 @@
+{
+  "name": "firecrawl",
+  "description": "Firecrawl's hosted search and retrieval MCP plugin for Claude Code.",
+  "owner": {
+    "name": "Firecrawl"
+  },
+  "plugins": [
+    {
+      "name": "firecrawl",
+      "source": "./",
+      "version": "2.0.0",
+      "description": "Search the web, developer sources, and scientific papers with Firecrawl.",
+      "skills": [
+        "./skills/firecrawl",
+        "./skills/firecrawl-developer-index",
+        "./skills/firecrawl-research-index"
+      ]
+    }
+  ]
+}

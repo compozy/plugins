@@ -1,0 +1,33 @@
+name: Sync skills
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 8 * * *" # Daily at 8am UTC
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Rill
+        run: curl https://raw.githubusercontent.com/rilldata/rill/main/scripts/install.sh | sudo sh -s -- --nightly
+
+      - name: Run sync script
+        run: ./sync.sh
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Sync instructions"
+            git push
+          fi

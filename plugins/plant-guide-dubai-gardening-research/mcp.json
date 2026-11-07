@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "plant-guide-dubai-gardening-research": {
-      "type": "http",
-      "url": "https://plantguide.ae/mcp"
-    }
-  }
-}

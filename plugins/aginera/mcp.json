@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "aginera": {
-      "type": "http",
-      "url": "https://mcp.aginera.ai/mcp"
-    }
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "advisors-ai-route-a-store-need-to-a-service": {
-      "type": "http",
-      "url": "https://advisorsai.ai/mcp"
-    }
-  }
-}

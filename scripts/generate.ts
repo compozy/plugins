@@ -1,8 +1,11 @@
 import { mkdirSync, cpSync, existsSync, readFileSync, readdirSync, rmSync } from 'node:fs';
 import { resolve, join } from 'node:path';
-import { validate, categories } from './check';
+import { validate, categories, checkSnapshotQuota } from './check';
+import { readRegistry } from './registry';
+import { vendorEntries } from './vendor';
 const root=resolve(import.meta.dir,'..');
 const refresh=process.argv.includes('--refresh');
+const curation=await Bun.file(join(root,'curation.json')).json();
 const upstreams=['anthropics/knowledge-work-plugins','anthropics/claude-plugins-official'];
 const lockPath=join(root,'sources.lock.json');
 const lock:any=existsSync(lockPath) && !refresh ? JSON.parse(readFileSync(lockPath,'utf8')) : {upstreams:{},entries:{},registry:[],officialNames:[]};
@@ -22,12 +25,9 @@ async function checkout(repo:string,commit:string){
 const aliases:any={database:'data',analytics:'data',monitoring:'cloud',devops:'cloud',deployment:'cloud',infrastructure:'cloud',sales:'sales-marketing',marketing:'sales-marketing',legal:'finance',payments:'finance',education:'research',learning:'research',agents:'ai-agents',ai:'ai-agents'};
 function category(p:any){
  const raw=p.category?.toLowerCase();if(categories.includes(raw))return raw;if(aliases[raw])return aliases[raw];
- const s=(p.name+' '+p.description).toLowerCase();
- for(const [c,re] of Object.entries({finance:/financ|payment|invoice|accounting|stripe/,communication:/slack|email|messag|chat|zoom|support/,design:/figma|design|image|video|canva|adobe/,data:/database|sql|analytics|airtable/,cloud:/cloud|deploy|monitor|infrastructure/,security:/secur|vulnerab|compliance/,research:/research|scientific|paper|education/, 'sales-marketing':/sales|marketing|crm|hubspot/,productivity:/notion|linear|task|document|calendar|productiv/, 'ai-agents':/agent|llm|model|ai /,development:/code|develop|git|debug|test|api/}))if((re as RegExp).test(s))return c;
  return 'more';
 }
-const publisherNamespaces = ['com.airtable','app.linear','com.notion','com.figma.mcp','com.stripe','com.slack','com.atlassian','com.asana','com.hubspot','com.salesforce','com.intercom','com.zendesk','com.dropbox','com.box','com.canva','com.miro','com.webflow','com.wordpress','com.shopify','com.squareup','com.paypal','com.plaid','com.ramp','com.brex','com.quickbooks','com.xero','com.mercury','com.twilio','com.sendgrid','com.mailchimp','com.klaviyo','com.posthog','com.amplitude','com.mixpanel','com.segment','com.datadoghq','com.newrelic','io.sentry','com.cloudflare','com.vercel','com.netlify','com.render','com.fly','com.digitalocean','com.mongodb','com.snowflake','com.databricks','com.clickhouse','com.supabase','tech.neon','com.planetscale','com.turso','com.redis','com.elastic','com.algolia','com.pinecone','io.weaviate','com.qdrant','com.github','com.gitlab','com.bitbucket','com.jfrog','com.docker','com.sonarsource','com.snyk','com.semgrep','com.socket','com.gitguardian','com.1password','com.okta','com.auth0','com.clerk','com.workos','com.stytch','com.descope','com.stytch','com.duo','com.vanta','com.drata','com.notion','com.todoist','com.ticktick','com.trello','com.monday','com.clickup','com.wrike','com.smartsheet','com.coda','com.n8n','com.zapier','com.make','com.pipedream','com.retool','com.airbyte','com.fivetran','com.dbt','com.prefect','io.dagster','com.temporal','com.browserbase','com.browserless','dev.firecrawl','com.exa','com.tavily','com.you','com.kagi','com.brave','com.perplexity','com.elevenlabs','com.deepl','com.heygen','com.runwayml','com.adobe','com.framer','com.sketch','com.invisionapp','com.lottiefiles','com.spline','com.loom','com.zoom','com.calendly','com.cal','com.savvycal','com.typeform','com.tally','com.jotform','com.surveymonkey','com.docusign','com.pandadoc','com.documenso','com.expensify','com.bill','com.gusto','com.rippling','com.deel','com.greenhouse','com.lever','com.ashbyhq','com.bamboohr','com.factorialhr','com.apollo','com.clay','com.attio','com.affinity','com.pipedrive','com.close','com.gong','com.fireflies','com.granola','com.fathom','com.otter','com.recall','com.read','com.mem','com.evernote','md.obsidian','com.roamresearch','com.logseq','com.readwise','com.raindrop','com.pocket','com.feedly','com.inoreader','com.zotero','org.crossref','org.arxiv','org.semanticscholar','com.pubmed','com.wolframalpha'];
-const featured=new Set(['notion','linear','slack','figma','stripe','asana']);
+const featured=new Set(Object.keys(curation.featured));
 const entries=new Map<string,any>();const identities=new Map<string,string>();
 const documents:any[]=[];
 for(const repo of upstreams){
@@ -68,27 +68,17 @@ for(const {repo,commit,dir,doc} of documents){
    cpSync(join(dir,p.source),join(root,local),{recursive:true});p.source='./'+local;
    lock.entries[p.name]={repository:repo,commit,path:original.source};
   }else lock.entries[p.name]={repository:p.source.url??p.source.repo,commit:p.source.ref,path:p.source.path??''};
-  p['x-compozy']={category:category(p),featured:featured.has(p.name),supersedes};
+  p['x-compozy']={category:curation.featured[p.name]??category(p),featured:featured.has(p.name),supersedes};
   entries.set(p.name,p);identities.set(identity,p.name);
  }
 }
-if(refresh || !lock.registry.length){
- const priority:any[]=[];
- for(let i=0;i<publisherNamespaces.length;i+=4){
-  const pages=await Promise.all(publisherNamespaces.slice(i,i+4).map(ns=>get('https://registry.modelcontextprotocol.io/v0.1/servers?limit=100&version=latest&search='+encodeURIComponent(ns))));
-  for(let j=0;j<pages.length;j++)for(const item of pages[j].servers??[])if(item.server.name.split('/')[0]===publisherNamespaces[i+j] && item._meta?.['io.modelcontextprotocol.registry/official']?.status==='active')priority.push(item.server);
- }
- lock.registry=priority.filter(s=>(s.remotes??[]).some((r:any)=>r.type==='streamable-http'&&r.url.startsWith('https://'))).map(s=>({...s,remotes:s.remotes.filter((r:any)=>r.type==='streamable-http'&&r.url.startsWith('https://'))}));
- let cursor='';const seen=new Set(lock.registry.map((s:any)=>s.name));
- do{
-  const page:any=await get('https://registry.modelcontextprotocol.io/v0.1/servers?limit=100&version=latest'+(cursor?'&cursor='+encodeURIComponent(cursor):''));
-  for(const item of page.servers){const s=item.server;const meta=item._meta?.['io.modelcontextprotocol.registry/official'];
-   if(meta?.status!=='active'||meta?.isLatest===false||!s.name.match(/^(?!io\.github\.)[a-z0-9.-]+\//)||seen.has(s.name))continue;
-   const remotes=(s.remotes??[]).filter((r:any)=>r.type==='streamable-http' && r.url.startsWith('https://') && !r.url.includes('?'));
-   if(!remotes.length)continue;seen.add(s.name);lock.registry.push({...s,remotes});
-  }
-  cursor=page.metadata?.nextCursor??'';
- }while(cursor && lock.registry.length<700);
+if(refresh || process.argv.includes('--refresh-registry') || !lock.registryScan?.complete){
+ const result=await readRegistry(root,curation.registry);
+ lock.registry=result.admitted;
+ lock.registryScan=result.scan;
+ const candidates=await Bun.file(join(root,'candidates.json')).json();
+ candidates.registryCandidates=result.candidates;
+ await json(join(root,'candidates.json'),candidates);
 }
 const urls=new Set<string>();for(const p of entries.values()){
  const pin=lock.entries[p.name];
@@ -97,13 +87,14 @@ const urls=new Set<string>();for(const p of entries.values()){
  }
 }
 for(const s of lock.registry){
- if(entries.size>=475)break;
- const namespace=s.name.split('/')[0];const base=(s.title??namespace.split('.').reverse().slice(0,-1).join('-')).toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'').slice(0,100);
- const remote=s.remotes[0];if(!base||entries.has(base)||urls.has(remote.url.replace(/\/$/,'')))continue;
- // Only one app per verified DNS namespace and endpoint, independent of server versions.
- if([...entries.values()].some(p=>p['x-registry-namespace']===namespace))continue;
- const id=publisherNamespaces.includes(namespace)?namespace.split('.')[1]:base;
- if(entries.has(id))continue;
+
+ const namespace=s.name.split('/')[0];
+ const app=curation.registry.find((app:any)=>app.namespace===namespace && app.server===s.name);
+ if(!app)throw Error(`Unreviewed registry admission: ${s.name}`);
+ const remote=s.remotes.find((r:any)=>r.type==='streamable-http'&&r.url===app.url);
+ if(!remote)throw Error(`Reviewed endpoint missing: ${s.name}`);
+ const id=app.id;
+ if(entries.has(id)||urls.has(remote.url.replace(/\/$/,'')))continue;
  const mcp:any={type:'http',url:remote.url};
  const vars:any={};for(const [key,value] of Object.entries(remote.variables??{}) as any){vars[key]='${'+key.toUpperCase().replace(/[^A-Z0-9_]/g,'_')+'}';mcp.url=mcp.url.replaceAll('{'+key+'}',vars[key]);}
  if(/[{}]/.test(mcp.url.replace(/\$\{[A-Z_][A-Z0-9_]*\}/g,'')))continue;
@@ -111,15 +102,29 @@ for(const s of lock.registry){
  const path=`plugins/${id}`;
  await json(join(root,path,'.claude-plugin/plugin.json'),{name:id,version:s.version,description:s.description});
  await json(join(root,path,'mcp.json'),{mcpServers:{[id]:mcp}});
- const p:any={name:id,description:s.description,source:'./'+path,version:s.version,'x-registry-namespace':namespace,'x-compozy':{category:category({name:id,description:s.description}),featured:featured.has(id),supersedes:[]}};
+ const p:any={name:id,description:s.description,source:'./'+path,version:s.version,'x-registry-namespace':namespace,'x-compozy':{category:app.category,featured:featured.has(id),supersedes:[]}};
  entries.set(id,p);urls.add(remote.url.replace(/\/$/,''));
  // Registry URLs are fixed strings in checked-in bytes; commit pins the generated wrapper.
  lock.entries[id]={repository:'https://registry.modelcontextprotocol.io',contentSHA256:Bun.CryptoHasher.hash('sha256',JSON.stringify(s),'hex'),registryName:s.name,registryVersion:s.version,url:remote.url};
 }
+const candidates=await Bun.file(join(root,'candidates.json')).json();
+const reviewedNames=new Set(lock.registry.map((s:any)=>s.name));
+candidates.registryCandidates=candidates.registryCandidates.filter((c:any)=>!reviewedNames.has(c.registryName));
+for(const server of lock.registry){
+ if(![...entries.values()].some(p=>p['x-registry-namespace']===server.name.split('/')[0])){
+  candidates.registryCandidates.push({registryName:server.name,version:server.version,reason:'already covered by an upstream app or endpoint'});
+ }
+}
+candidates.registryCandidates.sort((a:any,b:any)=>a.registryName.localeCompare(b.registryName,'en'));
+await json(join(root,'candidates.json'),candidates);
+const vendoring=await vendorEntries(root,entries,lock);
+await json(join(root,'vendoring.json'),vendoring);
 const doc={name:'compozy-plugins',owner:{name:'Compozy'},plugins:[...entries.values()].sort((a,b)=>a.name.localeCompare(b.name,'en'))};
-validate(doc,lock,root);
+lock.entries=Object.fromEntries(doc.plugins.map(p=>[p.name,lock.entries[p.name]]));
+validate(doc,lock,root,curation);
 await json(join(root,'.claude-plugin/marketplace.json'),doc);await json(lockPath,lock);
 const generated=new Set(doc.plugins.map(p=>p.source).filter(s=>typeof s==='string'&&s.startsWith('./plugins/')).map(s=>s.slice('./plugins/'.length)));
 for(const dir of readdirSync(join(root,'plugins')))if(!generated.has(dir))rmSync(join(root,'plugins',dir),{recursive:true});
+checkSnapshotQuota(root);
 const counts:any={};for(const p of doc.plugins)counts[p['x-compozy'].category]=(counts[p['x-compozy'].category]??0)+1;
 console.log(JSON.stringify({entries:entries.size,categories:counts,featured:doc.plugins.filter(p=>p['x-compozy'].featured).map(p=>p.name),supersedes:doc.plugins.reduce((n,p)=>n+p['x-compozy'].supersedes.length,0),danglingSupersedes:[]},null,2));

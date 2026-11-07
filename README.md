@@ -25,22 +25,29 @@ catalog repository commit; select that commit when requiring an immutable catalo
 
 - `anthropics/knowledge-work-plugins` and `anthropics/claude-plugins-official`: Apache-2.0
   marketplace metadata, with original LICENSE and available NOTICE files under `upstream/`.
-  Relative plugin directories are copied without modification. External publisher plugins
-  retain their immutable SHA and original repository/subdirectory; their code is not copied.
-- Official MCP Registry: active latest servers in verified DNS namespaces with HTTPS
-  streamable-HTTP endpoints. One wrapper per namespace and endpoint, excluding names or
-  endpoints already present in the upstreams. `sources.lock.json` retains the selected records;
-  generated wrappers contain only minimal plugin metadata and MCP connection configuration.
-  Verification establishes namespace control, not an endorsement or security audit.
+  Relative plugin directories are copied without modification. Additional publisher packages
+  with recognizable Apache-2.0, MIT or BSD license texts are copied at their original SHA,
+  preserving root LICENSE/NOTICE and an explicit `PUBLISHER-LICENSE`. Vendoring is bounded by
+  package and aggregate file/byte allowances so the source fits the daemon snapshot limits.
+  Other publishers retain their SHA as external references. Whole-repository entries use
+  immutable GitHub archive URLs supported by the daemon, avoiding per-entry API ref resolution.
+  `vendoring.json` records every decision, including missing licenses, symlinks and quota limits.
+- Official MCP Registry: generation follows every `nextCursor` to completion, with no entry-count
+  cutoff. Only active latest records matching an exact namespace, server identity and HTTPS endpoint
+  in `curation.json` may be wrapped. That file also owns each wrapper's category and every featured
+  app's category. Namespace verification establishes publisher control, not a security audit.
+  All other records remain in `candidates.json` for review; they never become plugin directories.
+  Locked regeneration reuses the completed scan's selected records; `--refresh-registry` performs
+  a new full traversal without changing the pinned Anthropic revisions.
 - Candidate sources in `candidates.json` are review inputs only. No OpenAI or Cursor catalog
   content is redistributed. Admission from these lists requires publisher-owned public source,
   a redistributable license and an immutable commit, reviewed before adding to this generator.
 
 Duplicate repository/subdirectory identities and names collapse; publisher repositories inherited
 from the upstream catalogs take precedence over remote wrappers. A curated row that overlaps the
-Claude official catalog supersedes its original row. Categories use ADR-001's 12 IDs; unknown
-source categories are classified by app descriptions and otherwise fall back to `more`.
-Featured is an explicit small selection in the generator.
+Claude official catalog supersedes its original row. Categories use ADR-001's 12 IDs. Reviewed upstream metadata and aliases determine categories;
+unknown categories fall back to `more`, with no name/description inference. Featured is an explicit
+small selection in `curation.json`. See `CURATION.md` for the per-app review.
 
 Unsupported upstream source kinds (currently Xcode's `command` source) are reported and excluded.
 The desired count is approximately 450–500, bounded by eligible upstream records rather than
@@ -51,9 +58,11 @@ service's behavior is immutable. Registry schema/version changes require regener
 
 In-repository sources share a single catalog checkout. External entries retain publisher SHAs
 and can require individual repository fetches; the daemon keeps its ten-minute deadline and four
-resolvers. Its per-refresh entry ceiling is 1,000. First-refresh network latency remains subject
-to that deadline; generated counts do not prove cold-network completion. Cached packages avoid
-repeat downloads. Compozy reports budget exhaustion through its existing source diagnostics.
+resolvers. Its per-refresh entry ceiling is 1,000. The current catalog has 179 relative packages, 146
+SHA archive references and 27 external git-subdirectories. First-refresh network latency remains subject
+to that deadline; generated counts do not prove cold-network completion. Package digests cache installation bytes; source refresh still opens a fresh checkout per external
+entry, including entries sharing a repository and SHA. There is no repository snapshot cache
+across entries or sources. Compozy reports budget exhaustion through its existing source diagnostics.
 
 ## License
 

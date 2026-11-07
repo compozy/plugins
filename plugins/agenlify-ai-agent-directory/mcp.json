@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "agenlify-ai-agent-directory": {
-      "type": "http",
-      "url": "https://agenlify.ai/mcp"
-    }
-  }
-}

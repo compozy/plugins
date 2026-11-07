@@ -1,0 +1,56 @@
+{
+  "baseline": {
+    "acquired": 120,
+    "blockers": {
+      "load_failed": 16,
+      "source_unreachable": 221
+    },
+    "budgetSeconds": 600,
+    "cache": "new isolated empty package cache and checkout temp root",
+    "concurrency": 4,
+    "documentDigest": "867494846eb9dc2d58a572c89d797cc715105b3c031d8edc77be35969510c4d2",
+    "entries": 352,
+    "installable": 115,
+    "wallSeconds": 122.08078225
+  },
+  "optimized": {
+    "acquired": 307,
+    "blockers": {
+      "load_failed": 48,
+      "source_unreachable": 27
+    },
+    "budgetSeconds": 600,
+    "cache": "new isolated empty package cache and checkout temp root",
+    "concurrency": 4,
+    "documentDigest": "bbf11450f666d806dd735e8f19cd4da684fd4362f0b37f6c17b8fcb1dcc2e6eb",
+    "entries": 352,
+    "installable": 277,
+    "wallSeconds": 37.836058167
+  },
+  "snapshotCompressedBytes": 20991311,
+  "snapshotUncompressedFileBytes": 63338879,
+  "repoShaCheckoutCache": false,
+  "remainingExternalGitSubdirectories": 27,
+  "notes": [
+    "The source document was read locally because github.com/compozy/plugins is not published. All external acquisitions used real network public sources.",
+    "Each run created a new empty package cache and checkout root, used PluginSource.Fetch, PluginProjector and extensionpkg.InspectPluginPackage, and removed the temporary root on exit.",
+    "Limits remained four resolvers, 1000 projected entries and a 600-second budget.",
+    "The optimized run inherited a GitHub unauthenticated API quota exhausted by the baseline; no credentials were supplied.",
+    "An intermediate optimized candidate was reworked because its directory-inclusive node count exceeded the shared source snapshot limit. The final snapshot counts include directories."
+  ],
+  "intermediateBeforeDirectoryQuota": {
+    "acquired": 310,
+    "blockers": {
+      "load_failed": 48,
+      "source_unreachable": 24
+    },
+    "budgetSeconds": 600,
+    "cache": "new isolated empty package cache and checkout temp root",
+    "concurrency": 4,
+    "documentDigest": "cc5f7694e2825c874da692862510b6742e2c678f00b3b2d48e1cc1e4ecba110b",
+    "entries": 352,
+    "installable": 280,
+    "wallSeconds": 56.329830459
+  },
+  "snapshotNodeCount": 8364
+}

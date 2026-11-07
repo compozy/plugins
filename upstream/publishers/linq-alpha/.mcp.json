@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "linqalpha": {
+      "type": "http",
+      "url": "https://api.linqalpha.com/v1/mcp"
+    }
+  }
+}

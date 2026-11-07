@@ -1,0 +1,18 @@
+{
+  "name": "leadfeeder-plugin-marketplace",
+  "owner": {
+    "name": "Leadfeeder",
+    "url": "https://www.leadfeeder.com"
+  },
+  "metadata": {
+    "description": "Official Leadfeeder plugin marketplace for Claude"
+  },
+  "plugins": [
+    {
+      "name": "leadfeeder",
+      "description": "Turn website visitor signals into pipeline — identify high-intent accounts, research buyers, find the right contacts, personalise outreach, and add companies to your lists. One-click Leadfeeder MCP server integration for Claude Code and Cowork.",
+      "source": "./",
+      "homepage": "https://www.leadfeeder.com"
+    }
+  ]
+}

@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "69-ai": {
-      "type": "http",
-      "url": "https://69ai.ai/mcp"
-    }
-  }
-}

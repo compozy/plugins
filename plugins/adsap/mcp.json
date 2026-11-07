@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "adsap": {
-      "type": "http",
-      "url": "https://mcp.adsap.ai/mcp"
-    }
-  }
-}

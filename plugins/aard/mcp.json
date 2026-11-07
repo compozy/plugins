@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "aard": {
-      "type": "http",
-      "url": "https://api.aard.ai/mcp"
-    }
-  }
-}

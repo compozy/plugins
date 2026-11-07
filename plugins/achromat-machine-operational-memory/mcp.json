@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "achromat-machine-operational-memory": {
-      "type": "http",
-      "url": "https://achromat.ai/mcp"
-    }
-  }
-}

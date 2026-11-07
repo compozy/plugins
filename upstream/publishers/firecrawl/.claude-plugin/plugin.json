@@ -1,0 +1,13 @@
+{
+  "name": "firecrawl",
+  "version": "2.0.0",
+  "description": "Search the web, developer sources, and scientific papers with Firecrawl.",
+  "skills": [
+    "./skills/firecrawl",
+    "./skills/firecrawl-developer-index",
+    "./skills/firecrawl-research-index"
+  ],
+  "author": {
+    "name": "Firecrawl"
+  }
+}

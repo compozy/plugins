@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "agent-ready-report": {
-      "type": "http",
-      "url": "https://scan.agenticplug.ai/mcp"
-    }
-  }
-}

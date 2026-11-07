@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "agentic-fabrication-network-afn": {
-      "type": "http",
-      "url": "https://agenticfabricationnetwork.ai/mcp"
-    }
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "aivikings-ai": {
-      "type": "http",
-      "url": "https://mcp.aivikings.ai/mcp"
-    }
-  }
-}

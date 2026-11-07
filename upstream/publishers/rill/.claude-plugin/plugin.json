@@ -1,0 +1,8 @@
+{
+  "name": "rill",
+  "description": "Skills for developing and querying projects in the Rill business intelligence platform",
+  "version": "1.0.0",
+  "author": {
+    "name": "Rill Data"
+  }
+}

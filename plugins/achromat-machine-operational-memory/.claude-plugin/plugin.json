@@ -1,5 +1,0 @@
-{
-  "name": "achromat-machine-operational-memory",
-  "version": "0.1.5",
-  "description": "Recall and calibrate policy-compliant tool-call arguments before execution. Does not run the tool."
-}

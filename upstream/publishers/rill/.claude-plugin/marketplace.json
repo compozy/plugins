@@ -1,0 +1,13 @@
+{
+  "name": "rilldata",
+  "owner": {
+    "name": "Rill Data"
+  },
+  "plugins": [
+    {
+      "name": "rill",
+      "source": "./",
+      "description": "Skills for developing and querying projects in the Rill business intelligence platform"
+    }
+  ]
+}

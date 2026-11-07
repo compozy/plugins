@@ -1,0 +1,13 @@
+{
+  "name": "vanta-plugin",
+  "owner": {
+    "name": "Vanta"
+  },
+  "plugins": [
+    {
+      "name": "vanta",
+      "source": "./",
+      "description": "Vanta MCP server integration for Claude Code. Connect to Vanta's compliance platform to list failing tests, get remediation context, and fix tests with code changes."
+    }
+  ]
+}

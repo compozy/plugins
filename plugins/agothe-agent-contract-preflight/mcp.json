@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "agothe-agent-contract-preflight": {
-      "type": "http",
-      "url": "https://mcp-chatgpt.agothe.ai/mcp"
-    }
-  }
-}

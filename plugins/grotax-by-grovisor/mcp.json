@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "grotax-by-grovisor": {
-      "type": "http",
-      "url": "https://mcp.grovisor.ae/"
-    }
-  }
-}

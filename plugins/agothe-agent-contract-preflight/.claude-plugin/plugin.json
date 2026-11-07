@@ -1,5 +1,0 @@
-{
-  "name": "agothe-agent-contract-preflight",
-  "version": "0.2.0",
-  "description": "Deterministic MCP, JSON Schema, and SemVer preflight via Agothe's public MUV scope."
-}

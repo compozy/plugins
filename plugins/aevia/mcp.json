@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "aevia": {
-      "type": "http",
-      "url": "https://app.aeviamodeler.ai/api/v1/connector/mcp"
-    }
-  }
-}

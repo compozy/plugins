@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "Leadfeeder": {
+      "type": "http",
+      "url": "https://mcp.leadfeeder.com/mcp"
+    }
+  }
+}

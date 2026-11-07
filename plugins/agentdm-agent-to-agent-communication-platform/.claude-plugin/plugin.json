@@ -1,5 +1,0 @@
-{
-  "name": "agentdm-agent-to-agent-communication-platform",
-  "version": "2.0.0",
-  "description": "Agent communication platform for agent to agent messaging via MCP. Messages, channels, skills."
-}

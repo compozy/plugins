@@ -1,0 +1,38 @@
+{
+  "name": "leadfeeder",
+  "displayName": "Leadfeeder",
+  "version": "1.0.0",
+  "description": "Turn website visitor signals into pipeline. Six Leadfeeder-powered skills — Getting Started, Daily Visitor Brief, Visitor Company Brief, Outreach Companion, Find My Buyer, and Add to Pipeline — let you identify high-intent accounts, research buyers, find the right contacts, personalise outreach, and add companies to your lists, all from within Claude. New here? Type \"Set up my Leadfeeder brief\" to run a 30-second readiness check first.",
+  "homepage": "https://www.leadfeeder.com",
+  "repository": "https://github.com/Leadfeeder/leadfeeder-mcp-plugin",
+  "license": "Apache-2.0",
+  "author": {
+    "name": "Leadfeeder",
+    "url": "https://www.leadfeeder.com"
+  },
+  "keywords": [
+    "leadfeeder",
+    "b2b",
+    "sales",
+    "website-visitors",
+    "intent-signals",
+    "lead-generation",
+    "prospecting",
+    "outreach",
+    "account-intelligence"
+  ],
+  "userConfig": {
+    "account_id": {
+      "type": "string",
+      "title": "Leadfeeder Account ID",
+      "description": "Your Leadfeeder account ID. To find it, ask Claude to run get_account_info — it will list your available accounts and their IDs. Paste the ID here to skip the account selection prompt in every session and enable fully automated scheduled tasks.",
+      "required": false
+    }
+  },
+  "mcpServers": {
+    "Leadfeeder": {
+      "type": "http",
+      "url": "https://mcp.leadfeeder.com/mcp"
+    }
+  }
+}

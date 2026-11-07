@@ -1,0 +1,9 @@
+{
+    "name": "outputai",
+    "version": "0.3.0",
+    "description": "Workflow development tools",
+    "author": {
+      "name": "Output.ai",
+      "email": "oss@growthx.ai"
+    }
+  }

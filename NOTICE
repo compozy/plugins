@@ -10,3 +10,7 @@ Original copyright and license notices remain in vendored files.
 Remote wrapper metadata is derived from publisher records in the official MCP Registry.
 Exact selected records, versions, URLs and content hashes are in sources.lock.json.
 Remote services and referenced publisher repositories retain their own terms and licenses.
+
+Additional publisher packages under upstream/publishers retain their own license terms.
+See each package's PUBLISHER-LICENSE, original LICENSE/NOTICE files, vendoring.json and sources.lock.json.
+They are not relicensed under the catalog's Apache-2.0 license.

@@ -1,0 +1,50 @@
+{
+  "name": "zapier",
+  "version": "1.0.0",
+  "description": "Connect 9,000+ apps to your AI workflow. Discover, enable, and execute Zapier actions directly from your client.",
+  "author": {
+    "name": "Zapier",
+    "email": "support@zapier.com",
+    "url": "https://zapier.com"
+  },
+  "homepage": "https://docs.zapier.com/mcp/home",
+  "repository": "https://github.com/zapier/zapier-mcp",
+  "license": "MIT",
+  "keywords": [
+    "zapier",
+    "mcp",
+    "model-context-protocol",
+    "automation",
+    "integrations",
+    "workflow",
+    "ai-actions",
+    "api",
+    "no-code",
+    "ai-tools",
+    "productivity"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Zapier",
+    "shortDescription": "Connect your AI to 9,000+ apps via the hosted Zapier MCP server.",
+    "longDescription": "Zapier MCP is a hosted server that connects your AI to 9,000+ apps. Send messages, pull data, trigger workflows — all in plain English. This plugin bundles the MCP server connection with guided onboarding, a quick demo, and role-tailored skills so your assistant arrives already knowing how to use Zapier well.",
+    "developerName": "Zapier",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://docs.zapier.com/mcp/home",
+    "privacyPolicyURL": "https://zapier.com/privacy",
+    "termsOfServiceURL": "https://zapier.com/tos",
+    "defaultPrompt": [
+      "Show me around the Zapier MCP plugin and get me set up",
+      "Find a Zapier action that sends a Slack message and try it",
+      "List the Zapier apps I have connected and what actions are available"
+    ],
+    "brandColor": "#FF4F00",
+    "logo": "./assets/logo.svg",
+    "composerIcon": "./assets/icon.svg"
+  }
+}

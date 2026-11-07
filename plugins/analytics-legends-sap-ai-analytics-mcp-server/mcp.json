@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "analytics-legends-sap-ai-analytics-mcp-server": {
-      "type": "http",
-      "url": "https://analyticslegends.ai/mcp"
-    }
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "ai-agent-trust-receipt": {
-      "type": "http",
-      "url": "https://ai-akari.ai/mcp-trust"
-    }
-  }
-}

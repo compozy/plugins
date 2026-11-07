@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "amdahl": {
-      "type": "http",
-      "url": "https://app.amdahl.ai/mcp"
-    }
-  }
-}

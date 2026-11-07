@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "agenticbooks": {
-      "type": "http",
-      "url": "https://mcp.agenticbooks.ai/mcp"
-    }
-  }
-}

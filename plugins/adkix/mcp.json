@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "adkix": {
-      "type": "http",
-      "url": "https://adkix.ai/api/mcp"
-    }
-  }
-}

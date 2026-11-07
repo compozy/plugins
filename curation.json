@@ -1,0 +1,159 @@
+{
+  "featured": {
+    "asana": "productivity",
+    "figma": "design",
+    "linear": "productivity",
+    "notion": "productivity",
+    "slack": "communication",
+    "stripe": "finance"
+  },
+  "registry": [
+    {
+      "namespace": "com.airtable",
+      "server": "com.airtable/mcp",
+      "id": "airtable",
+      "category": "data",
+      "url": "https://mcp.airtable.com/mcp"
+    },
+    {
+      "namespace": "app.linear",
+      "server": "app.linear/linear",
+      "id": "linear",
+      "category": "productivity",
+      "url": "https://mcp.linear.app/mcp"
+    },
+    {
+      "namespace": "com.notion",
+      "server": "com.notion/mcp",
+      "id": "notion",
+      "category": "productivity",
+      "url": "https://mcp.notion.com/mcp"
+    },
+    {
+      "namespace": "com.figma.mcp",
+      "server": "com.figma.mcp/mcp",
+      "id": "figma",
+      "category": "design",
+      "url": "https://mcp.figma.com/mcp"
+    },
+    {
+      "namespace": "com.stripe",
+      "server": "com.stripe/mcp",
+      "id": "stripe",
+      "category": "finance",
+      "url": "https://mcp.stripe.com"
+    },
+    {
+      "namespace": "com.atlassian",
+      "server": "com.atlassian/atlassian-mcp-server",
+      "id": "atlassian",
+      "category": "productivity",
+      "url": "https://mcp.atlassian.com/v2/mcp"
+    },
+    {
+      "namespace": "com.webflow",
+      "server": "com.webflow/mcp",
+      "id": "webflow",
+      "category": "design",
+      "url": "https://mcp.webflow.com/mcp"
+    },
+    {
+      "namespace": "com.amplitude",
+      "server": "com.amplitude/mcp-server",
+      "id": "amplitude",
+      "category": "data",
+      "url": "https://mcp.amplitude.com/mcp"
+    },
+    {
+      "namespace": "com.newrelic",
+      "server": "com.newrelic/mcp-server",
+      "id": "newrelic",
+      "category": "cloud",
+      "url": "https://mcp.newrelic.com/mcp"
+    },
+    {
+      "namespace": "com.vercel",
+      "server": "com.vercel/vercel-mcp",
+      "id": "vercel",
+      "category": "cloud",
+      "url": "https://mcp.vercel.com"
+    },
+    {
+      "namespace": "com.digitalocean",
+      "server": "com.digitalocean/mcp",
+      "id": "digitalocean",
+      "category": "cloud",
+      "url": "https://mcp.digitalocean.com/mcp"
+    },
+    {
+      "namespace": "com.supabase",
+      "server": "com.supabase/mcp",
+      "id": "supabase",
+      "category": "data",
+      "url": "https://mcp.supabase.com/mcp"
+    },
+    {
+      "namespace": "com.gitlab",
+      "server": "com.gitlab/mcp",
+      "id": "gitlab",
+      "category": "development",
+      "url": "https://gitlab.com/api/v4/mcp"
+    },
+    {
+      "namespace": "com.workos",
+      "server": "com.workos/mcp",
+      "id": "workos",
+      "category": "security",
+      "url": "https://mcp.workos.com/mcp"
+    },
+    {
+      "namespace": "com.monday",
+      "server": "com.monday/monday.com",
+      "id": "monday",
+      "category": "productivity",
+      "url": "https://mcp.monday.com/mcp"
+    },
+    {
+      "namespace": "com.zapier",
+      "server": "com.zapier/mcp",
+      "id": "zapier",
+      "category": "productivity",
+      "url": "https://mcp.zapier.com/api/v1/connect"
+    },
+    {
+      "namespace": "com.make",
+      "server": "com.make/mcp-server",
+      "id": "make",
+      "category": "productivity",
+      "url": "https://mcp.make.com/v2"
+    },
+    {
+      "namespace": "com.lottiefiles",
+      "server": "com.lottiefiles/creator",
+      "id": "lottiefiles",
+      "category": "design",
+      "url": "https://creator.mcp.lottiefiles.com/mcp"
+    },
+    {
+      "namespace": "com.typeform",
+      "server": "com.typeform/typeform",
+      "id": "typeform",
+      "category": "productivity",
+      "url": "https://api.typeform.com/mcp"
+    },
+    {
+      "namespace": "com.jotform",
+      "server": "com.jotform/mcp",
+      "id": "jotform",
+      "category": "productivity",
+      "url": "https://mcp.jotform.com/"
+    },
+    {
+      "namespace": "com.close",
+      "server": "com.close/close-mcp",
+      "id": "close",
+      "category": "sales-marketing",
+      "url": "https://mcp.close.com/mcp"
+    }
+  ]
+}
