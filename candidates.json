@@ -8,9 +8,9 @@
     },
     {
       "source": "cursor-marketplace-snapshot",
-      "operatorInput": "/Users/pedronauck/Dev/courses/pedronauck/research/plugin-marketplaces/outputs/compozy-pack-seed.json",
       "status": "review-only",
-      "reason": "Private API curation; use only to discover publisher repositories"
+      "reason": "Private API curation; use only to discover publisher repositories",
+      "note": "Operator-provided snapshot, kept outside this repository"
     },
     {
       "source": "https://claude-plugins.dev",
