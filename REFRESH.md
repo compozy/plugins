@@ -79,3 +79,12 @@ records plus the four ADR-002 discovery feeds. Raw traversal data stays in gitig
 The package sources, versions, plugin bytes and source lock remain unchanged from the final
 measurement. No network measurement was repeated for these editorial metadata changes. Historical
 measurement hashes above identify the measured revision, not the recategorized document.
+
+## S9 residual follow-up
+
+S9 subsequently fixed publisher compatibility and API quota routing. Its one real measurement
+acquired 330 of 352 packages, with 328 installable and 24 load failures; Notion and Slack loaded.
+This catalog follow-up materialized four licensed contained-link packages, excluded nineteen
+unloadable or unvendoreable packages into candidates, and retained desktop-commander's transient
+truncation. See RESIDUAL_REVIEW.md. Historical measurements above describe their original inputs;
+no new network measurement was run on the resulting 333-entry catalog.

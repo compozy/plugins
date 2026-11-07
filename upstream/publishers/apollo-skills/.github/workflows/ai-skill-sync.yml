@@ -1,0 +1,246 @@
+name: AI Skill Sync
+
+on:
+  repository_dispatch:
+    types: [product-update]
+  workflow_dispatch:
+    inputs:
+      product:
+        description: "Skill name (directory under skills/)"
+        required: true
+        type: string
+      repository:
+        description: "Product repository (owner/repo). Defaults to apollographql/{product}."
+        required: false
+        type: string
+      version:
+        description: "Version tag to sync to (leave empty for latest stable)"
+        required: false
+        type: string
+
+concurrency:
+  group: ai-skill-sync-${{ inputs.product || github.event.client_payload.product }}
+  cancel-in-progress: true
+
+jobs:
+  resolve-inputs:
+    runs-on: ubuntu-latest
+    outputs:
+      product: ${{ steps.resolve.outputs.product }}
+      repository: ${{ steps.resolve.outputs.repository }}
+      version: ${{ steps.version.outputs.target }}
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout skills repo
+        uses: actions/checkout@v6
+        with:
+          sparse-checkout: skills
+          sparse-checkout-cone-mode: true
+
+      - name: Resolve and validate inputs
+        id: resolve
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            PRODUCT="${{ inputs.product }}"
+            REPO="${{ inputs.repository }}"
+            REPO="${REPO:-apollographql/$PRODUCT}"
+          else
+            PRODUCT="${{ github.event.client_payload.product }}"
+            REPO="${{ github.event.client_payload.repository }}"
+          fi
+
+          if [ ! -d "skills/$PRODUCT" ]; then
+            echo "::error::Skill directory 'skills/$PRODUCT' does not exist"
+            exit 1
+          fi
+
+          echo "product=$PRODUCT" >> "$GITHUB_OUTPUT"
+          echo "repository=$REPO" >> "$GITHUB_OUTPUT"
+
+      - name: Checkout product repo
+        uses: actions/checkout@v6
+        with:
+          repository: ${{ steps.resolve.outputs.repository }}
+          path: product-repo
+          fetch-depth: 0
+          # No ref here — we need all tags for version resolution.
+          # The resolved version is used as ref in downstream jobs.
+
+      - name: Resolve version
+        id: version
+        env:
+          INPUT_VERSION: ${{ github.event_name == 'workflow_dispatch' && inputs.version || github.event.client_payload.version }}
+        run: |
+          cd product-repo
+          if [ -n "$INPUT_VERSION" ]; then
+            echo "target=$INPUT_VERSION" >> "$GITHUB_OUTPUT"
+          else
+            LATEST=$(git tag --list 'v*' --sort=-version:refname \
+              | grep -E '^v[0-9]+\.[0-9]+\.[0-9]+$' \
+              | head -1)
+            if [ -z "$LATEST" ]; then
+              echo "::error::No stable version tags found in ${{ steps.resolve.outputs.repository }}"
+              exit 1
+            fi
+            echo "target=$LATEST" >> "$GITHUB_OUTPUT"
+            echo "Auto-detected latest stable version: $LATEST"
+          fi
+
+  triage:
+    needs: resolve-inputs
+    runs-on: ubuntu-latest
+    outputs:
+      needs_update: ${{ steps.parse.outputs.needs_update }}
+      reason: ${{ steps.parse.outputs.reason }}
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout skills repo
+        uses: actions/checkout@v6
+
+      - name: Checkout product repo
+        uses: actions/checkout@v6
+        with:
+          repository: ${{ needs.resolve-inputs.outputs.repository }}
+          ref: ${{ needs.resolve-inputs.outputs.version }}
+          path: product-repo
+
+      - name: Install Claude Code
+        run: curl -fsSL https://claude.ai/install.sh | bash
+
+      - name: Triage changes
+        id: triage
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          cat <<'PROMPT' > /tmp/triage-prompt.txt
+          The ${{ needs.resolve-inputs.outputs.product }} product is at version
+          ${{ needs.resolve-inputs.outputs.version }}.
+          Repository: ${{ needs.resolve-inputs.outputs.repository }}
+
+          The product source code at this version is in product-repo/.
+          The current skill content is in skills/${{ needs.resolve-inputs.outputs.product }}/.
+
+          Read all skill files (SKILL.md and everything in references/) to
+          understand what the skill currently documents.
+
+          Then read the relevant product source code (docs, README, config
+          schemas, CLI help, public APIs) to understand the current state of
+          the product.
+
+          Compare the skill content against the product source and determine
+          if the skill needs updating. It DOES need updating if:
+          - An API or config option documented in the skill has changed
+          - A code example in the skill is now incorrect
+          - A recommended pattern has been deprecated or replaced
+          - A breaking change affects the skill's guidance
+          - New product features are not covered in the skill
+
+          It does NOT need updating if:
+          - The skill already accurately and comprehensively reflects the product source
+          - Minor differences that don't affect correctness
+          PROMPT
+
+          ~/.local/bin/claude \
+            --print \
+            --model claude-opus-4-6 \
+            --allowedTools Read,Glob,Grep \
+            --max-turns 10 \
+            --output-format json \
+            --json-schema '{"type":"object","properties":{"needs_update":{"type":"boolean"},"reason":{"type":"string"}},"required":["needs_update","reason"]}' \
+            < /tmp/triage-prompt.txt > /tmp/triage-result.json
+
+      - name: Parse triage result
+        id: parse
+        run: |
+          cat /tmp/triage-result.json
+          NEEDS_UPDATE=$(jq -r '.structured_output.needs_update' /tmp/triage-result.json)
+          REASON=$(jq -r '.structured_output.reason // empty' /tmp/triage-result.json | head -1)
+          echo "needs_update=$NEEDS_UPDATE" >> "$GITHUB_OUTPUT"
+          echo "reason=$REASON" >> "$GITHUB_OUTPUT"
+
+  update-skill:
+    needs: [resolve-inputs, triage]
+    if: needs.triage.outputs.needs_update == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Checkout skills repo
+        uses: actions/checkout@v6
+
+      - name: Checkout product repo
+        uses: actions/checkout@v6
+        with:
+          repository: ${{ needs.resolve-inputs.outputs.repository }}
+          ref: ${{ needs.resolve-inputs.outputs.version }}
+          path: product-repo
+
+      - name: Install Claude Code
+        run: curl -fsSL https://claude.ai/install.sh | bash
+
+      - name: Generate skill updates with AI
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          cat <<'PROMPT' > /tmp/update-prompt.txt
+          The ${{ needs.resolve-inputs.outputs.product }} product is at version
+          ${{ needs.resolve-inputs.outputs.version }}.
+          Repository: ${{ needs.resolve-inputs.outputs.repository }}
+          Triage reason: ${{ needs.triage.outputs.reason }}
+
+          The product source code at this version is in product-repo/.
+          The current skill content is in skills/${{ needs.resolve-inputs.outputs.product }}/.
+
+          Step 1: Read skills/skill-creator/SKILL.md and its references to
+          understand skill structure conventions.
+
+          Step 2: Read all current skill files (SKILL.md and everything in
+          references/) in skills/${{ needs.resolve-inputs.outputs.product }}/.
+
+          Step 3: Read the product documentation in product-repo/docs/ and
+          product-repo/README.md to identify ALL user-facing features.
+
+          Step 4: Compare the skill against the product docs. For each major
+          feature in the product that is missing from the skill, create a new
+          reference file (e.g. references/feature-name.md). Also update
+          existing files that are inaccurate or outdated.
+
+          Step 5: Update SKILL.md to link to any new reference files and
+          update the version in frontmatter.
+
+          Rules:
+          - Every major product feature should have coverage in the skill
+          - Create new reference files for features not yet covered
+          - Correct content that is inaccurate or outdated
+          - Follow skill-creator conventions for file structure and style
+          PROMPT
+
+          ~/.local/bin/claude \
+            --print \
+            --model claude-opus-4-6 \
+            --allowedTools Read,Write,Edit,Glob,Grep \
+            --max-turns 50 \
+            < /tmp/update-prompt.txt
+
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v8
+        with:
+          add-paths: skills/
+          title: "[${{ needs.resolve-inputs.outputs.product }}] AI-generated skill update"
+          body: |
+            AI-generated skill update based on product release.
+
+            **Repository:** ${{ needs.resolve-inputs.outputs.repository }}
+            **Version:** ${{ needs.resolve-inputs.outputs.version }}
+            **Trigger:** ${{ github.event_name == 'workflow_dispatch' && 'Manual' || 'Automatic' }}
+            **Triage reason:** ${{ needs.triage.outputs.reason }}
+
+            ---
+
+            > **Please review carefully before merging.** This PR was generated by AI based on product changes.
+          labels: ai-generated
+          branch: ai-update/${{ needs.resolve-inputs.outputs.product }}
+          commit-message: "Update ${{ needs.resolve-inputs.outputs.product }} skill based on product changes"

@@ -1,0 +1,17 @@
+{
+  "name": "apollo-marketplace",
+  "owner": {
+    "name": "Apollo GraphQL",
+    "email": "opensource@apollographql.com"
+  },
+  "metadata": {
+    "description": "Bundled plugins for GraphQL development with Apollo tools and technologies",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "apollo-skills",
+      "source": "./"
+    }
+  ]
+}

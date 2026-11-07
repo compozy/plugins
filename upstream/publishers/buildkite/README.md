@@ -1,0 +1,119 @@
+# Buildkite Skills
+
+The official Buildkite skills for Claude Code, Cursor, and other AI coding
+agents. Install them into your agent of choice so it can generate correct
+pipeline YAML, run `bk` and `buildkite-agent` CLI commands, call the API,
+configure agents, and run preflight builds.
+
+## Installation
+
+```bash
+npx skills add buildkite/skills
+```
+
+See [skills.sh](https://skills.sh) for supported agents and options.
+
+### Claude Code
+
+Add the marketplace and install the plugin:
+
+```
+/plugin marketplace add buildkite/skills
+/plugin install buildkite@buildkite-skills
+```
+
+### Cursor
+
+Search for **Buildkite Skills** in the Cursor Marketplace, or run `/add-plugin` and search for "Buildkite".
+
+### Kiro
+
+Recommended (one install): add the Buildkite **power** in the Powers panel, pointing at
+`github.com/buildkite/skills`. The root `POWER.md`, `mcp.json`, and `steering/`
+together give Kiro the Buildkite MCP server plus all seven workflows (pipelines,
+migration, preflight, agent-runtime, cache, CLI, API), loaded automatically when relevant.
+
+Alternatively, install individual workflows as Kiro **skills** via the Skills panel —
+each `skills/buildkite-*/` directory already conforms to the open Agent Skills standard.
+
+### Manual
+
+Copy skill directories into your agent's skills folder:
+
+```bash
+# Claude Code
+mkdir -p .claude/skills
+cp -r skills/buildkite-pipelines .claude/skills/
+cp -r skills/buildkite-preflight .claude/skills/
+cp -r skills/buildkite-agent-runtime .claude/skills/
+cp -r skills/buildkite-cache .claude/skills/
+cp -r skills/buildkite-cli .claude/skills/
+cp -r skills/buildkite-api .claude/skills/
+cp -r skills/buildkite-migration .claude/skills/
+
+# Cursor
+mkdir -p .cursor/skills
+cp -r skills/buildkite-pipelines .cursor/skills/
+cp -r skills/buildkite-preflight .cursor/skills/
+cp -r skills/buildkite-agent-runtime .cursor/skills/
+cp -r skills/buildkite-cache .cursor/skills/
+cp -r skills/buildkite-cli .cursor/skills/
+cp -r skills/buildkite-api .cursor/skills/
+cp -r skills/buildkite-migration .cursor/skills/
+```
+
+## Skills
+
+### Journey Skills
+
+Skills organized by what you are trying to accomplish.
+
+| Skill | Directory | Description |
+|-------|-----------|-------------|
+| **Pipelines** | [skills/buildkite-pipelines/](skills/buildkite-pipelines/SKILL.md) | Pipeline YAML, step types, plugins, caching, parallelism, dynamic pipelines, matrix builds, artifacts, hooks |
+| **Migration** | [skills/buildkite-migration/](skills/buildkite-migration/SKILL.md) | CI migration planning, converting from GitHub Actions, Jenkins, CircleCI, Bitbucket Pipelines, GitLab CI using `bk pipeline convert` |
+
+### Cross-Cutting Skills
+
+Skills needed across all journeys.
+
+| Skill | Directory | Description |
+|-------|-----------|-------------|
+| **Preflight** | [skills/buildkite-preflight/](skills/buildkite-preflight/SKILL.md) | `bk preflight` runs a CI build against local uncommitted changes |
+| **Agent Runtime** | [skills/buildkite-agent-runtime/](skills/buildkite-agent-runtime/SKILL.md) | `buildkite-agent` subcommands inside running job steps — annotate, artifact, meta-data, pipeline upload, OIDC, locks |
+| **Cache** | [skills/buildkite-cache/](skills/buildkite-cache/SKILL.md) | Buildkite Cache (preview) — `buildkite-agent cache save/restore`, `.buildkite/cache.yml`, cache keys, fallbacks, registries |
+| **CLI** | [skills/buildkite-cli/](skills/buildkite-cli/SKILL.md) | `bk` commands for builds, jobs, pipelines, secrets, artifacts, and auth |
+| **API** | [skills/buildkite-api/](skills/buildkite-api/SKILL.md) | REST API, GraphQL API, webhooks, authentication, pagination |
+
+## How Skills Differ from Docs
+
+Buildkite docs at [buildkite.com/docs](https://buildkite.com/docs) are the canonical
+reference for what Buildkite features exist and how they work.
+
+Skills serve a different purpose: they encode **expertise**. Where docs explain every
+option, skills teach agents the right defaults, common patterns, and mistakes to avoid.
+A skill captures the judgment an experienced Buildkite user applies — which step type to
+reach for, how to structure a dynamic pipeline, when to use OIDC instead of static tokens.
+
+In practice this means:
+- Skills assume the agent already understands YAML, CI/CD concepts, and general programming
+- SKILL.md files focus on quick starts, recommended patterns, and pitfall tables — not exhaustive option lists
+- Detailed reference material lives in `references/` subdirectories, loaded only when needed
+- Skills link to Buildkite docs rather than reproducing them
+
+For more on content strategy, see [CONVENTIONS.md](CONVENTIONS.md).
+
+## Contributing
+
+1. Read [CONVENTIONS.md](CONVENTIONS.md) — frontmatter format, section order, style rules, skill boundaries, quality checklist
+2. Review an existing complete skill as a quality benchmark (e.g. `skills/buildkite-pipelines/SKILL.md`)
+3. Check the boundary table in CONVENTIONS.md — each topic is owned by exactly one skill
+4. Write your skill following the section order and style rules
+
+## Documentation
+
+Full Buildkite docs at [buildkite.com/docs](https://buildkite.com/docs).
+
+## License
+
+[MIT](LICENSE)

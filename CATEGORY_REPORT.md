@@ -1,20 +1,20 @@
 # Complete reviewed entry categories
 
-All 352 entries have explicit assignments in `categories.json`. The generator rejects missing or invalid assignments; it does not infer categories from upstream labels or descriptions. `more` is reserved here for output styles and mathematics.
+The published catalog has 333 entries. `categories.json` retains reviewed assignments for excluded candidates so an upstream revision can be re-admitted after review.
 
 | Category | Count |
 | --- | ---: |
 | productivity | 28 |
 | communication | 9 |
-| design | 15 |
-| development | 83 |
-| data | 62 |
-| cloud | 38 |
+| design | 12 |
+| development | 74 |
+| data | 59 |
+| cloud | 37 |
 | finance | 30 |
 | sales-marketing | 23 |
-| research | 11 |
+| research | 10 |
 | security | 20 |
-| ai-agents | 29 |
+| ai-agents | 27 |
 | more | 4 |
 
 | Entry | Reviewed category |
@@ -37,7 +37,6 @@ All 352 entries have explicit assignments in `categories.json`. The generator re
 | `altimate-code` | `data` |
 | `amazon-location-service` | `development` |
 | `amazon-selling-partner` | `sales-marketing` |
-| `amd-skills` | `ai-agents` |
 | `amplitude` | `data` |
 | `apollo` | `sales-marketing` |
 | `apollo-skills` | `development` |
@@ -61,7 +60,6 @@ All 352 entries have explicit assignments in `categories.json`. The generator re
 | `azure-cosmos-db-assistant` | `data` |
 | `azure-sql-developer` | `data` |
 | `b12-claude-plugin` | `design` |
-| `base44` | `development` |
 | `bigdata-com` | `finance` |
 | `bigquery-data-analytics` | `data` |
 | `bio-research` | `research` |
@@ -73,13 +71,11 @@ All 352 entries have explicit assignments in `categories.json`. The generator re
 | `browser-use` | `development` |
 | `build-with-wordpress` | `development` |
 | `buildkite` | `cloud` |
-| `canva` | `design` |
 | `carbone-skill` | `productivity` |
 | `carta-cap-table` | `finance` |
 | `carta-crm` | `sales-marketing` |
 | `carta-investors` | `finance` |
 | `catalyst-by-zoho` | `cloud` |
-| `cds-mcp` | `development` |
 | `champion-kit` | `productivity` |
 | `chrome-devtools-mcp` | `development` |
 | `chronograph-gp` | `finance` |
@@ -105,7 +101,6 @@ All 352 entries have explicit assignments in `categories.json`. The generator re
 | `code-review` | `development` |
 | `code-simplifier` | `development` |
 | `coderabbit` | `development` |
-| `codspeed` | `development` |
 | `commit-commands` | `development` |
 | `common-room` | `sales-marketing` |
 | `confidence` | `development` |
@@ -120,14 +115,11 @@ All 352 entries have explicit assignments in `categories.json`. The generator re
 | `cwc-makers` | `development` |
 | `daloopa` | `finance` |
 | `dash0` | `cloud` |
-| `data` | `data` |
 | `data-agent-kit` | `data` |
 | `databases-on-aws` | `data` |
 | `databricks` | `data` |
 | `datadog` | `cloud` |
-| `datahub-skills` | `data` |
 | `dataproc` | `data` |
-| `datarobot-agent-skills` | `ai-agents` |
 | `dataverse` | `data` |
 | `deepeval` | `ai-agents` |
 | `deploy-on-aws` | `cloud` |
@@ -169,7 +161,6 @@ All 352 entries have explicit assignments in `categories.json`. The generator re
 | `grafana-mcp` | `cloud` |
 | `grasp` | `finance` |
 | `greptile` | `development` |
-| `growthbook` | `development` |
 | `honeycomb` | `cloud` |
 | `hookify` | `development` |
 | `hostinger` | `cloud` |
@@ -177,7 +168,6 @@ All 352 entries have explicit assignments in `categories.json`. The generator re
 | `huggingface-skills` | `ai-agents` |
 | `human-resources` | `productivity` |
 | `hunter` | `sales-marketing` |
-| `hyperframes` | `design` |
 | `idmp-plugin` | `data` |
 | `imessage` | `communication` |
 | `incident-io` | `cloud` |
@@ -193,7 +183,6 @@ All 352 entries have explicit assignments in `categories.json`. The generator re
 | `langfuse-observability` | `ai-agents` |
 | `laravel-boost` | `development` |
 | `leadfeeder` | `sales-marketing` |
-| `learn-with-coursera` | `research` |
 | `learning-output-style` | `more` |
 | `legal` | `finance` |
 | `legalzoom` | `finance` |
@@ -215,7 +204,6 @@ All 352 entries have explicit assignments in `categories.json`. The generator re
 | `marketing` | `sales-marketing` |
 | `math-olympiad` | `more` |
 | `math-proof` | `more` |
-| `mattpocock-skills` | `development` |
 | `maven-bio` | `research` |
 | `mcp-apps` | `development` |
 | `mcp-server-dev` | `development` |
@@ -287,7 +275,6 @@ All 352 entries have explicit assignments in `categories.json`. The generator re
 | `redis-development` | `data` |
 | `remember` | `ai-agents` |
 | `render` | `cloud` |
-| `resend` | `development` |
 | `rill` | `data` |
 | `rootly` | `cloud` |
 | `ruby-lsp` | `development` |
@@ -295,11 +282,8 @@ All 352 entries have explicit assignments in `categories.json`. The generator re
 | `rust-analyzer-lsp` | `development` |
 | `sagemaker-ai` | `ai-agents` |
 | `sales` | `sales-marketing` |
-| `salesforce-development` | `development` |
 | `sanity-plugin` | `development` |
-| `sap-fiori-mcp-server` | `development` |
 | `sap-hana-cli` | `data` |
-| `sap-mdk-server` | `development` |
 | `save-to-spotify` | `design` |
 | `scandit-sdk` | `development` |
 | `searchfit-seo` | `sales-marketing` |
@@ -331,13 +315,10 @@ All 352 entries have explicit assignments in `categories.json`. The generator re
 | `streaming-skills-plugin` | `data` |
 | `stripe` | `finance` |
 | `sumup` | `finance` |
-| `supabase` | `data` |
-| `superdesign` | `design` |
 | `superpowers` | `ai-agents` |
 | `swift-lsp` | `development` |
 | `synthflow` | `ai-agents` |
 | `tavily` | `research` |
-| `teamcity-cli` | `cloud` |
 | `telegram` | `communication` |
 | `terraform` | `cloud` |
 | `tinyfish` | `research` |

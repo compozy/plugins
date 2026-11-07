@@ -36,7 +36,7 @@ OAuth authorization or functional service test.
 | Stripe | `finance` | Publisher `stripe/ai`, `providers/claude/plugin`, at locked SHA | Payments |
 
 Every entry is now assigned explicitly in `categories.json`, including upstream entries, Registry
-wrappers and featured apps. `CATEGORY_REPORT.md` lists all 352 assignments. Missing reviews fail
+wrappers and featured apps. `CATEGORY_REPORT.md` lists all 333 assignments. Missing reviews fail
 generation; no upstream category, description or fallback can supply one. Only the two output styles
 and two mathematics plugins are reviewed as `more`. `bun run check` verifies the table, Registry
 categories and featured overrides; pagination, admission and category boundaries have focused tests.

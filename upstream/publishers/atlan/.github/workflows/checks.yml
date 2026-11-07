@@ -1,0 +1,34 @@
+# Pre-commit-checks. This can be reused across all the applications.
+
+name: Pre-commit Checks
+on:
+  workflow_call:
+  pull_request:
+    types: [ opened, synchronize, labeled, reopened ]
+    branches: "main"
+
+jobs:
+  pre-commit:
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+      cancel-in-progress: ${{ startsWith(github.ref, 'refs/pull/') }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+    - uses: actions/checkout@v4
+    #----------------------------------------------
+    #  -----  install & configure Python + UV  -----
+    #----------------------------------------------
+    - uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+    - name: Install UV
+      uses: astral-sh/setup-uv@v5
+    #----------------------------------------------
+    #  -----  install dependencies & run pre-commit  -----
+    #----------------------------------------------
+    - name: Install dependencies and run pre-commit
+      run: |
+        uv pip install --system pre-commit
+        # Run pre-commit directly
+        pre-commit run --all-files

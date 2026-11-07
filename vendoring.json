@@ -104,10 +104,8 @@
   },
   {
     "name": "amd-skills",
-    "status": "vendored",
-    "repository": "amd/skills",
-    "commit": "6916fb371d1cba40757b223cf16b4cd4912b202f",
-    "license": "LICENSE"
+    "status": "excluded",
+    "reason": "no manifest or supported default layout"
   },
   {
     "name": "amplitude",
@@ -125,8 +123,20 @@
   },
   {
     "name": "apollo-skills",
-    "status": "retained external",
-    "reason": "Error: package contains symlinks requiring publisher review"
+    "status": "vendored",
+    "repository": "apollographql/skills",
+    "commit": "c288eb80629dd2309eed81f23d693f66a452d043",
+    "license": "LICENSE",
+    "materializedSymlinks": [
+      {
+        "path": ".github/skills/skill-creator",
+        "target": "skills/skill-creator"
+      },
+      {
+        "path": "CLAUDE.md",
+        "target": "AGENTS.md"
+      }
+    ]
   },
   {
     "name": "appwrite",
@@ -135,13 +145,33 @@
   },
   {
     "name": "astronomer-data-agents",
-    "status": "retained external",
-    "reason": "Error: package contains symlinks requiring publisher review"
+    "status": "vendored",
+    "repository": "astronomer/agents",
+    "commit": "35b9610bb2710c37ca11326c4cbf7818b6725fec",
+    "license": "LICENSE",
+    "materializedSymlinks": [
+      {
+        "path": "CLAUDE.md",
+        "target": "AGENTS.md"
+      },
+      {
+        "path": "astro-airflow-mcp/CLAUDE.md",
+        "target": "astro-airflow-mcp/AGENTS.md"
+      }
+    ]
   },
   {
     "name": "atlan",
-    "status": "retained external",
-    "reason": "Error: package contains symlinks requiring publisher review"
+    "status": "vendored",
+    "repository": "atlanhq/agent-toolkit",
+    "commit": "17b7ae3b4852a24a9271a55eb339dea0b38f1f60",
+    "license": "LICENSE",
+    "materializedSymlinks": [
+      {
+        "path": "cursor-plugin/skills",
+        "target": "skills"
+      }
+    ]
   },
   {
     "name": "atlassian",
@@ -241,8 +271,8 @@
   },
   {
     "name": "base44",
-    "status": "retained external",
-    "reason": "Error: package contains symlinks requiring publisher review"
+    "status": "excluded",
+    "reason": "Error: materialized package exceeds catalog snapshot quota"
   },
   {
     "name": "bigdata-com",
@@ -288,13 +318,53 @@
   },
   {
     "name": "buildkite",
-    "status": "retained external",
-    "reason": "Error: package contains symlinks requiring publisher review"
+    "status": "vendored",
+    "repository": "buildkite/skills",
+    "commit": "d29b846ecbb64817642fd3bd62c3cf53c703423e",
+    "license": "LICENSE",
+    "materializedSymlinks": [
+      {
+        "path": "AGENT.md",
+        "target": "AGENTS.md"
+      },
+      {
+        "path": "CLAUDE.md",
+        "target": "AGENTS.md"
+      },
+      {
+        "path": "steering/agent-runtime/references",
+        "target": "skills/buildkite-agent-runtime/references"
+      },
+      {
+        "path": "steering/api/references",
+        "target": "skills/buildkite-api/references"
+      },
+      {
+        "path": "steering/cache/examples",
+        "target": "skills/buildkite-cache/examples"
+      },
+      {
+        "path": "steering/cache/references",
+        "target": "skills/buildkite-cache/references"
+      },
+      {
+        "path": "steering/cli/references",
+        "target": "skills/buildkite-cli/references"
+      },
+      {
+        "path": "steering/pipelines/examples",
+        "target": "skills/buildkite-pipelines/examples"
+      },
+      {
+        "path": "steering/pipelines/references",
+        "target": "skills/buildkite-pipelines/references"
+      }
+    ]
   },
   {
     "name": "canva",
-    "status": "retained external",
-    "reason": "Error: package contains symlinks requiring publisher review"
+    "status": "excluded",
+    "reason": "Error: materialized package exceeds catalog snapshot quota"
   },
   {
     "name": "carbone-skill",
@@ -323,8 +393,8 @@
   },
   {
     "name": "cds-mcp",
-    "status": "retained external",
-    "reason": "Error: package contains symlinks requiring publisher review"
+    "status": "excluded",
+    "reason": "Error: materialized package exceeds catalog snapshot quota"
   },
   {
     "name": "chrome-devtools-mcp",
@@ -417,7 +487,7 @@
   },
   {
     "name": "codspeed",
-    "status": "retained external",
+    "status": "excluded",
     "reason": "Error: no recognized permissive publisher license"
   },
   {
@@ -457,8 +527,8 @@
   },
   {
     "name": "data",
-    "status": "retained external",
-    "reason": "Error: package contains symlinks requiring publisher review"
+    "status": "excluded",
+    "reason": "Error: materialized package exceeds catalog snapshot quota"
   },
   {
     "name": "data-agent-kit",
@@ -484,8 +554,8 @@
   },
   {
     "name": "datahub-skills",
-    "status": "retained external",
-    "reason": "Error: package contains symlinks requiring publisher review"
+    "status": "excluded",
+    "reason": "Error: materialized package exceeds catalog snapshot quota"
   },
   {
     "name": "dataproc",
@@ -494,8 +564,8 @@
   },
   {
     "name": "datarobot-agent-skills",
-    "status": "retained external",
-    "reason": "Error: package contains symlinks requiring publisher review"
+    "status": "excluded",
+    "reason": "Error: materialized package exceeds catalog snapshot quota"
   },
   {
     "name": "dataverse",
@@ -656,8 +726,8 @@
   },
   {
     "name": "growthbook",
-    "status": "retained external",
-    "reason": "Error: package contains symlinks requiring publisher review"
+    "status": "excluded",
+    "reason": "Error: materialized package exceeds catalog snapshot quota"
   },
   {
     "name": "honeycomb",
@@ -690,8 +760,8 @@
   },
   {
     "name": "hyperframes",
-    "status": "retained external",
-    "reason": "Error: curl: (56) Exceeded the maximum allowed file size (33554432) with 33554432 bytes\n"
+    "status": "excluded",
+    "reason": "Error: publisher archive unavailable within generator download limits"
   },
   {
     "name": "idmp-plugin",
@@ -757,8 +827,8 @@
   },
   {
     "name": "learn-with-coursera",
-    "status": "retained external",
-    "reason": "Error: no recognized permissive publisher license"
+    "status": "excluded",
+    "reason": "no manifest or supported default layout"
   },
   {
     "name": "legalzoom",
@@ -828,8 +898,8 @@
   },
   {
     "name": "mattpocock-skills",
-    "status": "retained external",
-    "reason": "Error: package contains symlinks requiring publisher review"
+    "status": "excluded",
+    "reason": "Error: materialized package exceeds catalog snapshot quota"
   },
   {
     "name": "maven-bio",
@@ -1165,8 +1235,8 @@
   },
   {
     "name": "resend",
-    "status": "retained external",
-    "reason": "Error: package contains symlinks requiring publisher review"
+    "status": "excluded",
+    "reason": "Error: materialized package exceeds catalog snapshot quota"
   },
   {
     "name": "rill",
@@ -1196,8 +1266,8 @@
   },
   {
     "name": "salesforce-development",
-    "status": "retained external",
-    "reason": "Error: package exceeds catalog vendoring size allowance"
+    "status": "excluded",
+    "reason": "publisher package exceeds daemon archive node quota"
   },
   {
     "name": "sanity-plugin",
@@ -1206,8 +1276,8 @@
   },
   {
     "name": "sap-fiori-mcp-server",
-    "status": "retained external",
-    "reason": "catalog snapshot quota reserve"
+    "status": "excluded",
+    "reason": "Error: materialized package exceeds catalog snapshot quota"
   },
   {
     "name": "sap-hana-cli",
@@ -1216,8 +1286,8 @@
   },
   {
     "name": "sap-mdk-server",
-    "status": "retained external",
-    "reason": "Error: curl: (56) Maximum file size exceeded\n"
+    "status": "excluded",
+    "reason": "publisher package exceeds daemon package size quota"
   },
   {
     "name": "save-to-spotify",
@@ -1375,13 +1445,13 @@
   },
   {
     "name": "supabase",
-    "status": "retained external",
+    "status": "excluded",
     "reason": "Error: no recognized permissive publisher license"
   },
   {
     "name": "superdesign",
-    "status": "retained external",
-    "reason": "Error: package contains symlinks requiring publisher review"
+    "status": "excluded",
+    "reason": "Error: materialized package exceeds catalog snapshot quota"
   },
   {
     "name": "superpowers",
@@ -1402,8 +1472,8 @@
   },
   {
     "name": "teamcity-cli",
-    "status": "retained external",
-    "reason": "Error: package contains symlinks requiring publisher review"
+    "status": "excluded",
+    "reason": "Error: materialized package exceeds catalog snapshot quota"
   },
   {
     "name": "tinyfish",

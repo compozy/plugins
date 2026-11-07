@@ -7,6 +7,8 @@ export function validate(doc: any, lock: any, root: string, curation?: any) {
   for (const p of doc.plugins) {
     if (!/^[A-Za-z0-9][A-Za-z0-9._-]{0,127}$/.test(p.name) || names.has(p.name)) throw Error(`invalid or duplicate name: ${p.name}`);
     names.add(p.name);
+    if(curation?.exclusions?.[p.name]?.commit===lock.entries?.[p.name]?.commit && curation?.exclusions?.[p.name])throw Error(`excluded package listed: ${p.name}`);
+    if(curation?.materializeEntries?.includes(p.name) && (typeof p.source!=='string'||!p.source.startsWith('./upstream/publishers/')))throw Error(`package requires materialized source: ${p.name}`);
     const reviewed=reviewedCategory(p.name,curation?.categories);
     if(p['x-compozy']?.category!==reviewed)throw Error(`category differs from reviewed table: ${p.name}`);
     if (p['x-registry-namespace']) {

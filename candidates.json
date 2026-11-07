@@ -79,5 +79,141 @@
       "app": "Microsoft 365",
       "publisher": "Microsoft"
     }
+  ],
+  "excludedEntries": [
+    {
+      "entry": "amd-skills",
+      "source": "./upstream/publishers/amd-skills",
+      "commit": "6916fb371d1cba40757b223cf16b4cd4912b202f",
+      "reason": "no manifest or supported default layout"
+    },
+    {
+      "entry": "base44",
+      "source": "https://github.com/base44/skills/archive/8548a482f606751c55dcdb1365398fbec2fcb64d.tar.gz",
+      "commit": "8548a482f606751c55dcdb1365398fbec2fcb64d",
+      "reason": "Error: materialized package exceeds catalog snapshot quota"
+    },
+    {
+      "entry": "canva",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/canva-sdks/canva-skills.git",
+        "path": "plugins/canva",
+        "ref": "bfcbc681560f6031e9949ea52f81e20beb87e39e"
+      },
+      "commit": "bfcbc681560f6031e9949ea52f81e20beb87e39e",
+      "reason": "Error: materialized package exceeds catalog snapshot quota"
+    },
+    {
+      "entry": "cds-mcp",
+      "source": "https://github.com/cap-js/mcp-server/archive/52ca3304342db99c27a3f2a0cd765af42980b955.tar.gz",
+      "commit": "52ca3304342db99c27a3f2a0cd765af42980b955",
+      "reason": "Error: materialized package exceeds catalog snapshot quota"
+    },
+    {
+      "entry": "codspeed",
+      "source": "https://github.com/CodSpeedHQ/codspeed/archive/59cfc90540bb3717d8acf4ad03f7b5531c8e1a3d.tar.gz",
+      "commit": "59cfc90540bb3717d8acf4ad03f7b5531c8e1a3d",
+      "reason": "Error: no recognized permissive publisher license"
+    },
+    {
+      "entry": "data",
+      "source": "https://github.com/astronomer/agents/archive/35b9610bb2710c37ca11326c4cbf7818b6725fec.tar.gz",
+      "commit": "35b9610bb2710c37ca11326c4cbf7818b6725fec",
+      "reason": "Error: materialized package exceeds catalog snapshot quota"
+    },
+    {
+      "entry": "datahub-skills",
+      "source": "https://github.com/datahub-project/datahub-skills/archive/a27f8e7bb514591a3ccecd7598e4056989c0db9b.tar.gz",
+      "commit": "a27f8e7bb514591a3ccecd7598e4056989c0db9b",
+      "reason": "Error: materialized package exceeds catalog snapshot quota"
+    },
+    {
+      "entry": "datarobot-agent-skills",
+      "source": "https://github.com/datarobot-oss/datarobot-agent-skills/archive/53a4dacc6b55f4fe3ab4840829ebf2d1ea1477dc.tar.gz",
+      "commit": "53a4dacc6b55f4fe3ab4840829ebf2d1ea1477dc",
+      "reason": "Error: materialized package exceeds catalog snapshot quota"
+    },
+    {
+      "entry": "growthbook",
+      "source": "https://github.com/growthbook/skills/archive/7a84f338fe217b20641cdc5c01b5b37f0b950527.tar.gz",
+      "commit": "7a84f338fe217b20641cdc5c01b5b37f0b950527",
+      "reason": "Error: materialized package exceeds catalog snapshot quota"
+    },
+    {
+      "entry": "hyperframes",
+      "source": "https://github.com/heygen-com/hyperframes/archive/8d2b6e7bdc1c2c26d1abf64ef075c00a1bb230a2.tar.gz",
+      "commit": "8d2b6e7bdc1c2c26d1abf64ef075c00a1bb230a2",
+      "reason": "Error: publisher archive unavailable within generator download limits"
+    },
+    {
+      "entry": "learn-with-coursera",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/coursera/skills.git",
+        "path": "skills",
+        "ref": "ac28fd6ebf8584e3ee196159bd6d4514fa07de0f"
+      },
+      "commit": "ac28fd6ebf8584e3ee196159bd6d4514fa07de0f",
+      "reason": "no manifest or supported default layout"
+    },
+    {
+      "entry": "mattpocock-skills",
+      "source": "https://github.com/mattpocock/skills/archive/49dd158d1076134a641b33efb035946536778336.tar.gz",
+      "commit": "49dd158d1076134a641b33efb035946536778336",
+      "reason": "Error: materialized package exceeds catalog snapshot quota"
+    },
+    {
+      "entry": "resend",
+      "source": "https://github.com/resend/resend-skills/archive/fd14937dba5a99de5dba902808f70fa575513cc5.tar.gz",
+      "commit": "fd14937dba5a99de5dba902808f70fa575513cc5",
+      "reason": "Error: materialized package exceeds catalog snapshot quota"
+    },
+    {
+      "entry": "salesforce-development",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/forcedotcom/sf-skills.git",
+        "path": "plugins/builder/salesforce-development",
+        "ref": "d3088edf8776a3c23f55aadead587eb3903be2d3"
+      },
+      "commit": "d3088edf8776a3c23f55aadead587eb3903be2d3",
+      "reason": "publisher package exceeds daemon archive node quota"
+    },
+    {
+      "entry": "sap-fiori-mcp-server",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/SAP/open-ux-tools.git",
+        "path": "packages/fiori-mcp-server",
+        "ref": "69e2c50833f10e6892d7c8f42b98b13133d8fdc3"
+      },
+      "commit": "69e2c50833f10e6892d7c8f42b98b13133d8fdc3",
+      "reason": "Error: materialized package exceeds catalog snapshot quota"
+    },
+    {
+      "entry": "sap-mdk-server",
+      "source": "https://github.com/SAP/mdk-mcp-server/archive/ce65cbf22089787599370938f43ca4b9f4567027.tar.gz",
+      "commit": "ce65cbf22089787599370938f43ca4b9f4567027",
+      "reason": "publisher package exceeds daemon package size quota"
+    },
+    {
+      "entry": "supabase",
+      "source": "https://github.com/supabase-community/supabase-plugin/archive/2c6d02d4565babe784103ee4d446a93ae9b24151.tar.gz",
+      "commit": "2c6d02d4565babe784103ee4d446a93ae9b24151",
+      "reason": "Error: no recognized permissive publisher license"
+    },
+    {
+      "entry": "superdesign",
+      "source": "https://github.com/superdesigndev/superdesign-skill/archive/f9f05cd988c247dce6c072eaf9ac6b162f2ffc4b.tar.gz",
+      "commit": "f9f05cd988c247dce6c072eaf9ac6b162f2ffc4b",
+      "reason": "Error: materialized package exceeds catalog snapshot quota"
+    },
+    {
+      "entry": "teamcity-cli",
+      "source": "https://github.com/JetBrains/teamcity-cli/archive/ac6c1fd83300b2e42df48fcfff365ba03f73bb92.tar.gz",
+      "commit": "ac6c1fd83300b2e42df48fcfff365ba03f73bb92",
+      "reason": "Error: materialized package exceeds catalog snapshot quota"
+    }
   ]
 }

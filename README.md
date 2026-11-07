@@ -49,7 +49,7 @@ catalog repository commit; select that commit when requiring an immutable catalo
 Duplicate repository/subdirectory identities and names collapse; publisher repositories inherited
 from the upstream catalogs take precedence over remote wrappers. A curated row that overlaps the
 Claude official catalog supersedes its original row. Every entry has a reviewed assignment in `categories.json` using ADR-001's 12 IDs; generation
-fails when an entry is missing. See `CATEGORY_REPORT.md` for all 352 assignments and counts.
+fails when an entry is missing. See `CATEGORY_REPORT.md` for all 333 assignments and counts.
 No upstream label or description supplies a fallback. Featured is an explicit
 small selection in `curation.json`. See `CURATION.md` for the per-app review.
 
@@ -73,3 +73,14 @@ across entries or sources. Compozy reports budget exhaustion through its existin
 Catalog code and Compozy-authored metadata: Apache-2.0, see LICENSE and NOTICE.
 Upstream files retain their original notices. Referenced publisher code and remote services
 retain their own licenses and terms. This repository does not relicense those services.
+
+## Known publisher residuals
+
+`curation.json` binds layout/quota exclusions to the measured publisher commit and identifies packages
+that require contained-link materialization. The generator vendors those only with a recognized
+permissive license, checks every target before copying, and never follows escaping links. Packages
+that cannot be materialized within the snapshot quota remain in `candidates.json.excludedEntries`,
+with their source, pinned commit and reason. Their supersedes are omitted along with their listing.
+`desktop-commander` is retained because its measured failure was a transient download truncation.
+See `RESIDUAL_REVIEW.md` for all 24 decisions. `bun run generate --repair-known` applies these rules
+to an existing locked catalog using cached publisher trees, without a new network measurement.

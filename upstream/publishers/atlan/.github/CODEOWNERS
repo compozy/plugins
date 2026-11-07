@@ -1,0 +1,9 @@
+# This file defines code owners for different parts of the repository
+# Code owners are automatically requested for review when someone opens a pull request
+# that modifies code that they own.
+
+# Default owners for everything in the repo
+*       @Hk669 @firecast @abhinavmathur-atlan @ankitjaggi
+
+# Model Context Protocol specific files
+/modelcontextprotocol/  @Hk669 @firecast @abhinavmathur-atlan @ankitjaggi

@@ -111,12 +111,6 @@
       "path": "",
       "archive": true
     },
-    "amd-skills": {
-      "repository": "https://github.com/amd/skills.git",
-      "commit": "6916fb371d1cba40757b223cf16b4cd4912b202f",
-      "path": "skills",
-      "vendored": true
-    },
     "amplitude": {
       "repository": "https://github.com/amplitude/mcp-marketplace.git",
       "commit": "c4bcb5feff54cf3332290ee0071a2def2b1f149d",
@@ -133,7 +127,7 @@
       "repository": "https://github.com/apollographql/skills.git",
       "commit": "c288eb80629dd2309eed81f23d693f66a452d043",
       "path": "",
-      "archive": true
+      "vendored": true
     },
     "appwrite": {
       "repository": "https://github.com/appwrite/claude-plugin.git",
@@ -150,13 +144,13 @@
       "repository": "https://github.com/astronomer/agents.git",
       "commit": "35b9610bb2710c37ca11326c4cbf7818b6725fec",
       "path": "",
-      "archive": true
+      "vendored": true
     },
     "atlan": {
       "repository": "https://github.com/atlanhq/agent-toolkit.git",
       "commit": "17b7ae3b4852a24a9271a55eb339dea0b38f1f60",
       "path": "",
-      "archive": true
+      "vendored": true
     },
     "atlassian": {
       "repository": "https://github.com/atlassian/atlassian-mcp-server.git",
@@ -252,12 +246,6 @@
       "path": "",
       "archive": true
     },
-    "base44": {
-      "repository": "https://github.com/base44/skills.git",
-      "commit": "8548a482f606751c55dcdb1365398fbec2fcb64d",
-      "path": "",
-      "archive": true
-    },
     "bigdata-com": {
       "repository": "https://github.com/Bigdata-com/bigdata-plugins-marketplace.git",
       "commit": "43777fbdb9298ea8f5cbc001d18144e95346df93",
@@ -318,12 +306,7 @@
       "repository": "https://github.com/buildkite/skills.git",
       "commit": "d29b846ecbb64817642fd3bd62c3cf53c703423e",
       "path": "",
-      "archive": true
-    },
-    "canva": {
-      "repository": "https://github.com/canva-sdks/canva-skills.git",
-      "commit": "bfcbc681560f6031e9949ea52f81e20beb87e39e",
-      "path": "plugins/canva"
+      "vendored": true
     },
     "carbone-skill": {
       "repository": "https://github.com/carboneio/carbone-skill.git",
@@ -349,12 +332,6 @@
     "catalyst-by-zoho": {
       "repository": "https://github.com/catalystbyzoho/claude-plugin.git",
       "commit": "9670b79d72fe4923cc845ca0414d009ef3684ccb",
-      "path": "",
-      "archive": true
-    },
-    "cds-mcp": {
-      "repository": "https://github.com/cap-js/mcp-server.git",
-      "commit": "52ca3304342db99c27a3f2a0cd765af42980b955",
       "path": "",
       "archive": true
     },
@@ -499,12 +476,6 @@
       "path": "",
       "archive": true
     },
-    "codspeed": {
-      "repository": "https://github.com/CodSpeedHQ/codspeed.git",
-      "commit": "59cfc90540bb3717d8acf4ad03f7b5531c8e1a3d",
-      "path": "",
-      "archive": true
-    },
     "commit-commands": {
       "repository": "anthropics/claude-plugins-official",
       "commit": "0412be76f50ab4f4f8abff3753efa9269fbbca5b",
@@ -582,12 +553,6 @@
       "path": "",
       "archive": true
     },
-    "data": {
-      "repository": "https://github.com/astronomer/agents.git",
-      "commit": "35b9610bb2710c37ca11326c4cbf7818b6725fec",
-      "path": "",
-      "archive": true
-    },
     "data-agent-kit": {
       "repository": "https://github.com/GoogleCloudPlatform/data-agent-kit-plugin.git",
       "commit": "83c53b5f129cdeecabe149ff4ba82645d3e51745",
@@ -611,21 +576,9 @@
       "path": "",
       "archive": true
     },
-    "datahub-skills": {
-      "repository": "https://github.com/datahub-project/datahub-skills.git",
-      "commit": "a27f8e7bb514591a3ccecd7598e4056989c0db9b",
-      "path": "",
-      "archive": true
-    },
     "dataproc": {
       "repository": "https://github.com/gemini-cli-extensions/dataproc.git",
       "commit": "18534a9bfe0d03801643d5b7d28c0cec08bb7ba5",
-      "path": "",
-      "archive": true
-    },
-    "datarobot-agent-skills": {
-      "repository": "https://github.com/datarobot-oss/datarobot-agent-skills.git",
-      "commit": "53a4dacc6b55f4fe3ab4840829ebf2d1ea1477dc",
       "path": "",
       "archive": true
     },
@@ -861,12 +814,6 @@
       "commit": "4a13eb124ab175d018869fe7cc4d203e374571dc",
       "path": "plugins/greptile"
     },
-    "growthbook": {
-      "repository": "https://github.com/growthbook/skills.git",
-      "commit": "7a84f338fe217b20641cdc5c01b5b37f0b950527",
-      "path": "",
-      "archive": true
-    },
     "honeycomb": {
       "repository": "https://github.com/honeycombio/agent-skill.git",
       "commit": "6bb09279fc3fb69abf113228be939dbb929e34f1",
@@ -904,12 +851,6 @@
     "hunter": {
       "repository": "https://github.com/hunter-io/claude-plugin.git",
       "commit": "44f0f5689d2d5cc2de2470550225a16447cb9a80",
-      "path": "",
-      "archive": true
-    },
-    "hyperframes": {
-      "repository": "https://github.com/heygen-com/hyperframes.git",
-      "commit": "8d2b6e7bdc1c2c26d1abf64ef075c00a1bb230a2",
       "path": "",
       "archive": true
     },
@@ -999,11 +940,6 @@
       "commit": "cddf27f0771393b01a9a91335b8972e44f48cf45",
       "path": "",
       "vendored": true
-    },
-    "learn-with-coursera": {
-      "repository": "https://github.com/coursera/skills.git",
-      "commit": "ac28fd6ebf8584e3ee196159bd6d4514fa07de0f",
-      "path": "skills"
     },
     "learning-output-style": {
       "repository": "anthropics/claude-plugins-official",
@@ -1121,12 +1057,6 @@
       "repository": "anthropics/claude-plugins-official",
       "commit": "0412be76f50ab4f4f8abff3753efa9269fbbca5b",
       "path": "./plugins/math-proof"
-    },
-    "mattpocock-skills": {
-      "repository": "https://github.com/mattpocock/skills.git",
-      "commit": "49dd158d1076134a641b33efb035946536778336",
-      "path": "",
-      "archive": true
     },
     "maven-bio": {
       "repository": "https://github.com/MavenBio/maven-bio-plugin.git",
@@ -1533,12 +1463,6 @@
       "path": "",
       "archive": true
     },
-    "resend": {
-      "repository": "https://github.com/resend/resend-skills.git",
-      "commit": "fd14937dba5a99de5dba902808f70fa575513cc5",
-      "path": "",
-      "archive": true
-    },
     "rill": {
       "repository": "https://github.com/rilldata/agent-skills.git",
       "commit": "adfce5762be435c026f4731f72e388520cb133cc",
@@ -1578,31 +1502,15 @@
       "commit": "e050c2ec856373787143d7057663a6ebd1277df3",
       "path": "./sales"
     },
-    "salesforce-development": {
-      "repository": "https://github.com/forcedotcom/sf-skills.git",
-      "commit": "d3088edf8776a3c23f55aadead587eb3903be2d3",
-      "path": "plugins/builder/salesforce-development"
-    },
     "sanity-plugin": {
       "repository": "https://github.com/sanity-io/agent-toolkit.git",
       "commit": "88d6cdfa7cb06c99edd5f376efa4dac21ae3f877",
       "path": "",
       "archive": true
     },
-    "sap-fiori-mcp-server": {
-      "repository": "https://github.com/SAP/open-ux-tools.git",
-      "commit": "69e2c50833f10e6892d7c8f42b98b13133d8fdc3",
-      "path": "packages/fiori-mcp-server"
-    },
     "sap-hana-cli": {
       "repository": "https://github.com/SAP-samples/hana-cli-claude-plugin.git",
       "commit": "abadd0aba32792b6378ed784e9f6d3e5b25dfc2a",
-      "path": "",
-      "archive": true
-    },
-    "sap-mdk-server": {
-      "repository": "https://github.com/SAP/mdk-mcp-server.git",
-      "commit": "ce65cbf22089787599370938f43ca4b9f4567027",
       "path": "",
       "archive": true
     },
@@ -1785,18 +1693,6 @@
       "path": "",
       "archive": true
     },
-    "supabase": {
-      "repository": "https://github.com/supabase-community/supabase-plugin.git",
-      "commit": "2c6d02d4565babe784103ee4d446a93ae9b24151",
-      "path": "",
-      "archive": true
-    },
-    "superdesign": {
-      "repository": "https://github.com/superdesigndev/superdesign-skill.git",
-      "commit": "f9f05cd988c247dce6c072eaf9ac6b162f2ffc4b",
-      "path": "",
-      "archive": true
-    },
     "superpowers": {
       "repository": "https://github.com/obra/superpowers.git",
       "commit": "bb92a77741419a4ab5f06e711a283343f1ada0c3",
@@ -1817,12 +1713,6 @@
     "tavily": {
       "repository": "https://github.com/tavily-ai/skills.git",
       "commit": "778122e5f9c680f541eeceda5a5b36405eb7980c",
-      "path": "",
-      "archive": true
-    },
-    "teamcity-cli": {
-      "repository": "https://github.com/JetBrains/teamcity-cli.git",
-      "commit": "ac6c1fd83300b2e42df48fcfff365ba03f73bb92",
       "path": "",
       "archive": true
     },

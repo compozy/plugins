@@ -52,3 +52,34 @@ test('keeps only deduplicated explicitly reviewed recognizable candidates',()=>{
  const selected=reviewCandidates([known,unknown,known],[{server:'com.vendor/mcp',app:'Vendor',publisher:'Vendor'}]);
  expect(selected.map(c=>c.registryName)).toEqual(['com.vendor/mcp']);
 });
+
+// Invariant: publisher symlinks become regular package files only when every target is contained.
+// Owner: catalog package materialization; canonical suite: check.test.ts.
+import { mkdtempSync, mkdirSync, writeFileSync, symlinkSync, lstatSync, readFileSync, rmSync } from 'node:fs';
+import { tmpdir } from 'node:os';
+import { join } from 'node:path';
+import { inspectMaterializedTree, materializeTree } from './materialize';
+test('materializes contained file and directory links without retaining symlinks',()=>{
+ const root=mkdtempSync(join(tmpdir(),'mpc-links-'));
+ try{
+  const source=join(root,'source'),dest=join(root,'dest');mkdirSync(join(source,'skills'),{recursive:true});
+  writeFileSync(join(source,'skills','guide.md'),'guide');symlinkSync('skills/guide.md',join(source,'guide.md'));symlinkSync('skills',join(source,'alias'));
+  const tree=inspectMaterializedTree(source);materializeTree(tree,dest);
+  expect(tree.links).toHaveLength(2);expect(lstatSync(join(dest,'guide.md')).isSymbolicLink()).toBe(false);
+  expect(lstatSync(join(dest,'alias')).isDirectory()).toBe(true);expect(readFileSync(join(dest,'alias','guide.md'),'utf8')).toBe('guide');
+ }finally{rmSync(root,{recursive:true,force:true});}
+});
+test('rejects escaping and cyclic links before copying package bytes',()=>{
+ const root=mkdtempSync(join(tmpdir(),'mpc-links-'));
+ try{
+  const source=join(root,'source');mkdirSync(source);writeFileSync(join(root,'outside'),'outside');
+  symlinkSync('../outside',join(source,'escape'));
+  expect(()=>inspectMaterializedTree(source)).toThrow('symlink escapes package');
+  rmSync(join(source,'escape'));symlinkSync('.',join(source,'cycle'));
+  expect(()=>inspectMaterializedTree(source)).toThrow('symlink directory cycle');
+ }finally{rmSync(root,{recursive:true,force:true});}
+});
+test('rejects reintroduced known unloadable packages and unmaterialized sources',()=>{
+ expect(()=>validate(doc(entry),{...lock,entries:{fixture:{commit:'a'.repeat(40)}}},'.',{...curation,exclusions:{fixture:{commit:'a'.repeat(40)}}})).toThrow('excluded package listed');
+ expect(()=>validate(doc(entry),lock,'.',{...curation,materializeEntries:['fixture']})).toThrow('requires materialized source');
+});

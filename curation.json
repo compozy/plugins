@@ -187,5 +187,44 @@
       "app": "NuGet",
       "publisher": "Microsoft"
     }
-  ]
+  ],
+  "materializeEntries": [
+    "apollo-skills",
+    "astronomer-data-agents",
+    "atlan",
+    "base44",
+    "buildkite",
+    "canva",
+    "cds-mcp",
+    "codspeed",
+    "data",
+    "datahub-skills",
+    "datarobot-agent-skills",
+    "growthbook",
+    "hyperframes",
+    "mattpocock-skills",
+    "resend",
+    "sap-fiori-mcp-server",
+    "supabase",
+    "superdesign",
+    "teamcity-cli"
+  ],
+  "exclusions": {
+    "amd-skills": {
+      "commit": "6916fb371d1cba40757b223cf16b4cd4912b202f",
+      "reason": "no manifest or supported default layout"
+    },
+    "learn-with-coursera": {
+      "commit": "ac28fd6ebf8584e3ee196159bd6d4514fa07de0f",
+      "reason": "no manifest or supported default layout"
+    },
+    "salesforce-development": {
+      "commit": "d3088edf8776a3c23f55aadead587eb3903be2d3",
+      "reason": "publisher package exceeds daemon archive node quota"
+    },
+    "sap-mdk-server": {
+      "commit": "ce65cbf22089787599370938f43ca4b9f4567027",
+      "reason": "publisher package exceeds daemon package size quota"
+    }
+  }
 }

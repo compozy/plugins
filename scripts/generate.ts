@@ -3,6 +3,7 @@ import { resolve, join } from 'node:path';
 import { validate, checkSnapshotQuota, reviewedCategory } from './check';
 import { readRegistry, reviewCandidates } from './registry';
 import { vendorEntries } from './vendor';
+import { repairEntries } from './repairs';
 const root=resolve(import.meta.dir,'..');
 const refresh=process.argv.includes('--refresh');
 const curation=await Bun.file(join(root,'curation.json')).json();
@@ -22,6 +23,19 @@ async function checkout(repo:string,commit:string){
   run(['tar','-xzf',archive,'--strip-components=1','-C',dest]);rmSync(archive);
  }
  return dest;
+}
+if(process.argv.includes('--repair-known')){
+ const doc=await Bun.file(join(root,'.claude-plugin/marketplace.json')).json();
+ const entries=new Map<string,any>(doc.plugins.map((p:any)=>[p.name,p]));
+ const report=await Bun.file(join(root,'vendoring.json')).json();
+ const candidates=await Bun.file(join(root,'candidates.json')).json();
+ repairEntries(root,entries,lock,curation,report,candidates);
+ doc.plugins=[...entries.values()];
+ lock.entries=Object.fromEntries(doc.plugins.map((p:any)=>[p.name,lock.entries[p.name]]));
+ validate(doc,lock,root,curation);
+ await json(join(root,'.claude-plugin/marketplace.json'),doc);await json(lockPath,lock);
+ await json(join(root,'vendoring.json'),report);await json(join(root,'candidates.json'),candidates);
+ console.log(checkSnapshotQuota(root));console.log(`Repaired catalog: ${doc.plugins.length} entries`);process.exit(0);
 }
 if(process.argv.includes('--metadata-only')){
  const doc=await Bun.file(join(root,'.claude-plugin/marketplace.json')).json();
@@ -120,6 +134,8 @@ candidates.registryCandidates=reviewCandidates(candidates.registryCandidates,cur
 await json(join(root,'candidates.json'),candidates);
 for(const entry of entries.values())entry['x-compozy'].category=reviewedCategory(entry.name,curation.categories);
 const vendoring=await vendorEntries(root,entries,lock);
+repairEntries(root,entries,lock,curation,vendoring,candidates);
+await json(join(root,'candidates.json'),candidates);
 await json(join(root,'vendoring.json'),vendoring);
 const doc={name:'compozy-plugins',owner:{name:'Compozy'},plugins:[...entries.values()].sort((a,b)=>a.name.localeCompare(b.name,'en'))};
 lock.entries=Object.fromEntries(doc.plugins.map(p=>[p.name,lock.entries[p.name]]));
