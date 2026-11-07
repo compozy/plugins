@@ -29,7 +29,7 @@
       "source": "https://github.com/ActiveCampaign/activecampaign-plugin/archive/0ff858728bc52aee335d5475b0d4eb5f3a9589b0.tar.gz",
       "homepage": "https://www.activecampaign.com",
       "x-compozy": {
-        "category": "productivity",
+        "category": "sales-marketing",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/activecampaign"
@@ -62,7 +62,7 @@
       "source": "https://github.com/amekala/adspirer-mcp-plugin/archive/e3067cec8803e28da91834d0f38e0405ad23429b.tar.gz",
       "homepage": "https://www.adspirer.com",
       "x-compozy": {
-        "category": "productivity",
+        "category": "sales-marketing",
         "featured": false,
         "supersedes": []
       }
@@ -78,7 +78,7 @@
       "category": "development",
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/agent-sdk-dev",
       "x-compozy": {
-        "category": "development",
+        "category": "ai-agents",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/agent-sdk-dev"
@@ -92,7 +92,7 @@
       "source": "https://github.com/SalesforceAIResearch/agentforce-adlc/archive/09bf1539d41f9ff355ba3eb5d05d4a75813423bb.tar.gz",
       "homepage": "https://github.com/SalesforceAIResearch/agentforce-adlc",
       "x-compozy": {
-        "category": "development",
+        "category": "ai-agents",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/agentforce-adlc"
@@ -106,7 +106,7 @@
       "source": "./upstream/publishers/ai-firstify",
       "homepage": "https://ai-first.techwolf.ai",
       "x-compozy": {
-        "category": "more",
+        "category": "ai-agents",
         "featured": false,
         "supersedes": []
       }
@@ -117,7 +117,7 @@
       "source": "https://github.com/endorlabs/ai-plugins/archive/2de00883bd2be8b8578b46ab09baf2c8731376de.tar.gz",
       "homepage": "https://www.endorlabs.com",
       "x-compozy": {
-        "category": "more",
+        "category": "security",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/ai-plugins"
@@ -130,7 +130,7 @@
       "source": "https://github.com/AikidoSec/aikido-claude-plugin/archive/8fdc995a44102a30ad54164e0bdd249d158c725c.tar.gz",
       "homepage": "https://github.com/AikidoSec/aikido-claude-plugin",
       "x-compozy": {
-        "category": "more",
+        "category": "security",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/aikido"
@@ -147,7 +147,7 @@
       "source": "./upstream/publishers/airtable",
       "homepage": "https://www.airtable.com",
       "x-compozy": {
-        "category": "productivity",
+        "category": "data",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/airtable"
@@ -165,7 +165,7 @@
       "source": "./upstream/publishers/airwallex-agentos",
       "homepage": "https://www.airwallex.com/docs",
       "x-compozy": {
-        "category": "productivity",
+        "category": "finance",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/airwallex-agentos"
@@ -182,7 +182,7 @@
       "source": "./upstream/publishers/airwallex-dev",
       "homepage": "https://www.airwallex.com/docs",
       "x-compozy": {
-        "category": "development",
+        "category": "finance",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/airwallex-dev"
@@ -264,7 +264,7 @@
       "source": "./upstream/publishers/amazon-location-service",
       "homepage": "https://github.com/awslabs/agent-plugins",
       "x-compozy": {
-        "category": "more",
+        "category": "development",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/amazon-location-service"
@@ -282,7 +282,7 @@
       "source": "https://github.com/amzn/selling-partner-agentic-toolkit/archive/10573bac239b7062a476667eaa574d400335c70e.tar.gz",
       "homepage": "https://github.com/amzn/selling-partner-agentic-toolkit",
       "x-compozy": {
-        "category": "productivity",
+        "category": "sales-marketing",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/amazon-selling-partner"
@@ -307,7 +307,7 @@
       ],
       "homepage": "https://developer.amd.com/",
       "x-compozy": {
-        "category": "development",
+        "category": "ai-agents",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/amd-skills"
@@ -321,7 +321,7 @@
       "category": "monitoring",
       "homepage": "https://github.com/amplitude/mcp-marketplace",
       "x-compozy": {
-        "category": "cloud",
+        "category": "data",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/amplitude"
@@ -338,7 +338,7 @@
       "source": "./upstream/publishers/apollo",
       "homepage": "https://www.apollo.io/",
       "x-compozy": {
-        "category": "productivity",
+        "category": "sales-marketing",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/apollo"
@@ -400,7 +400,7 @@
       "source": "https://github.com/astronomer/agents/archive/35b9610bb2710c37ca11326c4cbf7818b6725fec.tar.gz",
       "homepage": "https://github.com/astronomer/agents",
       "x-compozy": {
-        "category": "development",
+        "category": "data",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/astronomer-data-agents"
@@ -414,7 +414,7 @@
       "source": "https://github.com/atlanhq/agent-toolkit/archive/17b7ae3b4852a24a9271a55eb339dea0b38f1f60.tar.gz",
       "homepage": "https://docs.atlan.com/",
       "x-compozy": {
-        "category": "more",
+        "category": "data",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/atlan"
@@ -462,7 +462,7 @@
         "community-managed"
       ],
       "x-compozy": {
-        "category": "development",
+        "category": "ai-agents",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/atomic-agents"
@@ -494,7 +494,7 @@
       "source": "./upstream/publishers/aws-agents",
       "homepage": "https://github.com/aws/agent-toolkit-for-aws",
       "x-compozy": {
-        "category": "development",
+        "category": "ai-agents",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/aws-agents"
@@ -511,7 +511,7 @@
       "source": "./upstream/publishers/aws-agents-for-devsecops",
       "homepage": "https://github.com/aws/agent-toolkit-for-aws",
       "x-compozy": {
-        "category": "development",
+        "category": "security",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/aws-agents-for-devsecops"
@@ -547,7 +547,7 @@
       },
       "homepage": "https://github.com/aws/agent-toolkit-for-aws",
       "x-compozy": {
-        "category": "development",
+        "category": "cloud",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/aws-core"
@@ -564,7 +564,7 @@
       "source": "./upstream/publishers/aws-data-analytics",
       "homepage": "https://github.com/aws/agent-toolkit-for-aws",
       "x-compozy": {
-        "category": "development",
+        "category": "data",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/aws-data-analytics"
@@ -578,7 +578,7 @@
       "source": "./upstream/publishers/aws-serverless",
       "homepage": "https://github.com/awslabs/agent-plugins",
       "x-compozy": {
-        "category": "development",
+        "category": "cloud",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/aws-serverless"
@@ -600,7 +600,7 @@
       },
       "homepage": "https://github.com/aws/agent-toolkit-for-aws",
       "x-compozy": {
-        "category": "development",
+        "category": "cloud",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/aws-startup-advisor"
@@ -617,7 +617,7 @@
       "source": "./upstream/publishers/aws-transform",
       "homepage": "https://github.com/awslabs/agent-plugins",
       "x-compozy": {
-        "category": "more",
+        "category": "cloud",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/aws-transform"
@@ -710,7 +710,7 @@
         "ref": "43777fbdb9298ea8f5cbc001d18144e95346df93"
       },
       "x-compozy": {
-        "category": "more",
+        "category": "finance",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/bigdata-com"
@@ -740,7 +740,7 @@
       "source": "./upstream/anthropics/knowledge-work-plugins/bio-research",
       "description": "Connect to preclinical research tools and databases (literature search, genomics analysis, target prioritization) to accelerate early-stage life sciences R&D",
       "x-compozy": {
-        "category": "more",
+        "category": "research",
         "featured": false,
         "supersedes": []
       }
@@ -770,7 +770,7 @@
       "source": "./upstream/publishers/boltz",
       "homepage": "https://boltz.bio",
       "x-compozy": {
-        "category": "development",
+        "category": "research",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/boltz"
@@ -801,7 +801,7 @@
         "name": "Tribe AI"
       },
       "x-compozy": {
-        "category": "more",
+        "category": "sales-marketing",
         "featured": false,
         "supersedes": []
       }
@@ -813,7 +813,7 @@
       "source": "https://github.com/brightdata/skills/archive/37503c1ba31056370323a9d5ba88dd003a280008.tar.gz",
       "homepage": "https://docs.brightdata.com",
       "x-compozy": {
-        "category": "more",
+        "category": "data",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/brightdata-plugin"
@@ -833,7 +833,7 @@
       },
       "homepage": "https://browser-use.com",
       "x-compozy": {
-        "category": "more",
+        "category": "development",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/browser-use"
@@ -846,7 +846,7 @@
       "source": "https://github.com/Automattic/claude-code-wordpress.com/archive/052ca970df2c577d7c651e784935186ff93e6779.tar.gz",
       "homepage": "https://developer.wordpress.com/wordpress-com-claude-code-plugin/",
       "x-compozy": {
-        "category": "more",
+        "category": "development",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/build-with-wordpress"
@@ -915,7 +915,7 @@
       },
       "homepage": "https://carta.com",
       "x-compozy": {
-        "category": "productivity",
+        "category": "finance",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/carta-cap-table"
@@ -934,7 +934,7 @@
       },
       "homepage": "https://carta.com",
       "x-compozy": {
-        "category": "productivity",
+        "category": "sales-marketing",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/carta-crm"
@@ -953,7 +953,7 @@
       },
       "homepage": "https://carta.com",
       "x-compozy": {
-        "category": "productivity",
+        "category": "finance",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/carta-investors"
@@ -970,7 +970,7 @@
       "source": "https://github.com/catalystbyzoho/claude-plugin/archive/9670b79d72fe4923cc845ca0414d009ef3684ccb.tar.gz",
       "homepage": "https://catalyst.zoho.com/",
       "x-compozy": {
-        "category": "development",
+        "category": "cloud",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/catalyst-by-zoho"
@@ -1069,7 +1069,7 @@
       "source": "./upstream/publishers/circle-skills",
       "homepage": "https://www.circle.com",
       "x-compozy": {
-        "category": "development",
+        "category": "finance",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/circle-skills"
@@ -1156,7 +1156,7 @@
       "category": "productivity",
       "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/claude-code-setup",
       "x-compozy": {
-        "category": "productivity",
+        "category": "ai-agents",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/claude-code-setup"
@@ -1190,7 +1190,7 @@
       "category": "productivity",
       "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/claude-md-management",
       "x-compozy": {
-        "category": "productivity",
+        "category": "ai-agents",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/claude-md-management"
@@ -1230,7 +1230,7 @@
       },
       "homepage": "https://github.com/clay-run/agent-plugins/tree/main/clay",
       "x-compozy": {
-        "category": "productivity",
+        "category": "sales-marketing",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/clay"
@@ -1341,7 +1341,7 @@
       "source": "https://github.com/cloudinary-devs/cloudinary-plugin/archive/86be53409e3fb1c465cd5ff4d1dc937a2860f45c.tar.gz",
       "homepage": "https://cloudinary.com/documentation",
       "x-compozy": {
-        "category": "more",
+        "category": "design",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/cloudinary"
@@ -1354,7 +1354,7 @@
       "source": "https://github.com/cockroachdb/claude-plugin/archive/6c96c6394a61f366e8ec1b7cec2281e97507cbff.tar.gz",
       "homepage": "https://github.com/cockroachdb/claude-plugin",
       "x-compozy": {
-        "category": "more",
+        "category": "data",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/cockroachdb"
@@ -1390,7 +1390,7 @@
       "category": "productivity",
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/code-review",
       "x-compozy": {
-        "category": "productivity",
+        "category": "development",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/code-review"
@@ -1408,7 +1408,7 @@
       "category": "productivity",
       "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-simplifier",
       "x-compozy": {
-        "category": "productivity",
+        "category": "development",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/code-simplifier"
@@ -1422,7 +1422,7 @@
       "source": "https://github.com/coderabbitai/skills/archive/3e8763d24d543b48615b82535d02288de3ddae40.tar.gz",
       "homepage": "https://github.com/coderabbitai/skills",
       "x-compozy": {
-        "category": "productivity",
+        "category": "development",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/coderabbit"
@@ -1457,7 +1457,7 @@
       "category": "productivity",
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/commit-commands",
       "x-compozy": {
-        "category": "productivity",
+        "category": "development",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/commit-commands"
@@ -1473,7 +1473,7 @@
         "name": "Common Room"
       },
       "x-compozy": {
-        "category": "more",
+        "category": "sales-marketing",
         "featured": false,
         "supersedes": []
       }
@@ -1508,7 +1508,7 @@
         "community-managed"
       ],
       "x-compozy": {
-        "category": "development",
+        "category": "research",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/context7"
@@ -1544,7 +1544,7 @@
         "mcp"
       ],
       "x-compozy": {
-        "category": "data",
+        "category": "development",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/convex"
@@ -1557,7 +1557,7 @@
       "source": "./upstream/anthropics/knowledge-work-plugins/cowork-plugin-management",
       "description": "Create, customize, and manage plugins tailored to your organization's tools and workflows. Configure MCP servers, adjust plugin behavior, and adapt templates to match how your team works.",
       "x-compozy": {
-        "category": "more",
+        "category": "ai-agents",
         "featured": false,
         "supersedes": []
       }
@@ -1646,7 +1646,7 @@
       "source": "./upstream/anthropics/knowledge-work-plugins/customer-support",
       "description": "Triage tickets, draft responses, escalate issues, and build your knowledge base. Research customer context and turn resolved issues into self-service content.",
       "x-compozy": {
-        "category": "more",
+        "category": "communication",
         "featured": false,
         "supersedes": []
       }
@@ -1663,7 +1663,7 @@
       "category": "productivity",
       "homepage": "https://claude.com/cwc-makers",
       "x-compozy": {
-        "category": "productivity",
+        "category": "development",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/cwc-makers"
@@ -1707,7 +1707,7 @@
       "source": "https://github.com/astronomer/agents/archive/35b9610bb2710c37ca11326c4cbf7818b6725fec.tar.gz",
       "homepage": "https://github.com/astronomer/agents",
       "x-compozy": {
-        "category": "development",
+        "category": "data",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/data",
@@ -1725,7 +1725,7 @@
       "source": "https://github.com/GoogleCloudPlatform/data-agent-kit-plugin/archive/83c53b5f129cdeecabe149ff4ba82645d3e51745.tar.gz",
       "homepage": "https://cloud.google.com/products/data-agent-kit",
       "x-compozy": {
-        "category": "development",
+        "category": "data",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/data-agent-kit"
@@ -1825,7 +1825,7 @@
       "source": "https://github.com/datarobot-oss/datarobot-agent-skills/archive/53a4dacc6b55f4fe3ab4840829ebf2d1ea1477dc.tar.gz",
       "homepage": "https://datarobot.com",
       "x-compozy": {
-        "category": "development",
+        "category": "ai-agents",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/datarobot-agent-skills"
@@ -1857,7 +1857,7 @@
       "source": "https://github.com/confident-ai/deepeval/archive/da9b2c969f8a15e8aa4ef67c372157ce060cd63e.tar.gz",
       "homepage": "https://github.com/confident-ai/deepeval",
       "x-compozy": {
-        "category": "development",
+        "category": "ai-agents",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/deepeval"
@@ -1884,7 +1884,7 @@
       "source": "./upstream/anthropics/knowledge-work-plugins/design",
       "description": "Accelerate design workflows — critique, design system management, UX writing, accessibility audits, research synthesis, and dev handoff. From exploration to pixel-perfect specs.",
       "x-compozy": {
-        "category": "more",
+        "category": "design",
         "featured": false,
         "supersedes": []
       }
@@ -1926,7 +1926,7 @@
       "category": "productivity",
       "source": "./upstream/anthropics/claude-plugins-official/external_plugins/discord",
       "x-compozy": {
-        "category": "productivity",
+        "category": "communication",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/discord"
@@ -1943,7 +1943,7 @@
       "source": "https://github.com/dominodatalab/domino-claude-plugin/archive/7949e3ac470cf2f3b1c97a790c571032c844a5a3.tar.gz",
       "homepage": "https://www.domino.ai",
       "x-compozy": {
-        "category": "development",
+        "category": "ai-agents",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/dominodatalab"
@@ -2023,7 +2023,7 @@
       "source": "./upstream/anthropics/knowledge-work-plugins/engineering",
       "description": "Streamline engineering workflows — standups, code review, architecture decisions, incident response, and technical documentation. Works with your existing tools or standalone.",
       "x-compozy": {
-        "category": "more",
+        "category": "development",
         "featured": false,
         "supersedes": []
       }
@@ -2034,7 +2034,7 @@
       "source": "./upstream/anthropics/knowledge-work-plugins/enterprise-search",
       "description": "Search across all of your company's tools in one place. Find anything across email, chat, documents, and wikis without switching between apps.",
       "x-compozy": {
-        "category": "more",
+        "category": "productivity",
         "featured": false,
         "supersedes": []
       }
@@ -2047,7 +2047,7 @@
       "source": "https://github.com/exa-labs/exa-mcp-server/archive/15ffb50519e719dc791cdc750ce5ed1934c0a1ed.tar.gz",
       "homepage": "https://exa.ai/docs/reference/exa-mcp",
       "x-compozy": {
-        "category": "productivity",
+        "category": "research",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/exa"
@@ -2065,7 +2065,7 @@
       "category": "learning",
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/explanatory-output-style",
       "x-compozy": {
-        "category": "research",
+        "category": "more",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/explanatory-output-style"
@@ -2092,7 +2092,7 @@
       "category": "development",
       "source": "./upstream/anthropics/claude-plugins-official/external_plugins/fakechat",
       "x-compozy": {
-        "category": "development",
+        "category": "communication",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/fakechat"
@@ -2106,7 +2106,7 @@
       "source": "https://github.com/fastly/fastly-agent-toolkit/archive/6db70eaf54ba885d56091861224987d6cf06c429.tar.gz",
       "homepage": "https://github.com/fastly/fastly-agent-toolkit/blob/main/README.md",
       "x-compozy": {
-        "category": "more",
+        "category": "cloud",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/fastly-agent-toolkit"
@@ -2137,7 +2137,7 @@
       "source": "https://github.com/voxel51/fiftyone-skills/archive/8b87befcce6cfb86e73b4ccc1f692a0a2b6a4218.tar.gz",
       "homepage": "https://docs.voxel51.com/",
       "x-compozy": {
-        "category": "more",
+        "category": "ai-agents",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/fiftyone"
@@ -2165,7 +2165,7 @@
       "source": "./upstream/anthropics/knowledge-work-plugins/finance",
       "description": "Streamline finance and accounting workflows, from journal entries and reconciliation to financial statements and variance analysis. Speed up audit prep, month-end close, and keeping your books clean.",
       "x-compozy": {
-        "category": "more",
+        "category": "finance",
         "featured": false,
         "supersedes": []
       }
@@ -2177,7 +2177,7 @@
       "source": "./upstream/anthropics/claude-plugins-official/external_plugins/firebase",
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/firebase",
       "x-compozy": {
-        "category": "data",
+        "category": "cloud",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/firebase"
@@ -2191,7 +2191,7 @@
       "source": "./upstream/publishers/firecrawl",
       "homepage": "https://github.com/firecrawl/firecrawl-claude-plugin.git",
       "x-compozy": {
-        "category": "development",
+        "category": "research",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/firecrawl"
@@ -2243,7 +2243,7 @@
       "category": "development",
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/frontend-design",
       "x-compozy": {
-        "category": "development",
+        "category": "design",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/frontend-design"
@@ -2260,7 +2260,7 @@
       "source": "https://github.com/fullstorydev/fullstory-skills/archive/ca872d97f5c35dc41ee2eecfc6e392a5895ac171.tar.gz",
       "homepage": "https://www.fullstory.com",
       "x-compozy": {
-        "category": "cloud",
+        "category": "data",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/fullstory"
@@ -2275,7 +2275,7 @@
       "source": "./upstream/publishers/gc-ai",
       "homepage": "https://docs.gc.ai/api-reference/mcp/overview",
       "x-compozy": {
-        "category": "productivity",
+        "category": "finance",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/gc-ai"
@@ -2289,7 +2289,7 @@
       "source": "./upstream/anthropics/claude-plugins-official/external_plugins/github",
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/github",
       "x-compozy": {
-        "category": "productivity",
+        "category": "development",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/github"
@@ -2318,7 +2318,7 @@
       "source": "./upstream/anthropics/claude-plugins-official/external_plugins/gitlab",
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/gitlab",
       "x-compozy": {
-        "category": "productivity",
+        "category": "development",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/gitlab"
@@ -2380,7 +2380,7 @@
       "source": "https://github.com/GovTribe/claude-plugin/archive/41cb943db7f96e33f0255f46c882742cb92cb909.tar.gz",
       "homepage": "https://govtribe.com",
       "x-compozy": {
-        "category": "productivity",
+        "category": "sales-marketing",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/govtribe"
@@ -2442,7 +2442,7 @@
       "source": "https://github.com/grasp-ai/grasp-mcp-plugin/archive/41e742e87956a8921acb88f73fef06b4c3ec8d5d.tar.gz",
       "homepage": "https://www.grasp-ai.com/",
       "x-compozy": {
-        "category": "productivity",
+        "category": "finance",
         "featured": false,
         "supersedes": []
       }
@@ -2478,7 +2478,7 @@
       "source": "https://github.com/growthbook/skills/archive/7a84f338fe217b20641cdc5c01b5b37f0b950527.tar.gz",
       "homepage": "https://growthbook.io",
       "x-compozy": {
-        "category": "more",
+        "category": "development",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/growthbook"
@@ -2511,7 +2511,7 @@
       "category": "productivity",
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/hookify",
       "x-compozy": {
-        "category": "productivity",
+        "category": "development",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/hookify"
@@ -2541,7 +2541,7 @@
       "source": "./upstream/publishers/hubspot-sales",
       "homepage": "https://www.hubspot.com",
       "x-compozy": {
-        "category": "productivity",
+        "category": "sales-marketing",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/hubspot-sales"
@@ -2555,7 +2555,7 @@
       "source": "https://github.com/huggingface/skills/archive/c3ff942be3e07116b475253f0a8fc4f54682c1a8.tar.gz",
       "homepage": "https://github.com/huggingface/skills.git",
       "x-compozy": {
-        "category": "development",
+        "category": "ai-agents",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/huggingface-skills"
@@ -2568,7 +2568,7 @@
       "source": "./upstream/anthropics/knowledge-work-plugins/human-resources",
       "description": "Streamline people operations — recruiting, onboarding, performance reviews, compensation analysis, and policy guidance. Maintain compliance and keep your team running smoothly.",
       "x-compozy": {
-        "category": "more",
+        "category": "productivity",
         "featured": false,
         "supersedes": []
       }
@@ -2583,7 +2583,7 @@
       "source": "https://github.com/hunter-io/claude-plugin/archive/44f0f5689d2d5cc2de2470550225a16447cb9a80.tar.gz",
       "homepage": "https://hunter.io",
       "x-compozy": {
-        "category": "productivity",
+        "category": "sales-marketing",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/hunter"
@@ -2618,7 +2618,7 @@
       "source": "./upstream/publishers/idmp-plugin",
       "homepage": "https://github.com/taosdata/agent-skills",
       "x-compozy": {
-        "category": "development",
+        "category": "data",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/idmp-plugin"
@@ -2631,7 +2631,7 @@
       "category": "productivity",
       "source": "./upstream/anthropics/claude-plugins-official/external_plugins/imessage",
       "x-compozy": {
-        "category": "productivity",
+        "category": "communication",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/imessage"
@@ -2676,7 +2676,7 @@
       "source": "./upstream/publishers/intercom",
       "homepage": "https://github.com/intercom/claude-plugin-external",
       "x-compozy": {
-        "category": "productivity",
+        "category": "communication",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/intercom"
@@ -2737,7 +2737,7 @@
       "source": "https://github.com/jfrog/claude-plugin/archive/9b1f8f6c883522a87502e5155abd593a8befe3c5.tar.gz",
       "homepage": "https://jfrog.com",
       "x-compozy": {
-        "category": "security",
+        "category": "development",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/jfrog"
@@ -2813,7 +2813,7 @@
       "source": "https://github.com/langfuse/skills/archive/b86532b77f16f1e27c7cffa32bb632aa3cd9a352.tar.gz",
       "homepage": "https://langfuse.com",
       "x-compozy": {
-        "category": "cloud",
+        "category": "ai-agents",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/langfuse"
@@ -2830,7 +2830,7 @@
       "source": "https://github.com/langfuse/claude-observability-plugin/archive/b5211009698fdfe79c6bbe90d6901ad255ea65d3.tar.gz",
       "homepage": "https://langfuse.com/integrations/other/claude-code",
       "x-compozy": {
-        "category": "cloud",
+        "category": "ai-agents",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/langfuse-observability"
@@ -2859,7 +2859,7 @@
       "source": "./upstream/publishers/leadfeeder",
       "homepage": "https://www.leadfeeder.com",
       "x-compozy": {
-        "category": "productivity",
+        "category": "sales-marketing",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/leadfeeder"
@@ -2900,7 +2900,7 @@
       "category": "learning",
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/learning-output-style",
       "x-compozy": {
-        "category": "research",
+        "category": "more",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/learning-output-style"
@@ -2913,7 +2913,7 @@
       "source": "./upstream/anthropics/knowledge-work-plugins/legal",
       "description": "Speed up contract review, NDA triage, and compliance workflows for in-house legal teams. Draft legal briefs, organize precedent research, and manage institutional knowledge.",
       "x-compozy": {
-        "category": "more",
+        "category": "finance",
         "featured": false,
         "supersedes": []
       }
@@ -2930,7 +2930,7 @@
       },
       "homepage": "https://www.legalzoom.com/",
       "x-compozy": {
-        "category": "productivity",
+        "category": "finance",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/legalzoom"
@@ -2961,7 +2961,7 @@
       "source": "./upstream/publishers/linq-alpha",
       "homepage": "https://www.linqalpha.com",
       "x-compozy": {
-        "category": "productivity",
+        "category": "finance",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/linq-alpha"
@@ -3044,7 +3044,7 @@
       },
       "homepage": "https://logrocket.com",
       "x-compozy": {
-        "category": "cloud",
+        "category": "data",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/logrocket"
@@ -3162,7 +3162,7 @@
       "source": "https://github.com/lusha-oss/lusha-mcp-plugin/archive/4bcf5c743d5799d7c02727dd991585208f7a47b1.tar.gz",
       "homepage": "https://www.lusha.com",
       "x-compozy": {
-        "category": "productivity",
+        "category": "sales-marketing",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/lusha"
@@ -3191,7 +3191,7 @@
       "source": "https://github.com/mapbox/mapbox-agent-skills/archive/f71cd72b8d8937b06db440538bd65559eb792c49.tar.gz",
       "homepage": "https://www.mapbox.com",
       "x-compozy": {
-        "category": "more",
+        "category": "development",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/mapbox"
@@ -3204,7 +3204,7 @@
       "source": "./upstream/anthropics/knowledge-work-plugins/marketing",
       "description": "Create content, plan campaigns, and analyze performance across marketing channels. Maintain brand voice consistency, track competitors, and report on what's working.",
       "x-compozy": {
-        "category": "more",
+        "category": "sales-marketing",
         "featured": false,
         "supersedes": []
       }
@@ -3275,7 +3275,7 @@
       },
       "homepage": "https://mavenbio.com/mcp/docs",
       "x-compozy": {
-        "category": "productivity",
+        "category": "research",
         "featured": false,
         "supersedes": []
       }
@@ -3343,7 +3343,7 @@
       "source": "./upstream/publishers/mercadopago",
       "homepage": "https://github.com/mercadopago/mercadopago-claude-marketplace/tree/main/plugins/mercadopago",
       "x-compozy": {
-        "category": "development",
+        "category": "finance",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/mercadopago"
@@ -3374,7 +3374,7 @@
       "source": "https://github.com/MicrosoftDocs/mcp/archive/f0a9478a954c9b3a7c6525a5183466902ca60731.tar.gz",
       "homepage": "https://github.com/microsoftdocs/mcp",
       "x-compozy": {
-        "category": "development",
+        "category": "research",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/microsoft-docs"
@@ -3396,7 +3396,7 @@
       },
       "homepage": "https://github.com/awslabs/startups",
       "x-compozy": {
-        "category": "development",
+        "category": "cloud",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/migration-to-aws"
@@ -3427,7 +3427,7 @@
       },
       "source": "./upstream/publishers/miro",
       "x-compozy": {
-        "category": "more",
+        "category": "design",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/miro"
@@ -3444,7 +3444,7 @@
       "source": "https://github.com/mlflow/skills/archive/51a42ea2b07fadb45fb34c7cecf0c87edbe05686.tar.gz",
       "homepage": "https://mlflow.org/",
       "x-compozy": {
-        "category": "cloud",
+        "category": "ai-agents",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/mlflow"
@@ -3487,7 +3487,7 @@
       "source": "./upstream/publishers/monday-crm",
       "homepage": "https://monday.com",
       "x-compozy": {
-        "category": "productivity",
+        "category": "sales-marketing",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/monday-crm"
@@ -3546,7 +3546,7 @@
       "source": "https://github.com/netlify/context-and-tools/archive/dc9ebf1b994420a4791e9d5d7cd68f62e07a0a41.tar.gz",
       "homepage": "https://github.com/netlify/context-and-tools",
       "x-compozy": {
-        "category": "development",
+        "category": "cloud",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/netlify-skills"
@@ -3566,7 +3566,7 @@
       },
       "homepage": "https://github.com/oracle/netsuite-suitecloud-sdk/tree/ai-plugins-dist/anthropic/netsuite-ai-companion",
       "x-compozy": {
-        "category": "productivity",
+        "category": "finance",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/netsuite-ai-companion"
@@ -3586,7 +3586,7 @@
       },
       "homepage": "https://github.com/oracle/netsuite-suitecloud-sdk/tree/ai-plugins-dist/anthropic/netsuite-finance-analyst",
       "x-compozy": {
-        "category": "productivity",
+        "category": "finance",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/netsuite-finance-analyst"
@@ -3639,7 +3639,7 @@
       "source": "./upstream/publishers/nightvision",
       "homepage": "https://github.com/nvsecurity/nightvision-skills",
       "x-compozy": {
-        "category": "more",
+        "category": "security",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/nightvision"
@@ -3653,7 +3653,7 @@
       "source": "https://github.com/Nimbleway/agent-skills/archive/fdb077c7220ae19bddfc2a35cf6eb70cbf4577ef.tar.gz",
       "homepage": "https://docs.nimbleway.com/integrations/agent-skills/plugin-installation",
       "x-compozy": {
-        "category": "more",
+        "category": "data",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/nimble"
@@ -3704,7 +3704,7 @@
       },
       "homepage": "https://build.nvidia.com/skills/",
       "x-compozy": {
-        "category": "development",
+        "category": "ai-agents",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/nvidia-skills"
@@ -3717,7 +3717,7 @@
       "source": "./upstream/anthropics/knowledge-work-plugins/operations",
       "description": "Optimize business operations — vendor management, process documentation, change management, capacity planning, and compliance tracking. Keep your organization running efficiently.",
       "x-compozy": {
-        "category": "more",
+        "category": "productivity",
         "featured": false,
         "supersedes": []
       }
@@ -3732,7 +3732,7 @@
       "source": "./upstream/publishers/oracle-ai-data-platform-workbench-databricks-migrator",
       "homepage": "https://docs.oracle.com/en/cloud/paas/ai-data-platform/index.html",
       "x-compozy": {
-        "category": "development",
+        "category": "data",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/oracle-ai-data-platform-workbench-databricks-migrator"
@@ -3749,7 +3749,7 @@
       "source": "./upstream/publishers/oracle-ai-data-platform-workbench-engineer-agent",
       "homepage": "https://docs.oracle.com/en/cloud/paas/ai-data-platform/index.html",
       "x-compozy": {
-        "category": "development",
+        "category": "data",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/oracle-ai-data-platform-workbench-engineer-agent"
@@ -3766,7 +3766,7 @@
       "source": "./upstream/publishers/oracle-ai-data-platform-workbench-spark-connectors",
       "homepage": "https://docs.oracle.com/en/cloud/paas/ai-data-platform/index.html",
       "x-compozy": {
-        "category": "development",
+        "category": "data",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/oracle-ai-data-platform-workbench-spark-connectors"
@@ -3800,7 +3800,7 @@
       "source": "./upstream/publishers/outputai",
       "homepage": "https://output.ai",
       "x-compozy": {
-        "category": "development",
+        "category": "ai-agents",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/outputai"
@@ -3831,7 +3831,7 @@
       "source": "https://github.com/paypal/AI-Toolkit/archive/5dce83d8243f87eb37ac7cbd6711bc090fe042f8.tar.gz",
       "homepage": "https://developer.paypal.com/",
       "x-compozy": {
-        "category": "development",
+        "category": "finance",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/paypal"
@@ -3844,7 +3844,7 @@
       "source": "./upstream/anthropics/knowledge-work-plugins/pdf-viewer",
       "description": "View, annotate, and sign PDFs in a live interactive viewer. Mark up contracts, fill forms with visual feedback, stamp approvals, and place signatures — then download the annotated copy.",
       "x-compozy": {
-        "category": "more",
+        "category": "productivity",
         "featured": false,
         "supersedes": []
       }
@@ -3860,7 +3860,7 @@
       "source": "./upstream/publishers/pendo-analytics",
       "homepage": "https://www.pendo.io",
       "x-compozy": {
-        "category": "productivity",
+        "category": "data",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/pendo-analytics"
@@ -3878,7 +3878,7 @@
       "source": "./upstream/publishers/pendo-guides",
       "homepage": "https://www.pendo.io",
       "x-compozy": {
-        "category": "productivity",
+        "category": "sales-marketing",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/pendo-guides"
@@ -3896,7 +3896,7 @@
       "source": "./upstream/publishers/pendo-orchestrate",
       "homepage": "https://www.pendo.io",
       "x-compozy": {
-        "category": "productivity",
+        "category": "sales-marketing",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/pendo-orchestrate"
@@ -3943,7 +3943,7 @@
       "source": "https://github.com/gopigment/ai-plugins/archive/8a2c2d734f945c8450521c55dafd7f83f033fe53.tar.gz",
       "homepage": "https://www.pigment.com",
       "x-compozy": {
-        "category": "productivity",
+        "category": "data",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/pigment"
@@ -3972,7 +3972,7 @@
       "source": "https://github.com/pixeltable/pixeltable-skill/archive/c471dbb262b6bc135e903fefd36c6f354101c6b8.tar.gz",
       "homepage": "https://docs.pixeltable.com",
       "x-compozy": {
-        "category": "development",
+        "category": "data",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/pixeltable"
@@ -4019,7 +4019,7 @@
       "source": "./upstream/anthropics/claude-plugins-official/external_plugins/playwright",
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/playwright",
       "x-compozy": {
-        "category": "more",
+        "category": "development",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/playwright"
@@ -4051,7 +4051,7 @@
       "source": "https://github.com/PostHog/ai-plugin/archive/e0fbf5e742fb4242c4ea509b395b2e343642f0b7.tar.gz",
       "homepage": "https://posthog.com/docs/model-context-protocol",
       "x-compozy": {
-        "category": "cloud",
+        "category": "data",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/posthog"
@@ -4065,7 +4065,7 @@
       "source": "https://github.com/gitroomhq/postiz-agent/archive/86e02524377cc60a6cd6ef67fd10a3caeade8d2c.tar.gz",
       "homepage": "https://postiz.com/agent",
       "x-compozy": {
-        "category": "more",
+        "category": "sales-marketing",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/postiz"
@@ -4097,7 +4097,7 @@
       "category": "productivity",
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/pr-review-toolkit",
       "x-compozy": {
-        "category": "productivity",
+        "category": "development",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/pr-review-toolkit"
@@ -4128,7 +4128,7 @@
       "source": "https://github.com/prisma/claude-plugin/archive/82edd74d81892bcccf7294cbbf76752d76391da5.tar.gz",
       "homepage": "https://prisma.io",
       "x-compozy": {
-        "category": "more",
+        "category": "data",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/prisma"
@@ -4141,7 +4141,7 @@
       "source": "./upstream/anthropics/knowledge-work-plugins/product-management",
       "description": "Write feature specs, plan roadmaps, and synthesize user research faster. Keep stakeholders updated and stay ahead of the competitive landscape.",
       "x-compozy": {
-        "category": "more",
+        "category": "productivity",
         "featured": false,
         "supersedes": []
       }
@@ -4153,7 +4153,7 @@
       "source": "https://github.com/Accoil/product-tracking-skills/archive/6846aa32f2c3e97f2e74628c5ae669e039c6cc47.tar.gz",
       "homepage": "https://www.accoil.com/product-tracking",
       "x-compozy": {
-        "category": "more",
+        "category": "data",
         "featured": false,
         "supersedes": []
       }
@@ -4164,7 +4164,7 @@
       "source": "./upstream/anthropics/knowledge-work-plugins/productivity",
       "description": "Manage tasks, plan your day, and build up memory of important context about your work. Syncs with your calendar, email, and chat to keep everything organized and on track.",
       "x-compozy": {
-        "category": "more",
+        "category": "productivity",
         "featured": false,
         "supersedes": []
       }
@@ -4194,7 +4194,7 @@
       "source": "./upstream/publishers/pydantic-ai",
       "homepage": "https://github.com/pydantic/skills/tree/main/plugins/ai",
       "x-compozy": {
-        "category": "development",
+        "category": "ai-agents",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/pydantic-ai"
@@ -4334,7 +4334,7 @@
       "category": "development",
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/ralph-loop",
       "x-compozy": {
-        "category": "development",
+        "category": "ai-agents",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/ralph-loop"
@@ -4348,7 +4348,7 @@
       "source": "./upstream/publishers/rc",
       "homepage": "https://www.revenuecat.com",
       "x-compozy": {
-        "category": "development",
+        "category": "finance",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/rc",
@@ -4397,7 +4397,7 @@
       "source": "https://github.com/Digital-Process-Tools/claude-remember/archive/ccd45061ee4b0dcf0a8245ca1d344ab61d4e110b.tar.gz",
       "homepage": "https://github.com/Digital-Process-Tools/claude-remember",
       "x-compozy": {
-        "category": "more",
+        "category": "ai-agents",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/remember"
@@ -4449,7 +4449,7 @@
       "source": "./upstream/publishers/rill",
       "homepage": "https://docs.rilldata.com/developers/build/ai-configuration",
       "x-compozy": {
-        "category": "development",
+        "category": "data",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/rill"
@@ -4556,7 +4556,7 @@
       "source": "./upstream/publishers/sagemaker-ai",
       "homepage": "https://github.com/awslabs/agent-plugins",
       "x-compozy": {
-        "category": "development",
+        "category": "ai-agents",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/sagemaker-ai"
@@ -4569,7 +4569,7 @@
       "source": "./upstream/anthropics/knowledge-work-plugins/sales",
       "description": "Prep calls, summarize and follow up, research accounts, review deals and pipeline, and write the forecast, using the CRM, email, calendar and chat tools your team already uses, or uploaded files. Updates records, drafts or sends email, posts to chat and books meetings when you ask.",
       "x-compozy": {
-        "category": "more",
+        "category": "sales-marketing",
         "featured": false,
         "supersedes": []
       }
@@ -4686,7 +4686,7 @@
       "source": "./upstream/publishers/save-to-spotify",
       "homepage": "https://github.com/spotify/save-to-spotify",
       "x-compozy": {
-        "category": "productivity",
+        "category": "design",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/save-to-spotify"
@@ -4718,7 +4718,7 @@
       "source": "https://github.com/searchfit/searchfit-seo/archive/c324a2e87c4dd84fe6bd6d55e45272acdd090afd.tar.gz",
       "homepage": "https://searchfit.ai",
       "x-compozy": {
-        "category": "more",
+        "category": "sales-marketing",
         "featured": false,
         "supersedes": []
       }
@@ -4852,7 +4852,7 @@
       "source": "./upstream/publishers/setup-agent-analytics",
       "homepage": "https://github.com/pendo-io/claude-pendo-plugin/tree/main/plugins/setup-agent-analytics",
       "x-compozy": {
-        "category": "development",
+        "category": "ai-agents",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/setup-agent-analytics"
@@ -4869,7 +4869,7 @@
       "source": "./upstream/publishers/setup-mcp-agent-analytics",
       "homepage": "https://github.com/pendo-io/claude-pendo-plugin/tree/main/plugins/setup-mcp-agent-analytics",
       "x-compozy": {
-        "category": "development",
+        "category": "ai-agents",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/setup-mcp-agent-analytics"
@@ -4934,7 +4934,7 @@
       "category": "development",
       "homepage": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/skill-creator",
       "x-compozy": {
-        "category": "development",
+        "category": "ai-agents",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/skill-creator"
@@ -4964,7 +4964,7 @@
         "name": "Salesforce"
       },
       "x-compozy": {
-        "category": "more",
+        "category": "communication",
         "featured": false,
         "supersedes": []
       }
@@ -4975,7 +4975,7 @@
       "source": "./upstream/anthropics/knowledge-work-plugins/small-business",
       "description": "Pre-built small business workflows to help you run and grow your business. Supports a majority of the tools you already use. You approve every step that touches money or customers. Install and then ask Claude to help you get onboarded.",
       "x-compozy": {
-        "category": "more",
+        "category": "productivity",
         "featured": false,
         "supersedes": []
       }
@@ -4990,7 +4990,7 @@
       "source": "./upstream/publishers/snowflake-cortex-code",
       "homepage": "https://docs.snowflake.com/en/user-guide/cortex-code",
       "x-compozy": {
-        "category": "development",
+        "category": "data",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/snowflake-cortex-code"
@@ -5079,7 +5079,7 @@
       "source": "https://github.com/spotify/ads-claude-plugin/archive/532b47af3d2eb10708b38733d07a5b1433c17e82.tar.gz",
       "homepage": "https://github.com/spotify/ads-claude-plugin",
       "x-compozy": {
-        "category": "productivity",
+        "category": "sales-marketing",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/spotify-ads-api"
@@ -5126,7 +5126,7 @@
       "source": "https://github.com/confluentinc/agent-skills/archive/204b36f10e9be41819557988e8f5291711fda986.tar.gz",
       "homepage": "https://www.confluent.io",
       "x-compozy": {
-        "category": "development",
+        "category": "data",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/streaming-skills-plugin"
@@ -5154,7 +5154,7 @@
       "source": "https://github.com/sumup/sumup-skills/archive/6922c7052ae9d0be834f27361b785bd80e0829cc.tar.gz",
       "homepage": "https://www.sumup.com/",
       "x-compozy": {
-        "category": "development",
+        "category": "finance",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/sumup"
@@ -5199,7 +5199,7 @@
       "source": "https://github.com/obra/superpowers/archive/bb92a77741419a4ab5f06e711a283343f1ada0c3.tar.gz",
       "homepage": "https://github.com/obra/superpowers.git",
       "x-compozy": {
-        "category": "development",
+        "category": "ai-agents",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/superpowers"
@@ -5241,7 +5241,7 @@
       "source": "./upstream/publishers/synthflow",
       "homepage": "https://synthflow.ai",
       "x-compozy": {
-        "category": "more",
+        "category": "ai-agents",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/synthflow"
@@ -5256,7 +5256,7 @@
       "source": "https://github.com/tavily-ai/skills/archive/778122e5f9c680f541eeceda5a5b36405eb7980c.tar.gz",
       "homepage": "https://www.tavily.com/",
       "x-compozy": {
-        "category": "development",
+        "category": "research",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/tavily"
@@ -5273,7 +5273,7 @@
       "source": "https://github.com/JetBrains/teamcity-cli/archive/ac6c1fd83300b2e42df48fcfff365ba03f73bb92.tar.gz",
       "homepage": "https://www.jetbrains.com/teamcity/",
       "x-compozy": {
-        "category": "development",
+        "category": "cloud",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/teamcity-cli"
@@ -5286,7 +5286,7 @@
       "category": "productivity",
       "source": "./upstream/anthropics/claude-plugins-official/external_plugins/telegram",
       "x-compozy": {
-        "category": "productivity",
+        "category": "communication",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/telegram"
@@ -5304,7 +5304,7 @@
       "source": "./upstream/anthropics/claude-plugins-official/external_plugins/terraform",
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/terraform",
       "x-compozy": {
-        "category": "development",
+        "category": "cloud",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/terraform"
@@ -5319,7 +5319,7 @@
       "source": "./upstream/publishers/tinyfish",
       "homepage": "https://docs.tinyfish.ai",
       "x-compozy": {
-        "category": "more",
+        "category": "research",
         "featured": false,
         "supersedes": []
       }
@@ -5334,7 +5334,7 @@
       "source": "https://github.com/togethercomputer/skills/archive/644d38225bbdef0318462fe222f6f9883c8addcd.tar.gz",
       "homepage": "https://www.together.ai",
       "x-compozy": {
-        "category": "development",
+        "category": "ai-agents",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/togetherai-skills"
@@ -5351,7 +5351,7 @@
       "source": "https://github.com/twilio/ai/archive/803790a281f0ef11d2928ffb41bc8422237fb434.tar.gz",
       "homepage": "https://www.twilio.com",
       "x-compozy": {
-        "category": "development",
+        "category": "communication",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/twilio-developer-kit"
@@ -5596,7 +5596,7 @@
       "source": "https://github.com/explorium-ai/vibeprospecting-plugin/archive/ca43f6d92395462d8915dc31364bbce6a83e4006.tar.gz",
       "homepage": "https://www.vibeprospecting.ai/product/claude-plugin",
       "x-compozy": {
-        "category": "productivity",
+        "category": "sales-marketing",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/vibe-prospecting"
@@ -5642,7 +5642,7 @@
       "source": "./upstream/publishers/windsor-ai",
       "homepage": "https://windsor.ai",
       "x-compozy": {
-        "category": "productivity",
+        "category": "data",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/windsor-ai"
@@ -5708,7 +5708,7 @@
       "source": "https://github.com/youdotcom-oss/agent-skills/archive/a692b6f34fac566c72bc7fcc6cafbd7c0f7889c1.tar.gz",
       "homepage": "https://you.com",
       "x-compozy": {
-        "category": "productivity",
+        "category": "research",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/youdotcom-agent-skills"
@@ -5783,7 +5783,7 @@
       "source": "https://github.com/Zoominfo/zoominfo-mcp-plugin/archive/31a1ec506078e0aaf4e14e098e39865f32777d8a.tar.gz",
       "homepage": "https://zoominfo.com",
       "x-compozy": {
-        "category": "more",
+        "category": "sales-marketing",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/zoominfo"
@@ -5817,7 +5817,7 @@
       "source": "https://github.com/zytedata/claude-skills/archive/d03e241729ebc3bf397e4303d654e8189b9e8185.tar.gz",
       "homepage": "https://www.zyte.com",
       "x-compozy": {
-        "category": "more",
+        "category": "data",
         "featured": false,
         "supersedes": [
           "claude-plugins-official/zyte-web-data"

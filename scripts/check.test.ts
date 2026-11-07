@@ -5,7 +5,7 @@ import { validate } from './check';
 const entry={name:'fixture',source:{source:'url',url:'https://github.com/example/plugin',ref:'a'.repeat(40)},'x-compozy':{category:'productivity',featured:true,supersedes:['claude-plugins-official/fixture']}};
 const doc=(p:any)=>({name:'compozy-plugins',plugins:[p]});
 const lock={officialNames:['fixture']};
-const curation={featured:{fixture:'productivity'},registry:[]};
+const curation={featured:{fixture:'productivity'},registry:[],categories:{fixture:'productivity'}};
 test('accepts immutable repository sources',()=>expect(()=>validate(doc(entry),lock,'.',curation)).not.toThrow());
 test('rejects mutable repository refs',()=>expect(()=>validate(doc({...entry,source:{...entry.source,ref:'main'}}),lock,'.',curation)).toThrow('unpinned'));
 test('reports dangling supersedes',()=>expect(()=>validate(doc(entry),{officialNames:[]},'.',curation)).toThrow('dangling supersede'));
@@ -34,4 +34,21 @@ test('accepts a SHA-pinned publisher archive without requiring vendoring rights'
 });
 test('rejects branch archive sources',()=>{
  expect(()=>validate(doc({...entry,source:'https://github.com/example/plugin/archive/main.tar.gz'}),lock,'.',curation)).toThrow('unpinned archive');
+});
+
+// Invariant: every published app has an explicit category and candidate review remains bounded.
+// Owner: catalog generation; canonical suite: check.test.ts.
+import { reviewedCategory } from './check';
+import { reviewCandidates } from './registry';
+test('rejects a category absent from the reviewed per-entry table',()=>{
+ expect(()=>reviewedCategory('unknown',curation.categories)).toThrow('missing reviewed category');
+ expect(()=>validate(doc(entry),lock,'.',{...curation,categories:{}})).toThrow('missing reviewed category');
+});
+test('rejects a published category that differs from explicit review',()=>{
+ expect(()=>validate(doc({...entry,'x-compozy':{...entry['x-compozy'],category:'more'}}),lock,'.',curation)).toThrow('category differs from reviewed table');
+});
+test('keeps only deduplicated explicitly reviewed recognizable candidates',()=>{
+ const known={registryName:'com.vendor/mcp',version:'1'},unknown={registryName:'ai.unknown/spam',version:'1'};
+ const selected=reviewCandidates([known,unknown,known],[{server:'com.vendor/mcp',app:'Vendor',publisher:'Vendor'}]);
+ expect(selected.map(c=>c.registryName)).toEqual(['com.vendor/mcp']);
 });

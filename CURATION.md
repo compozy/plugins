@@ -4,8 +4,9 @@
 require an explicit reviewed edit. No name or description substring can admit a Registry record.
 The complete latest-version traversal examined 58,175 server identities across 582 pages. Twenty-one
 records matched reviewed publishers/endpoints; six were missing from the Anthropic catalog after
-name/endpoint deduplication. The remaining records, including reviewed apps already covered by an
-upstream entry, are retained as candidates rather than copied into plugin directories.
+name/endpoint deduplication. Raw traversal records remain in the gitignored cache. The small checked-in review queue contains
+only six explicitly selected, recognizable Microsoft apps not admitted to the catalog; records
+already covered by an upstream app are not review candidates.
 
 ## Every generated Registry wrapper
 
@@ -34,9 +35,11 @@ OAuth authorization or functional service test.
 | Slack | `communication` | Publisher `slackapi/slack-mcp-plugin` at locked SHA | Team messaging |
 | Stripe | `finance` | Publisher `stripe/ai`, `providers/claude/plugin`, at locked SHA | Payments |
 
-Unknown upstream categories now resolve to `more`. Description mentions of AI, agents, chat,
-video or sales never determine a category. Reviewed Registry categories and featured overrides
-are asserted by `bun run check`; pagination and admission boundaries have focused unit coverage.
+Every entry is now assigned explicitly in `categories.json`, including upstream entries, Registry
+wrappers and featured apps. `CATEGORY_REPORT.md` lists all 352 assignments. Missing reviews fail
+generation; no upstream category, description or fallback can supply one. Only the two output styles
+and two mathematics plugins are reviewed as `more`. `bun run check` verifies the table, Registry
+categories and featured overrides; pagination, admission and category boundaries have focused tests.
 
 Runtime spot-check: the real refresh acquired the featured publisher packages. Notion is currently
 blocked by the loader rejecting its uppercase manifest name; Slack is blocked by the loader rejecting

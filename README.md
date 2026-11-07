@@ -10,12 +10,13 @@ Requires Bun 1.4+, Git, curl and tar. No dependencies to install.
 ```sh
 bun run generate            # reproduce from sources.lock.json (downloads pinned upstream archives)
 bun run generate --refresh  # resolve current upstream commits and refresh MCP Registry records
+bun run generate --metadata-only # apply reviewed category/candidate edits without network or package changes
 bun run check
 bun test scripts/check.test.ts
 ```
 
 Review the marketplace and lock-file diff before committing. The generator fails on mutable
-repository refs, invalid categories, duplicate names, dangling supersedes or more than 1,000
+repository refs, missing reviewed categories, invalid categories, duplicate names, dangling supersedes or more than 1,000
 entries. It prints category counts, featured names and supersede totals. `.cache/` is disposable
 and ignored. The lock records upstream commits, each external plugin commit, and content hashes
 plus versions and exact URLs for generated remote wrappers. Relative sources are pinned by the
@@ -36,7 +37,9 @@ catalog repository commit; select that commit when requiring an immutable catalo
   cutoff. Only active latest records matching an exact namespace, server identity and HTTPS endpoint
   in `curation.json` may be wrapped. That file also owns each wrapper's category and every featured
   app's category. Namespace verification establishes publisher control, not a security audit.
-  All other records remain in `candidates.json` for review; they never become plugin directories.
+  Raw traversal pages and unselected records remain under gitignored `.cache/`. Only exact
+  recognizable-publisher candidates selected in `curation.json.registryReview` enter the small
+  `candidates.json` review queue; they never become plugin directories.
   Locked regeneration reuses the completed scan's selected records; `--refresh-registry` performs
   a new full traversal without changing the pinned Anthropic revisions.
 - Candidate sources in `candidates.json` are review inputs only. No OpenAI or Cursor catalog
@@ -45,8 +48,9 @@ catalog repository commit; select that commit when requiring an immutable catalo
 
 Duplicate repository/subdirectory identities and names collapse; publisher repositories inherited
 from the upstream catalogs take precedence over remote wrappers. A curated row that overlaps the
-Claude official catalog supersedes its original row. Categories use ADR-001's 12 IDs. Reviewed upstream metadata and aliases determine categories;
-unknown categories fall back to `more`, with no name/description inference. Featured is an explicit
+Claude official catalog supersedes its original row. Every entry has a reviewed assignment in `categories.json` using ADR-001's 12 IDs; generation
+fails when an entry is missing. See `CATEGORY_REPORT.md` for all 352 assignments and counts.
+No upstream label or description supplies a fallback. Featured is an explicit
 small selection in `curation.json`. See `CURATION.md` for the per-app review.
 
 Unsupported upstream source kinds (currently Xcode's `command` source) are reported and excluded.

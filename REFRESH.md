@@ -2,8 +2,8 @@
 
 The S7 repair admits MCP Registry wrappers only through `curation.json`, which fixes the exact
 publisher namespace, server ID, endpoint and category. A full traversal (582 pages, 58,175 identities)
-matched 21 reviewed records; after upstream deduplication, six wrappers remain. Unknown upstream
-categories fall back to `more`. The six featured categories are explicit reviewed overrides.
+matched 21 reviewed records; after upstream deduplication, six wrappers remain. Every entry now has an explicit reviewed category in `categories.json`; no fallback is permitted.
+The complete assignments and current counts are in `CATEGORY_REPORT.md`.
 
 ## Real measurement (2026-11-07)
 
@@ -71,3 +71,11 @@ An intermediate optimization measured 56.329830459 seconds / 310 acquired / 280 
 budget exhaustion, but its directory-inclusive snapshot node count exceeded the source quota.
 The final generation counts both directories and files and reserves quota before copying packages.
 The intermediate sample remains in `refresh-measurement.json`; it was not discarded from the evidence.
+
+## Metadata-only review follow-up
+
+Round 3 reviewed all 352 categories and reduced `candidates.json` to six recognizable publisher
+records plus the four ADR-002 discovery feeds. Raw traversal data stays in gitignored `.cache/`.
+The package sources, versions, plugin bytes and source lock remain unchanged from the final
+measurement. No network measurement was repeated for these editorial metadata changes. Historical
+measurement hashes above identify the measured revision, not the recategorized document.

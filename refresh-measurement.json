@@ -36,7 +36,8 @@
     "Each run created a new empty package cache and checkout root, used PluginSource.Fetch, PluginProjector and extensionpkg.InspectPluginPackage, and removed the temporary root on exit.",
     "Limits remained four resolvers, 1000 projected entries and a 600-second budget.",
     "The optimized run inherited a GitHub unauthenticated API quota exhausted by the baseline; no credentials were supplied.",
-    "An intermediate optimized candidate was reworked because its directory-inclusive node count exceeded the shared source snapshot limit. The final snapshot counts include directories."
+    "An intermediate optimized candidate was reworked because its directory-inclusive node count exceeded the shared source snapshot limit. The final snapshot counts include directories.",
+    "Round 3 changed reviewed category and candidate metadata only; all 352 package source references were compared unchanged to the measured revision. No network measurement was repeated. Current category counts are in CATEGORY_REPORT.md."
   ],
   "intermediateBeforeDirectoryQuota": {
     "acquired": 310,

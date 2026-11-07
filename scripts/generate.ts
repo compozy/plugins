@@ -1,11 +1,12 @@
 import { mkdirSync, cpSync, existsSync, readFileSync, readdirSync, rmSync } from 'node:fs';
 import { resolve, join } from 'node:path';
-import { validate, categories, checkSnapshotQuota } from './check';
-import { readRegistry } from './registry';
+import { validate, checkSnapshotQuota, reviewedCategory } from './check';
+import { readRegistry, reviewCandidates } from './registry';
 import { vendorEntries } from './vendor';
 const root=resolve(import.meta.dir,'..');
 const refresh=process.argv.includes('--refresh');
 const curation=await Bun.file(join(root,'curation.json')).json();
+curation.categories=await Bun.file(join(root,'categories.json')).json();
 const upstreams=['anthropics/knowledge-work-plugins','anthropics/claude-plugins-official'];
 const lockPath=join(root,'sources.lock.json');
 const lock:any=existsSync(lockPath) && !refresh ? JSON.parse(readFileSync(lockPath,'utf8')) : {upstreams:{},entries:{},registry:[],officialNames:[]};
@@ -22,10 +23,17 @@ async function checkout(repo:string,commit:string){
  }
  return dest;
 }
-const aliases:any={database:'data',analytics:'data',monitoring:'cloud',devops:'cloud',deployment:'cloud',infrastructure:'cloud',sales:'sales-marketing',marketing:'sales-marketing',legal:'finance',payments:'finance',education:'research',learning:'research',agents:'ai-agents',ai:'ai-agents'};
-function category(p:any){
- const raw=p.category?.toLowerCase();if(categories.includes(raw))return raw;if(aliases[raw])return aliases[raw];
- return 'more';
+if(process.argv.includes('--metadata-only')){
+ const doc=await Bun.file(join(root,'.claude-plugin/marketplace.json')).json();
+ for(const entry of doc.plugins)entry['x-compozy'].category=reviewedCategory(entry.name,curation.categories);
+ validate(doc,lock,root,curation);
+ const candidates=await Bun.file(join(root,'candidates.json')).json();
+ candidates.registryCandidates=reviewCandidates(candidates.registryCandidates,curation.registryReview);
+ await json(join(root,'.claude-plugin/marketplace.json'),doc);
+ await json(join(root,'candidates.json'),candidates);
+ console.log(checkSnapshotQuota(root));
+ console.log(`Reviewed categories applied to ${doc.plugins.length} entries without network or package changes.`);
+ process.exit(0);
 }
 const featured=new Set(Object.keys(curation.featured));
 const entries=new Map<string,any>();const identities=new Map<string,string>();
@@ -68,12 +76,12 @@ for(const {repo,commit,dir,doc} of documents){
    cpSync(join(dir,p.source),join(root,local),{recursive:true});p.source='./'+local;
    lock.entries[p.name]={repository:repo,commit,path:original.source};
   }else lock.entries[p.name]={repository:p.source.url??p.source.repo,commit:p.source.ref,path:p.source.path??''};
-  p['x-compozy']={category:curation.featured[p.name]??category(p),featured:featured.has(p.name),supersedes};
+  p['x-compozy']={category:'',featured:featured.has(p.name),supersedes};
   entries.set(p.name,p);identities.set(identity,p.name);
  }
 }
 if(refresh || process.argv.includes('--refresh-registry') || !lock.registryScan?.complete){
- const result=await readRegistry(root,curation.registry);
+ const result=await readRegistry(root,curation.registry,curation.registryReview);
  lock.registry=result.admitted;
  lock.registryScan=result.scan;
  const candidates=await Bun.file(join(root,'candidates.json')).json();
@@ -108,15 +116,9 @@ for(const s of lock.registry){
  lock.entries[id]={repository:'https://registry.modelcontextprotocol.io',contentSHA256:Bun.CryptoHasher.hash('sha256',JSON.stringify(s),'hex'),registryName:s.name,registryVersion:s.version,url:remote.url};
 }
 const candidates=await Bun.file(join(root,'candidates.json')).json();
-const reviewedNames=new Set(lock.registry.map((s:any)=>s.name));
-candidates.registryCandidates=candidates.registryCandidates.filter((c:any)=>!reviewedNames.has(c.registryName));
-for(const server of lock.registry){
- if(![...entries.values()].some(p=>p['x-registry-namespace']===server.name.split('/')[0])){
-  candidates.registryCandidates.push({registryName:server.name,version:server.version,reason:'already covered by an upstream app or endpoint'});
- }
-}
-candidates.registryCandidates.sort((a:any,b:any)=>a.registryName.localeCompare(b.registryName,'en'));
+candidates.registryCandidates=reviewCandidates(candidates.registryCandidates,curation.registryReview);
 await json(join(root,'candidates.json'),candidates);
+for(const entry of entries.values())entry['x-compozy'].category=reviewedCategory(entry.name,curation.categories);
 const vendoring=await vendorEntries(root,entries,lock);
 await json(join(root,'vendoring.json'),vendoring);
 const doc={name:'compozy-plugins',owner:{name:'Compozy'},plugins:[...entries.values()].sort((a,b)=>a.name.localeCompare(b.name,'en'))};

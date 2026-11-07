@@ -155,5 +155,37 @@
       "category": "sales-marketing",
       "url": "https://mcp.close.com/mcp"
     }
+  ],
+  "registryReview": [
+    {
+      "server": "com.microsoft/copilot-studio",
+      "app": "Copilot Studio",
+      "publisher": "Microsoft"
+    },
+    {
+      "server": "com.microsoft/microsoft-fabric",
+      "app": "Microsoft Fabric",
+      "publisher": "Microsoft"
+    },
+    {
+      "server": "com.microsoft/powerbi-modeling-mcp",
+      "app": "Power BI",
+      "publisher": "Microsoft"
+    },
+    {
+      "server": "com.microsoft/visio",
+      "app": "Visio",
+      "publisher": "Microsoft"
+    },
+    {
+      "server": "com.microsoft/workiq-m365copilot",
+      "app": "Microsoft 365",
+      "publisher": "Microsoft"
+    },
+    {
+      "server": "com.microsoft/nuget",
+      "app": "NuGet",
+      "publisher": "Microsoft"
+    }
   ]
 }

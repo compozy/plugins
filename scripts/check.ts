@@ -7,6 +7,8 @@ export function validate(doc: any, lock: any, root: string, curation?: any) {
   for (const p of doc.plugins) {
     if (!/^[A-Za-z0-9][A-Za-z0-9._-]{0,127}$/.test(p.name) || names.has(p.name)) throw Error(`invalid or duplicate name: ${p.name}`);
     names.add(p.name);
+    const reviewed=reviewedCategory(p.name,curation?.categories);
+    if(p['x-compozy']?.category!==reviewed)throw Error(`category differs from reviewed table: ${p.name}`);
     if (p['x-registry-namespace']) {
       const app=curation?.registry.find((a:any)=>a.id===p.name && a.namespace===p['x-registry-namespace']);
       if (!app) throw Error(`unreviewed registry publisher: ${p.name}`);
@@ -29,7 +31,9 @@ export function validate(doc: any, lock: any, root: string, curation?: any) {
 }
 if (import.meta.main) {
  const root=resolve(import.meta.dir,'..');
- validate(await Bun.file(`${root}/.claude-plugin/marketplace.json`).json(),await Bun.file(`${root}/sources.lock.json`).json(),root,await Bun.file(`${root}/curation.json`).json());
+ const curation=await Bun.file(`${root}/curation.json`).json();
+ curation.categories=await Bun.file(`${root}/categories.json`).json();
+ validate(await Bun.file(`${root}/.claude-plugin/marketplace.json`).json(),await Bun.file(`${root}/sources.lock.json`).json(),root,curation);
  console.log(checkSnapshotQuota(root));
  console.log('Catalog validation passed (size, identities, categories, pins, local paths, supersedes).');
 }
@@ -44,4 +48,10 @@ export function checkSnapshotQuota(root:string) {
  walk(root);
  if(nodes>9500||bytes>400*1024*1024)throw Error(`catalog snapshot quota exceeded: ${nodes} nodes, ${bytes} bytes`);
  return {nodes,bytes};
+}
+
+export function reviewedCategory(name:string,review:Record<string,string>) {
+ const category=review?.[name];
+ if(!Object.hasOwn(review??{},name)||!categories.includes(category))throw Error(`missing reviewed category: ${name}`);
+ return category;
 }
