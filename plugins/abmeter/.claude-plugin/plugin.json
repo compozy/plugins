@@ -1,0 +1,5 @@
+{
+  "name": "abmeter",
+  "version": "0.2.0",
+  "description": "Run A/B experiments through your AI assistant. SDKs for Ruby, Python, JS, Node, React Native, Go."
+}

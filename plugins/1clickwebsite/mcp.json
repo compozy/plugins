@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "1clickwebsite": {
+      "type": "http",
+      "url": "https://www.1clickwebsite.ai/api/mcp"
+    }
+  }
+}

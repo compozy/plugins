@@ -1,0 +1,5 @@
+{
+  "name": "bureau-public-reader",
+  "version": "3.0.0",
+  "description": "Bureau-operated public read-only MCP service for public Context Packets and Cases."
+}

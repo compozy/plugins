@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "alphacreek-sec-filings-mcp": {
+      "type": "http",
+      "url": "https://mcp.alphacreek.ai/mcp",
+      "headers": {
+        "Authorization": "${AUTHORIZATION_TOKEN}"
+      }
+    }
+  }
+}

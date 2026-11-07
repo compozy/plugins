@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "0si-ai-disclosures": {
+      "type": "http",
+      "url": "https://app.0si.ai/api/mcp"
+    }
+  }
+}

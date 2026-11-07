@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "28-28-agent-service-desk-fix-verify": {
+      "type": "http",
+      "url": "https://28in28.ai/mcp"
+    }
+  }
+}

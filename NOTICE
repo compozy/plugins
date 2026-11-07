@@ -1,0 +1,12 @@
+Compozy plugins
+Copyright 2026 Compozy contributors
+
+Contains marketplace metadata and plugin directories from:
+- Anthropic knowledge-work-plugins (Apache License 2.0)
+- Anthropic claude-plugins-official (Apache License 2.0)
+See upstream/anthropics/*/LICENSE and any adjacent NOTICE files.
+Original copyright and license notices remain in vendored files.
+
+Remote wrapper metadata is derived from publisher records in the official MCP Registry.
+Exact selected records, versions, URLs and content hashes are in sources.lock.json.
+Remote services and referenced publisher repositories retain their own terms and licenses.

@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "agentmash": {
+      "type": "http",
+      "url": "https://agentmash.ai/mcp",
+      "headers": {
+        "Authorization": "${AUTHORIZATION_TOKEN}"
+      }
+    }
+  }
+}

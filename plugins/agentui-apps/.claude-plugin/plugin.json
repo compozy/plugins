@@ -1,0 +1,5 @@
+{
+  "name": "agentui-apps",
+  "version": "1.0.0",
+  "description": "Create AgentUI data apps: define tables, read and write records, and run programs on your data."
+}

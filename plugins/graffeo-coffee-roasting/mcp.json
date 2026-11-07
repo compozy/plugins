@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "graffeo-coffee-roasting": {
+      "type": "http",
+      "url": "https://api.agenticshelf.ai/m/graffeo/mcp"
+    }
+  }
+}

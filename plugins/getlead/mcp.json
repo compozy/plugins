@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "getlead": {
+      "type": "http",
+      "url": "https://mcp.getle.ad/mcp"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "zoll-agency": {
+      "type": "http",
+      "url": "https://zoll.agency/mcp"
+    }
+  }
+}

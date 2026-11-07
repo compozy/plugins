@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "agentic-terminal-directory": {
+      "type": "http",
+      "url": "https://mcp.agenticterminal.ai/mcp"
+    }
+  }
+}

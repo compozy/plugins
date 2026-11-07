@@ -1,0 +1,5 @@
+{
+  "name": "tide",
+  "version": "2.0.0",
+  "description": "Sui blockchain data in plain English: transactions, wallets, coins, balances, fund flows and SQL."
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "actwise": {
+      "type": "http",
+      "url": "https://actwise.ai/ideation/mcp/v1"
+    }
+  }
+}

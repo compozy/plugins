@@ -1,0 +1,5 @@
+{
+  "name": "agent-cronjob",
+  "version": "0.0.1",
+  "description": "Scheduled, HMAC-signed, retried webhook triggers for AI agents. No account: self-register via tools."
+}

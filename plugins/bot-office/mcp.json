@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "bot-office": {
+      "type": "http",
+      "url": "https://aibotoffice.ai/mcp",
+      "headers": {
+        "Authorization": "${AUTHORIZATION_TOKEN}"
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "amazon-seller-central-ads-mcp": {
+      "type": "http",
+      "url": "https://agentxray.ai/api/mcp"
+    }
+  }
+}

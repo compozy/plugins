@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "apex-ai-academy": {
+      "type": "http",
+      "url": "https://apexai.academy/mcp",
+      "headers": {
+        "Authorization": "${AUTHORIZATION_TOKEN}"
+      }
+    }
+  }
+}

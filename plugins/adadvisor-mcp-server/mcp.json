@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "adadvisor-mcp-server": {
+      "type": "http",
+      "url": "https://api.adadvisor.ai/mcp",
+      "headers": {
+        "Authorization": "${AUTHORIZATION_TOKEN}"
+      }
+    }
+  }
+}

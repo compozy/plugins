@@ -1,0 +1,5 @@
+{
+  "name": "inference-sh",
+  "version": "2.0.1",
+  "description": "run any ai model. compose agents, stack knowledge, connect tools. one api, pay per run."
+}

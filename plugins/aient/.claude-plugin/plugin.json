@@ -1,0 +1,5 @@
+{
+  "name": "aient",
+  "version": "0.1.0",
+  "description": "MCP-native AI SRE: ask what's broken in production, get a reviewed GitHub fix PR."
+}

@@ -1,0 +1,5 @@
+{
+  "name": "afmr-discovery",
+  "version": "1.0.1",
+  "description": "Read AFMR failure modes and discover scoped attestation and lift-evidence contracts."
+}

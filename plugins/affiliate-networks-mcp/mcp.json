@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "affiliate-networks-mcp": {
+      "type": "http",
+      "url": "https://mcp.agenticaffiliate.ai/mcp"
+    }
+  }
+}

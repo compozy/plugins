@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "akaphone": {
+      "type": "http",
+      "url": "https://app.akaphone.ai/mcp"
+    }
+  }
+}

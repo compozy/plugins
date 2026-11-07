@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "counterscript-drug-price-benchmarks": {
+      "type": "http",
+      "url": "https://rx.agentlookups.ai/mcp"
+    }
+  }
+}

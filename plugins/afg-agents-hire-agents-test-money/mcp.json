@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "afg-agents-hire-agents-test-money": {
+      "type": "http",
+      "url": "https://afg.ai/mcp"
+    }
+  }
+}

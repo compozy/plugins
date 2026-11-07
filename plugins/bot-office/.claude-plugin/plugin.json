@@ -1,0 +1,5 @@
+{
+  "name": "bot-office",
+  "version": "0.1.2",
+  "description": "Report AI bot work to a live office; ask a person to approve risky actions; work queue and memory."
+}

@@ -1,0 +1,5 @@
+{
+  "name": "make",
+  "version": "2.0.0",
+  "description": "Build, run and debug Make automation scenarios."
+}

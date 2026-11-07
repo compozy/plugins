@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "aldro-small-business-tax": {
+      "type": "http",
+      "url": "https://aldro.ai/mcp"
+    }
+  }
+}

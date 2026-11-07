@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "lottiefiles": {
+      "type": "http",
+      "url": "https://creator.mcp.lottiefiles.com/mcp"
+    }
+  }
+}

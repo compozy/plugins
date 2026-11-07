@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "ambix": {
+      "type": "http",
+      "url": "https://mcp.ambix.ai"
+    }
+  }
+}

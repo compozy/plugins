@@ -1,0 +1,5 @@
+{
+  "name": "hood-hood-name-service",
+  "version": "0.1.0",
+  "description": "Resolve .hood names on Robinhood Chain — forward/reverse, text records, availability & pricing."
+}

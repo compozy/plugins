@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "1325-ai": {
+      "type": "http",
+      "url": "https://agoclnqfyinwjxdmjnns.supabase.co/functions/v1/mcp"
+    }
+  }
+}

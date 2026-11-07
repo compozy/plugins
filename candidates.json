@@ -1,0 +1,39 @@
+{
+  "policy": "Discovery and human review only; never vendor these catalogs. Admit only a publisher-owned public repository with a reviewed license and a pinned commit.",
+  "sources": [
+    {
+      "source": "https://github.com/openai/plugins",
+      "status": "review-only",
+      "reason": "No catalog redistribution license established"
+    },
+    {
+      "source": "cursor-marketplace-snapshot",
+      "operatorInput": "/Users/pedronauck/Dev/courses/pedronauck/research/plugin-marketplaces/outputs/compozy-pack-seed.json",
+      "status": "review-only",
+      "reason": "Private API curation; use only to discover publisher repositories"
+    },
+    {
+      "source": "https://claude-plugins.dev",
+      "status": "review-only",
+      "reason": "Index license and publisher attribution require review"
+    },
+    {
+      "source": "https://skills.sh",
+      "status": "review-only",
+      "reason": "Ranking and discovery only"
+    }
+  ],
+  "admitted": [],
+  "reviewQueue": [
+    {
+      "publisherRepository": "https://github.com/1Password/cursor-plugin",
+      "discoveredVia": "cursor-marketplace-snapshot",
+      "status": "requires publisher license and compatibility review"
+    },
+    {
+      "publisherRepository": "https://github.com/aws/agent-toolkit-for-aws",
+      "discoveredVia": "cursor-marketplace-snapshot",
+      "status": "requires publisher license and compatibility review"
+    }
+  ]
+}

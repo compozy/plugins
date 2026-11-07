@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "events-aero": {
+      "type": "http",
+      "url": "https://events.aero/mcp/events"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "beachclubs-ae": {
+      "type": "http",
+      "url": "https://www.beachclubs.ae/mcp"
+    }
+  }
+}

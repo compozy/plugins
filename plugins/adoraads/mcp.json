@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "adoraads": {
+      "type": "http",
+      "url": "https://mcp.adoraads.ai/beauty"
+    }
+  }
+}

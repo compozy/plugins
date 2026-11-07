@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "adside": {
+      "type": "http",
+      "url": "https://api.adside.ai/mcp",
+      "headers": {
+        "Authorization": "${AUTHORIZATION_TOKEN}"
+      }
+    }
+  }
+}

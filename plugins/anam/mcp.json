@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "anam": {
+      "type": "http",
+      "url": "https://lab.anam.ai/mcp"
+    }
+  }
+}

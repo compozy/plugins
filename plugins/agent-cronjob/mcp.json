@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "agent-cronjob": {
+      "type": "http",
+      "url": "https://cronjob.agentasy.ai/mcp"
+    }
+  }
+}

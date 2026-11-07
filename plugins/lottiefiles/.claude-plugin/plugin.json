@@ -1,0 +1,5 @@
+{
+  "name": "lottiefiles",
+  "version": "1.0.0",
+  "description": "Hosted motion engine for agents. Builds layers and keyframes, exports MP4, WebM or Lottie."
+}

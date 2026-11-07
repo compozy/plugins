@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "adplane": {
+      "type": "http",
+      "url": "https://mcp.adplane.ai"
+    }
+  }
+}

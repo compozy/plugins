@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "propick-integration-mcp": {
+      "type": "http",
+      "url": "https://propick.ae/mcp",
+      "headers": {
+        "Authorization": "${AUTHORIZATION_TOKEN}"
+      }
+    }
+  }
+}

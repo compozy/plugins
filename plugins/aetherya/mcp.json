@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "aetherya": {
+      "type": "http",
+      "url": "https://mcp.aetherya.ai/mcp",
+      "headers": {
+        "Authorization": "${AUTHORIZATION_TOKEN}"
+      }
+    }
+  }
+}

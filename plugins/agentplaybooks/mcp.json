@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "agentplaybooks": {
+      "type": "http",
+      "url": "https://agentplaybooks.ai/api/mcp/manage",
+      "headers": {
+        "Authorization": "${AUTHORIZATION_TOKEN}"
+      }
+    }
+  }
+}

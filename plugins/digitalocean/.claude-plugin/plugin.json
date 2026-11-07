@@ -1,0 +1,5 @@
+{
+  "name": "digitalocean",
+  "version": "0.1.0",
+  "description": "Build, deploy, manage, and troubleshoot applications and infrastructure on DigitalOcean."
+}

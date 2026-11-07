@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "bureau-public-reader": {
+      "type": "http",
+      "url": "https://thebureauoflostcontext.agency/mcp"
+    }
+  }
+}

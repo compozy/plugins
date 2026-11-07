@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "hood-hood-name-service": {
+      "type": "http",
+      "url": "https://www.hood.ag/api/mcp"
+    }
+  }
+}

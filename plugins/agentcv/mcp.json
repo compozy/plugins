@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "agentcv": {
+      "type": "http",
+      "url": "https://agentcv.ai/mcp"
+    }
+  }
+}

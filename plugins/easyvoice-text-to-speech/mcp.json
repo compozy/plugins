@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "easyvoice-text-to-speech": {
+      "type": "http",
+      "url": "https://easyvoice.ae/api/mcp",
+      "headers": {
+        "Authorization": "${AUTHORIZATION_TOKEN}"
+      }
+    }
+  }
+}

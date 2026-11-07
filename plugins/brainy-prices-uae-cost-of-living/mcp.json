@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "brainy-prices-uae-cost-of-living": {
+      "type": "http",
+      "url": "https://prices.brainy.ae/mcp/v2"
+    }
+  }
+}

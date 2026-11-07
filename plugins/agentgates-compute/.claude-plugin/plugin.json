@@ -1,0 +1,5 @@
+{
+  "name": "agentgates-compute",
+  "version": "1.0.3",
+  "description": "Confidential computers for AI swarms: sealed VMs (Intel TDX) by the hour, USDC over x402."
+}

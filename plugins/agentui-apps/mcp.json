@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "agentui-apps": {
+      "type": "http",
+      "url": "https://api.agentui.ai/mcp/apps"
+    }
+  }
+}

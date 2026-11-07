@@ -1,0 +1,5 @@
+{
+  "name": "aidoo-for-odoo",
+  "version": "1.0.0",
+  "description": "Query and update your Odoo ERP in plain language, under your own Odoo access rules."
+}

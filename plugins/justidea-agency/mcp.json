@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "justidea-agency": {
+      "type": "http",
+      "url": "https://justidea.agency/mcp"
+    }
+  }
+}

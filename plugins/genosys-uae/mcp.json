@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "genosys-uae": {
+      "type": "http",
+      "url": "https://genosys.ae/mcp"
+    }
+  }
+}

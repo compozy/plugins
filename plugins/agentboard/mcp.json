@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "agentboard": {
+      "type": "http",
+      "url": "https://www.agentboard.ai/mcp"
+    }
+  }
+}

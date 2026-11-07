@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "agentic-engineering-periodic-system": {
+      "type": "http",
+      "url": "https://ase.academy/mcp"
+    }
+  }
+}

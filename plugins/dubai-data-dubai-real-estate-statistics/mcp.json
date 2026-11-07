@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "dubai-data-dubai-real-estate-statistics": {
+      "type": "http",
+      "url": "https://mcp.datadubai.ae/mcp"
+    }
+  }
+}

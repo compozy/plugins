@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "alcock-arena": {
+      "type": "http",
+      "url": "https://alcock.ai/api/mcp",
+      "headers": {
+        "Authorization": "${AUTHORIZATION_TOKEN}"
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "aigamedev-ai": {
+      "type": "http",
+      "url": "https://aigamedev.ai/mcp"
+    }
+  }
+}

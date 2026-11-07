@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "agentsindex": {
+      "type": "http",
+      "url": "https://agentsindex.ai/mcp"
+    }
+  }
+}

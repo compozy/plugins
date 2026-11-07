@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "1court-directory": {
+      "type": "http",
+      "url": "https://state.1court.ai/api/mcp"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "ugc-the-human-ad-network": {
+      "type": "http",
+      "url": "https://api.ugc.africa/mcp"
+    }
+  }
+}

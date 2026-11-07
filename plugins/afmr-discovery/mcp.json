@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "afmr-discovery": {
+      "type": "http",
+      "url": "https://afmr.ai/mcp"
+    }
+  }
+}

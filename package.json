@@ -1,0 +1,1 @@
+{"name":"compozy-plugins","private":true,"type":"module","scripts":{"generate":"bun scripts/generate.ts","check":"bun scripts/check.ts","test":"bun test scripts/check.test.ts"}}
