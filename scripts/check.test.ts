@@ -85,14 +85,14 @@ test('rejects reintroduced known unloadable packages and unmaterialized sources'
  expect(()=>validate(doc(entry),lock,'.',{...curation,materializeEntries:['fixture']})).toThrow('requires materialized source');
 });
 
-// Invariant: published icons obey the daemon URL contract and match reviewed asset bytes.
+// Invariant: published icons are inline, obey the daemon size contract and match reviewed asset bytes.
 // Owner: catalog generation; canonical suite: check.test.ts.
 import { validateIcon, checkIcons, applyIcons } from './icons';
-test('accepts supported HTTPS and inline icons', () => {
- for (const value of ['', 'https://vendor.example/icon.SVG?v=1', 'data:image/png;base64,YQ==', 'data:image/svg+xml,%3Csvg%3E']) expect(() => validateIcon(value)).not.toThrow();
+test('accepts supported inline icons', () => {
+ for (const value of ['data:image/png;base64,YQ==', 'data:image/svg+xml,%3Csvg%3E']) expect(() => validateIcon(value)).not.toThrow();
 });
 test('rejects unsupported, malformed and oversized icons', () => {
- for (const value of ['http://vendor.example/a.png', 'https://user:pass@vendor.example/a.png', 'https://vendor.example/a.png#x', 'https://vendor.example/a.ico', 'data:text/html;base64,YQ==', 'data:image/png;base64,***', 'data:image/png,%XX', 'data:image/png,', 'data:image/png,' + 'a'.repeat(65536)]) expect(() => validateIcon(value)).toThrow();
+ for (const value of ['', 'https://vendor.example/a.svg', 'https://vendor.example/a.png', 'https://vendor.example/a.webp', 'http://vendor.example/a.png', 'https://user:pass@vendor.example/a.png', 'https://vendor.example/a.png#x', 'https://vendor.example/a.ico', 'data:text/html;base64,YQ==', 'data:image/png;base64,***', 'data:image/png;base64,\n', 'data:image/png,%XX', 'data:image/png,', 'data:image/png,' + 'a'.repeat(65536)]) expect(() => validateIcon(value)).toThrow();
 });
 test('requires provenance and rejects modified asset bytes', () => {
  const root=mkdtempSync(join(tmpdir(),'mpc-icons-'));
@@ -113,9 +113,9 @@ test('rejects a document beyond the daemon byte limit', () => {
  expect(() => validate({...doc(entry),description:'x'.repeat(2*1024*1024)},lock,'.',curation)).toThrow('2 MiB');
 });
 
-// Invariant: remote icon references remain commit-pinned and verified against local asset bytes.
+// Invariant: all generation modes inline verified assets, including formerly remote and oversized assets.
 // Owner: catalog generation; canonical suite: check.test.ts.
-test('publishes immutable remote icons and rejects changed assets or mutable refs', () => {
+test('inlines formerly remote assets and rejects modified source or published bytes', () => {
  const root=mkdtempSync(join(tmpdir(),'mpc-icons-'));
  try {
   mkdirSync(join(root,'icons'));
@@ -127,12 +127,36 @@ test('publishes immutable remote icons and rejects changed assets or mutable ref
   save();
   const document=doc({...entry,name:'fixture'});
   applyIcons(document,root);
-  expect(document.plugins[0].icon).toBe(`https://raw.githubusercontent.com/compozy/plugins/${source.catalogCommit}/icons/fixture.svg`);
+  expect(document.plugins[0].icon).toBe(`data:image/svg+xml;base64,${bytes.toString('base64')}`);
   expect(()=>checkIcons(document,root)).not.toThrow();
-  source.catalogCommit='main'; save();
-  expect(()=>applyIcons(document,root)).toThrow('immutable');
-  source.catalogCommit='a'.repeat(40); save();
+  document.plugins[0].icon='https://vendor.example/a.svg';
+  expect(()=>checkIcons(document,root)).toThrow('inline');
+  applyIcons(document,root);
   writeFileSync(join(root,'icons/fixture.svg'),'<svg>changed</svg>');
   expect(()=>checkIcons(document,root)).toThrow('hash mismatch');
+ } finally { rmSync(root,{recursive:true,force:true}); }
+});
+
+test('derives oversized icons reproducibly without changing their source', () => {
+ const root=mkdtempSync(join(tmpdir(),'mpc-icons-'));
+ try {
+  mkdirSync(join(root,'icons'));
+  const bytes=Buffer.from('<svg xmlns="http://www.w3.org/2000/svg" width="512" height="256"><!--'+'x'.repeat(70000)+'--><rect width="512" height="256" fill="red"/></svg>');
+  const source={entry:'fixture',sourcePage:'https://vendor.example',assetURL:'https://vendor.example/a.svg',file:'icons/fixture.svg',sha256:createHash('sha256').update(bytes).digest('hex'),bytes:bytes.length,contentType:'image/svg+xml'};
+  writeFileSync(join(root,'icons.json'), JSON.stringify({fixture:{}}));
+  writeFileSync(join(root,'icons/sources.json'), JSON.stringify({fixture:source}));
+  writeFileSync(join(root,'icons/fixture.svg'),bytes);
+  const document=doc({...entry});
+  applyIcons(document,root);
+  const icon=document.plugins[0].icon;
+  expect(icon.startsWith('data:image/webp;base64,')).toBe(true);
+  expect(Buffer.byteLength(icon)).toBeLessThanOrEqual(65536);
+  expect(readFileSync(join(root,'icons/fixture.svg'))).toEqual(bytes);
+  expect(readFileSync(join(root,'icons/derived/fixture.webp'))).toEqual(Buffer.from(icon.split(',')[1],'base64'));
+  applyIcons(document,root);
+  expect(document.plugins[0].icon).toBe(icon);
+  expect(()=>checkIcons(document,root)).not.toThrow();
+  document.plugins[0].icon='data:image/webp;base64,YQ==';
+  expect(()=>checkIcons(document,root)).toThrow('mismatched');
  } finally { rmSync(root,{recursive:true,force:true}); }
 });

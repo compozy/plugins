@@ -87,8 +87,8 @@ to an existing locked catalog using cached publisher trees, without a new networ
 
 ## Brand icons
 
-Reviewed official assets are stored under `icons/` and published inline or through immutable
-catalog-commit HTTPS references by the generator.
+Reviewed official assets are stored under `icons/` and published exclusively as inline data URLs by the generator. Large assets have
+reproducible WebP derivatives; their original source files remain untouched.
 See [the icon policy and provenance](icons/README.md), [vendor mappings](icons.json), and
 [explicit omissions](icons/omitted.json). `bun run check` verifies the daemon URL/size contract,
 asset hashes, provenance coverage, and the complete marketplace document budget.

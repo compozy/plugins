@@ -7,13 +7,22 @@ may be extracted from ICO containers without resizing or recoloring. Website CDN
 only when referenced by the vendor page. Publisher repository assets are pinned to a commit.
 Marks remain the property of their respective owners; the catalog license does not relicense them.
 
-The generator uses checked-in bytes as data URLs or immutable catalog-commit HTTPS URLs in every generation mode, including
-`--metadata-only`. Refreshing package metadata does not fetch or replace icons. To update a mark,
-review its vendor mapping, download an official PNG (at least 64 by 64), SVG or WebP, record its
-provenance, then run `bun run generate --metadata-only`, `bun run check` and
-`bun test scripts/check.test.ts`. For immutable references, commit the original assets first, then record that 40-character SHA in
-`catalogCommit`. The generator verifies local bytes and derives a raw.githubusercontent.com URL
-under that exact commit. Push the asset commits together with the metadata before publishing.
+The generator publishes every icon as an inline data URL in every generation mode,
+including `--metadata-only`. HTTPS icon references are rejected by validation because
+CompozyOS does not fetch feed icons from the browser. Refreshing package metadata does
+not fetch or replace icons. To update a mark, review its vendor mapping, download an
+official PNG, SVG or WebP, record its provenance, then run `bun run generate
+--metadata-only`, `bun run check` and `bun test scripts/check.test.ts`.
+
+Generation and validation require ImageMagick (`magick`, with WebP support) and
+librsvg (`rsvg-convert`). Encoded originals above 8 KiB are converted to lossless WebP
+with a maximum 128-pixel edge, preserving aspect ratio and transparency. SVGs render
+through librsvg first. A derivative is selected only if smaller; the original bytes
+and source hashes remain intact. The generator writes selected derivatives under
+`derived/`; validation independently recomputes them and compares the published bytes.
+The same input and tool versions produce identical data URLs. No source edits,
+cropping or recoloring are performed.
+
 Publisher organization avatars may supply the official publisher mark when no suitable vendor
 app icon exists. JPEG decoding to PNG preserves dimensions and pixels without resizing.
 

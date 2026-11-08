@@ -8,8 +8,7 @@
     "sha256": "5c459e7f28fa24eaca2576f64c2c03997ef586daced0d381921902c1ed0ec2d3",
     "bytes": 8683,
     "contentType": "image/png",
-    "conversion": null,
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": null
   },
   "activecampaign": {
     "entry": "activecampaign",
@@ -20,8 +19,7 @@
     "sha256": "57180984a3bf2a3f8683f0ba613cc7b008f58406c88ac5d78df847d1ea8df172",
     "bytes": 7726,
     "contentType": "image/png",
-    "conversion": null,
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": null
   },
   "adobe-for-creativity": {
     "entry": "adobe-for-creativity",
@@ -76,8 +74,7 @@
     "sha256": "6faaae3b3ae775ead47c5606a57f770b2b5b8dca43fa20d11a1186b1c6778cb7",
     "bytes": 61798,
     "contentType": "image/png",
-    "conversion": null,
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": null
   },
   "ai-plugins": {
     "entry": "ai-plugins",
@@ -195,8 +192,7 @@
     "sha256": "2c445f79f01b4e01a90cbc5b169fcfdfe03d39349210efc4d82ee75e9a9bc5ff",
     "bytes": 6496,
     "contentType": "image/png",
-    "conversion": null,
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": null
   },
   "amplitude": {
     "entry": "amplitude",
@@ -251,8 +247,7 @@
     "sha256": "8e7eaee0b2ddc85c10a0c784fdc128a8fa309f351bd024782003b1227a375789",
     "bytes": 4780,
     "contentType": "image/png",
-    "conversion": null,
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": null
   },
   "astronomer-data-agents": {
     "entry": "astronomer-data-agents",
@@ -306,8 +301,7 @@
     "sha256": "7a589f1cfed06d32a4e8c83808b7d2778375445f46bd4c68ba48b11c0a7de577",
     "bytes": 65928,
     "contentType": "image/png",
-    "conversion": null,
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": null
   },
   "auth0": {
     "entry": "auth0",
@@ -480,8 +474,7 @@
     "sha256": "19b424def1de094ef634f3ebc65c0c6a6dcc3cbf84b1f801495296e0ef55f178",
     "bytes": 5152,
     "contentType": "image/png",
-    "conversion": null,
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": null
   },
   "boltz": {
     "entry": "boltz",
@@ -535,8 +528,7 @@
     "sha256": "2fa2111df79a1670c8f08fe45adfad6b508baf77a56d4d40b9a3881d7594c706",
     "bytes": 25185,
     "contentType": "image/png",
-    "conversion": null,
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": null
   },
   "buildkite": {
     "entry": "buildkite",
@@ -558,8 +550,7 @@
     "sha256": "a2c4934a48ccb5194bb8f7ad43c5254b95f58f3dbdac6d3afa2aa26d75749c38",
     "bytes": 7061,
     "contentType": "image/png",
-    "conversion": null,
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": null
   },
   "carta-cap-table": {
     "entry": "carta-cap-table",
@@ -603,8 +594,7 @@
     "sha256": "416869b3dbb4dfafd09d26a4af832ccbb7d3ea449fd0bf8ca4e285ad322124de",
     "bytes": 23606,
     "contentType": "image/png",
-    "conversion": "Decoded official JPEG into lossless PNG at original dimensions; no resizing or recoloring.",
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": "Decoded official JPEG into lossless PNG at original dimensions; no resizing or recoloring."
   },
   "chrome-devtools-mcp": {
     "entry": "chrome-devtools-mcp",
@@ -874,8 +864,7 @@
     "sha256": "814d907da33e3712f86be9736bde8516cbfa3c29f82b1307ad9c76e53b3913e5",
     "bytes": 23254,
     "contentType": "image/png",
-    "conversion": null,
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": null
   },
   "crowdsec": {
     "entry": "crowdsec",
@@ -886,8 +875,7 @@
     "sha256": "e8c111b4d61fe1dcd7e41e0bfeebd1685fa6b69b9546aef89ce24691069c37b0",
     "bytes": 22328,
     "contentType": "image/png",
-    "conversion": null,
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": null
   },
   "crowdstrike-falcon-foundry": {
     "entry": "crowdstrike-falcon-foundry",
@@ -920,8 +908,7 @@
     "sha256": "a38b8837cb6937ac8a7edea066d404e041d4799b4e7c0fc03a5b1a599c3dbd7f",
     "bytes": 1340,
     "contentType": "image/png",
-    "conversion": null,
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": null
   },
   "cwc-makers": {
     "entry": "cwc-makers",
@@ -1073,8 +1060,7 @@
     "sha256": "dea795c46ffb74b8641f1ef3e137f76def515ad93c55f814f69909bcf2c5396e",
     "bytes": 6531,
     "contentType": "image/png",
-    "conversion": null,
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": null
   },
   "dominodatalab": {
     "entry": "dominodatalab",
@@ -1085,8 +1071,7 @@
     "sha256": "94d7995ecc5e013e88b710f888ae422f05a98cc6bf7c6f1160be6d695a92a4d4",
     "bytes": 11272,
     "contentType": "image/png",
-    "conversion": null,
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": null
   },
   "dropbox": {
     "entry": "dropbox",
@@ -1249,8 +1234,7 @@
     "sha256": "9c2b9ffe8f7769c7c941331eaed179e7e6018111a06474830ccd1b78e930c811",
     "bytes": 25133,
     "contentType": "image/png",
-    "conversion": null,
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": null
   },
   "github": {
     "entry": "github",
@@ -1272,8 +1256,7 @@
     "sha256": "111b3654b69b5561e1275e79c405f1bf396829e7e788ce4c1acfde046c0fc82c",
     "bytes": 10504,
     "contentType": "image/png",
-    "conversion": null,
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": null
   },
   "gitlab": {
     "entry": "gitlab",
@@ -1315,8 +1298,7 @@
     "sha256": "e184cf3e3d57420c484abb2a4ecdcd5069ab254b988b57f1d30810d80e0bea4c",
     "bytes": 27182,
     "contentType": "image/png",
-    "conversion": "Decoded official JPEG into lossless PNG at original dimensions; no resizing or recoloring.",
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": "Decoded official JPEG into lossless PNG at original dimensions; no resizing or recoloring."
   },
   "grafana-assistant": {
     "entry": "grafana-assistant",
@@ -1388,8 +1370,7 @@
     "sha256": "4b2662b75d0b63a4e1ba68b2b7e8f0996a92728b262733f8efbbd04428915361",
     "bytes": 5951,
     "contentType": "image/png",
-    "conversion": null,
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": null
   },
   "hubspot-sales": {
     "entry": "hubspot-sales",
@@ -1432,8 +1413,7 @@
     "sha256": "4099aa62e509522eda127d653332524aacd1b774958084d30cd19472a358cb95",
     "bytes": 18406,
     "contentType": "image/png",
-    "conversion": null,
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": null
   },
   "imessage": {
     "entry": "imessage",
@@ -1444,8 +1424,7 @@
     "sha256": "db5803a68c008775591c81bae1fb07007487b15846863c8a70b3ef4e05b287b2",
     "bytes": 27578,
     "contentType": "image/png",
-    "conversion": "Decoded official JPEG into lossless PNG at original dimensions; no resizing or recoloring.",
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": "Decoded official JPEG into lossless PNG at original dimensions; no resizing or recoloring."
   },
   "incident-io": {
     "entry": "incident-io",
@@ -1478,8 +1457,7 @@
     "sha256": "b6c3e38f37308425d0812c40f61351b0b877b7bfd15ad8767461c657eba44ff5",
     "bytes": 7368,
     "contentType": "image/png",
-    "conversion": null,
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": null
   },
   "intuit-quickbooks": {
     "entry": "intuit-quickbooks",
@@ -1490,8 +1468,7 @@
     "sha256": "25ea38a868fb962cc06b018a62b958b5a1f45c10511715be295b9dc18078a2e4",
     "bytes": 3174,
     "contentType": "image/png",
-    "conversion": null,
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": null
   },
   "jdtls-lsp": {
     "entry": "jdtls-lsp",
@@ -1502,8 +1479,7 @@
     "sha256": "5d1908f73248f9796ab99f7bc2acd0e777b2fd729991ce444ca2b29f0a0b0b39",
     "bytes": 9419,
     "contentType": "image/png",
-    "conversion": null,
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": null
   },
   "jfrog": {
     "entry": "jfrog",
@@ -1602,8 +1578,7 @@
     "sha256": "b54622000cadfa82f27890cd71c4f58df7ecbb02dc5947764d92023328496358",
     "bytes": 15601,
     "contentType": "image/png",
-    "conversion": "Decoded official JPEG into lossless PNG at original dimensions; no resizing or recoloring.",
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": "Decoded official JPEG into lossless PNG at original dimensions; no resizing or recoloring."
   },
   "linear": {
     "entry": "linear",
@@ -1636,8 +1611,7 @@
     "sha256": "b4f8929dca6d35346d63a49605eed3ab4f8ca0e706dfc5c3aa0a79eed98954fe",
     "bytes": 3754,
     "contentType": "image/png",
-    "conversion": null,
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": null
   },
   "liquid-skills": {
     "entry": "liquid-skills",
@@ -1648,8 +1622,7 @@
     "sha256": "b4f8929dca6d35346d63a49605eed3ab4f8ca0e706dfc5c3aa0a79eed98954fe",
     "bytes": 3754,
     "contentType": "image/png",
-    "conversion": null,
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": null
   },
   "logfire": {
     "entry": "logfire",
@@ -1715,8 +1688,7 @@
     "sha256": "8b394ab2e9d68af8ecddd820f20ca4ea17566d1d46949ad22821a307fc5f11b7",
     "bytes": 11374,
     "contentType": "image/png",
-    "conversion": null,
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": null
   },
   "lua-lsp": {
     "entry": "lua-lsp",
@@ -1749,8 +1721,7 @@
     "sha256": "cc0fd6f7820b1925fa65aa8b3fdbe47a19b76f6a353a253bd8d504034182df36",
     "bytes": 2145,
     "contentType": "image/png",
-    "conversion": null,
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": null
   },
   "make": {
     "entry": "make",
@@ -1793,8 +1764,7 @@
     "sha256": "0aa263298b6423e00deb13fb499bc79ae6787caca589a37656dc8bddaa7ea8e4",
     "bytes": 6091,
     "contentType": "image/png",
-    "conversion": null,
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": null
   },
   "mercadopago": {
     "entry": "mercadopago",
@@ -1871,8 +1841,7 @@
     "sha256": "23b74594a6301544e2c6b00fe3edfaa9c74038c3b940b3ac007c27830b6a9063",
     "bytes": 9435,
     "contentType": "image/png",
-    "conversion": null,
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": null
   },
   "modern-web-guidance": {
     "entry": "modern-web-guidance",
@@ -1916,8 +1885,7 @@
     "sha256": "2739c874e961cdf8e04a35c2b0419497d030a94c91078823a6907a952bbb4af0",
     "bytes": 20835,
     "contentType": "image/png",
-    "conversion": "Decoded official JPEG into lossless PNG at original dimensions; no resizing or recoloring.",
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": "Decoded official JPEG into lossless PNG at original dimensions; no resizing or recoloring."
   },
   "mongodb-atlas": {
     "entry": "mongodb-atlas",
@@ -1928,8 +1896,7 @@
     "sha256": "2739c874e961cdf8e04a35c2b0419497d030a94c91078823a6907a952bbb4af0",
     "bytes": 20835,
     "contentType": "image/png",
-    "conversion": "Decoded official JPEG into lossless PNG at original dimensions; no resizing or recoloring.",
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": "Decoded official JPEG into lossless PNG at original dimensions; no resizing or recoloring."
   },
   "neon": {
     "entry": "neon",
@@ -1961,8 +1928,7 @@
     "sha256": "c60168eefc6afad4539616d98563bc46718a655dc5639fdd9cdbf273e24028d0",
     "bytes": 685696,
     "contentType": "image/png",
-    "conversion": null,
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": null
   },
   "netsuite-finance-analyst": {
     "entry": "netsuite-finance-analyst",
@@ -1972,8 +1938,7 @@
     "sha256": "c60168eefc6afad4539616d98563bc46718a655dc5639fdd9cdbf273e24028d0",
     "bytes": 685696,
     "contentType": "image/png",
-    "conversion": null,
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": null
   },
   "netsuite-suitecloud": {
     "entry": "netsuite-suitecloud",
@@ -1983,8 +1948,7 @@
     "sha256": "c60168eefc6afad4539616d98563bc46718a655dc5639fdd9cdbf273e24028d0",
     "bytes": 685696,
     "contentType": "image/png",
-    "conversion": null,
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": null
   },
   "newrelic": {
     "entry": "newrelic",
@@ -2048,8 +2012,7 @@
     "sha256": "d60044815ae7362db559779fa690111eeac36f4a161c3a7cd57474879706b5ee",
     "bytes": 10580,
     "contentType": "image/png",
-    "conversion": null,
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": null
   },
   "oracle-ai-data-platform-workbench-databricks-migrator": {
     "entry": "oracle-ai-data-platform-workbench-databricks-migrator",
@@ -2060,8 +2023,7 @@
     "sha256": "5e9469f5ec5d47cdad94f2fc48b7ebe062b6e807b8fea807ad339cb8fb6f558e",
     "bytes": 6625,
     "contentType": "image/png",
-    "conversion": null,
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": null
   },
   "oracle-ai-data-platform-workbench-engineer-agent": {
     "entry": "oracle-ai-data-platform-workbench-engineer-agent",
@@ -2072,8 +2034,7 @@
     "sha256": "5e9469f5ec5d47cdad94f2fc48b7ebe062b6e807b8fea807ad339cb8fb6f558e",
     "bytes": 6625,
     "contentType": "image/png",
-    "conversion": null,
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": null
   },
   "oracle-ai-data-platform-workbench-spark-connectors": {
     "entry": "oracle-ai-data-platform-workbench-spark-connectors",
@@ -2084,8 +2045,7 @@
     "sha256": "5e9469f5ec5d47cdad94f2fc48b7ebe062b6e807b8fea807ad339cb8fb6f558e",
     "bytes": 6625,
     "contentType": "image/png",
-    "conversion": null,
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": null
   },
   "oracledb": {
     "entry": "oracledb",
@@ -2096,8 +2056,7 @@
     "sha256": "5e9469f5ec5d47cdad94f2fc48b7ebe062b6e807b8fea807ad339cb8fb6f558e",
     "bytes": 6625,
     "contentType": "image/png",
-    "conversion": null,
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": null
   },
   "outputai": {
     "entry": "outputai",
@@ -2174,8 +2133,7 @@
     "sha256": "9ce0b4e7d90fec8322b769a6bd1de70fe257368638d4dc7ca4839d6680e46e2d",
     "bytes": 17022,
     "contentType": "image/png",
-    "conversion": null,
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": null
   },
   "pigment": {
     "entry": "pigment",
@@ -2197,8 +2155,7 @@
     "sha256": "4f0f4fc86a618739795ab11a8fdaa61f691330044c99deb32324b9602c96672b",
     "bytes": 4769,
     "contentType": "image/png",
-    "conversion": null,
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": null
   },
   "pixeltable": {
     "entry": "pixeltable",
@@ -2316,8 +2273,7 @@
     "sha256": "8a5117d4036e688d97b1aaae730dffae295a2151ebdb5a2d8f9184d43c199f05",
     "bytes": 13379,
     "contentType": "image/png",
-    "conversion": null,
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": null
   },
   "qdrant-skills": {
     "entry": "qdrant-skills",
@@ -2359,8 +2315,7 @@
     "sha256": "ec7f71f5c4c75e811f0617f11e54e14e846c862ef0e82b598de1275a06c8c3a0",
     "bytes": 7653,
     "contentType": "image/png",
-    "conversion": null,
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": null
   },
   "quarkus-agent": {
     "entry": "quarkus-agent",
@@ -2371,8 +2326,7 @@
     "sha256": "870289aca7403bf1d8f80f46ccf9af0f3fd502cf70264638ed5c8a17d51036a5",
     "bytes": 5404,
     "contentType": "image/png",
-    "conversion": null,
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": null
   },
   "railway": {
     "entry": "railway",
@@ -2414,8 +2368,7 @@
     "sha256": "7e29df277fcfc481cb97eceea661885a14d9d08ef49f03dfe003601483d788cf",
     "bytes": 12759,
     "contentType": "image/png",
-    "conversion": null,
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": null
   },
   "render": {
     "entry": "render",
@@ -2459,8 +2412,7 @@
     "sha256": "850bcc4585e297fefab79459188b95782736de0aae62893b962f33059a32b57c",
     "bytes": 59638,
     "contentType": "image/png",
-    "conversion": null,
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": null
   },
   "runway-api": {
     "entry": "runway-api",
@@ -2526,8 +2478,7 @@
     "sha256": "3d41cfdef0e1d9d6b847a42c51a4ada78e76091bb5ea61b08038c83fd321d127",
     "bytes": 12208,
     "contentType": "image/png",
-    "conversion": null,
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": null
   },
   "scandit-sdk": {
     "entry": "scandit-sdk",
@@ -2549,8 +2500,7 @@
     "sha256": "05ab155ae386b713c963231bd5991f2ed051707501abfa3b87c9a92832ab9195",
     "bytes": 8544,
     "contentType": "image/png",
-    "conversion": null,
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": null
   },
   "semgrep": {
     "entry": "semgrep",
@@ -2591,8 +2541,7 @@
     "sha256": "140e60def79d34d00f36dcc0abe42a250e8c37ef260ce2dc49420d4021823790",
     "bytes": 217846,
     "contentType": "image/svg+xml",
-    "conversion": null,
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": null
   },
   "servicenow-sdk": {
     "entry": "servicenow-sdk",
@@ -2603,8 +2552,7 @@
     "sha256": "fd42e84bbd92401a229ba67c65bf740b1631c25bc3aa6f66552debd73a49d345",
     "bytes": 9074,
     "contentType": "image/png",
-    "conversion": null,
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": null
   },
   "setup-agent-analytics": {
     "entry": "setup-agent-analytics",
@@ -2734,8 +2682,7 @@
     "sha256": "c1ba20a2ceb598c35e305e03a725b0cde19df522c21ff6f158485ae212f6b232",
     "bytes": 11228,
     "contentType": "image/png",
-    "conversion": null,
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": null
   },
   "spanner": {
     "entry": "spanner",
@@ -2757,8 +2704,7 @@
     "sha256": "3d41cfdef0e1d9d6b847a42c51a4ada78e76091bb5ea61b08038c83fd321d127",
     "bytes": 12208,
     "contentType": "image/png",
-    "conversion": null,
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": null
   },
   "stackhawk-api": {
     "entry": "stackhawk-api",
@@ -2820,8 +2766,7 @@
     "sha256": "b7477eb39b5109617fe37e51dd65d8bdd8dff6c40fda49adfbc21eec445777ee",
     "bytes": 48231,
     "contentType": "image/png",
-    "conversion": null,
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": null
   },
   "swift-lsp": {
     "entry": "swift-lsp",
@@ -2832,8 +2777,7 @@
     "sha256": "9706c24b6aa3e0581f52e25cf060e808ff1dcfff4917abc893c9252047c7ab26",
     "bytes": 11346,
     "contentType": "image/png",
-    "conversion": null,
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": null
   },
   "synthflow": {
     "entry": "synthflow",
@@ -2997,8 +2941,7 @@
     "sha256": "27278b3a8ca271f1b14f1ed8ce283eddf3fd2b3b9dee904c5cc5776010270883",
     "bytes": 9987,
     "contentType": "image/png",
-    "conversion": null,
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": null
   },
   "unstructured-foundation": {
     "entry": "unstructured-foundation",
@@ -3193,8 +3136,7 @@
     "sha256": "8db6011bcb6aa60c4b4722a99b369ed5047533637e6985f9a3d66ad9b489ea2d",
     "bytes": 1723,
     "contentType": "image/png",
-    "conversion": null,
-    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+    "conversion": null
   },
   "zscaler": {
     "entry": "zscaler",
