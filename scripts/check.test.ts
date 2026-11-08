@@ -1,3 +1,4 @@
+import { createHash } from 'node:crypto';
 import { test, expect } from 'bun:test';
 import { validate } from './check';
 // Invariant: the published catalog never admits mutable repository refs or dangling supersedes.
@@ -110,4 +111,28 @@ test('requires provenance and rejects modified asset bytes', () => {
 // Owner: catalog generation; canonical suite: check.test.ts.
 test('rejects a document beyond the daemon byte limit', () => {
  expect(() => validate({...doc(entry),description:'x'.repeat(2*1024*1024)},lock,'.',curation)).toThrow('2 MiB');
+});
+
+// Invariant: remote icon references remain commit-pinned and verified against local asset bytes.
+// Owner: catalog generation; canonical suite: check.test.ts.
+test('publishes immutable remote icons and rejects changed assets or mutable refs', () => {
+ const root=mkdtempSync(join(tmpdir(),'mpc-icons-'));
+ try {
+  mkdirSync(join(root,'icons'));
+  const bytes=Buffer.from('<svg/>');
+  const source={entry:'fixture',sourcePage:'https://vendor.example',assetURL:'https://vendor.example/a.svg',file:'icons/fixture.svg',sha256:createHash('sha256').update(bytes).digest('hex'),bytes:bytes.length,contentType:'image/svg+xml',catalogCommit:'a'.repeat(40)};
+  writeFileSync(join(root,'icons.json'), JSON.stringify({fixture:{page:'https://vendor.example'}}));
+  writeFileSync(join(root,'icons/fixture.svg'),bytes);
+  const save=()=>writeFileSync(join(root,'icons/sources.json'), JSON.stringify({fixture:source}));
+  save();
+  const document=doc({...entry,name:'fixture'});
+  applyIcons(document,root);
+  expect(document.plugins[0].icon).toBe(`https://raw.githubusercontent.com/compozy/plugins/${source.catalogCommit}/icons/fixture.svg`);
+  expect(()=>checkIcons(document,root)).not.toThrow();
+  source.catalogCommit='main'; save();
+  expect(()=>applyIcons(document,root)).toThrow('immutable');
+  source.catalogCommit='a'.repeat(40); save();
+  writeFileSync(join(root,'icons/fixture.svg'),'<svg>changed</svg>');
+  expect(()=>checkIcons(document,root)).toThrow('hash mismatch');
+ } finally { rmSync(root,{recursive:true,force:true}); }
 });

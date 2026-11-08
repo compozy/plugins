@@ -7,11 +7,17 @@ may be extracted from ICO containers without resizing or recoloring. Website CDN
 only when referenced by the vendor page. Publisher repository assets are pinned to a commit.
 Marks remain the property of their respective owners; the catalog license does not relicense them.
 
-The generator embeds the checked-in bytes as data URLs in every generation mode, including
+The generator uses checked-in bytes as data URLs or immutable catalog-commit HTTPS URLs in every generation mode, including
 `--metadata-only`. Refreshing package metadata does not fetch or replace icons. To update a mark,
 review its vendor mapping, download an official PNG (at least 64 by 64), SVG or WebP, record its
 provenance, then run `bun run generate --metadata-only`, `bun run check` and
-`bun test scripts/check.test.ts`. The full encoded reference must fit 64 KiB and the complete
+`bun test scripts/check.test.ts`. For immutable references, commit the original assets first, then record that 40-character SHA in
+`catalogCommit`. The generator verifies local bytes and derives a raw.githubusercontent.com URL
+under that exact commit. Push the asset commits together with the metadata before publishing.
+Publisher organization avatars may supply the official publisher mark when no suitable vendor
+app icon exists. JPEG decoding to PNG preserves dimensions and pixels without resizing.
+
+The full encoded reference must fit 64 KiB and the complete
 marketplace must fit the daemon's 2 MiB document limit. Prefer smaller official assets instead
 of altering logos. Use the vendor's tile/app icon for monochrome marks when available.
 

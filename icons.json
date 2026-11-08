@@ -1,11 +1,15 @@
 {
   "42crunch-api-security-testing": {
     "page": "https://42crunch.com",
-    "publisherEvidence": "https://42crunch.com"
+    "publisherEvidence": "https://42crunch.com",
+    "assetSource": "https://github.com/42Crunch-AI",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "activecampaign": {
     "page": "https://activecampaign.com",
-    "publisherEvidence": "https://www.activecampaign.com"
+    "publisherEvidence": "https://www.activecampaign.com",
+    "assetSource": "https://github.com/ActiveCampaign",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "adobe-for-creativity": {
     "page": "https://adobe.com",
@@ -25,7 +29,9 @@
   },
   "ai-firstify": {
     "page": "https://ai-first.techwolf.ai",
-    "publisherEvidence": "https://ai-first.techwolf.ai"
+    "publisherEvidence": "https://ai-first.techwolf.ai",
+    "assetSource": "https://github.com/techwolf-ai",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "ai-plugins": {
     "page": "https://endorlabs.com",
@@ -69,7 +75,9 @@
   },
   "amazon-selling-partner": {
     "page": "https://sellercentral.amazon.com",
-    "publisherEvidence": "https://github.com/amzn/selling-partner-agentic-toolkit"
+    "publisherEvidence": "https://github.com/amzn/selling-partner-agentic-toolkit",
+    "assetSource": "https://github.com/amzn",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "amplitude": {
     "page": "https://amplitude.com",
@@ -89,7 +97,9 @@
   },
   "asana": {
     "page": "https://asana.com",
-    "publisherEvidence": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/asana"
+    "publisherEvidence": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/asana",
+    "assetSource": "https://github.com/Asana",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "astronomer-data-agents": {
     "page": "https://astronomer.io",
@@ -109,7 +119,9 @@
   },
   "atomic-agents": {
     "page": "https://github.com/BrainBlend-AI/atomic-agents",
-    "publisherEvidence": "https://github.com/BrainBlend-AI/atomic-agents"
+    "publisherEvidence": "https://github.com/BrainBlend-AI/atomic-agents",
+    "assetSource": "https://github.com/BrainBlend-AI",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "auth0": {
     "page": "https://auth0.com",
@@ -175,7 +187,9 @@
   },
   "blackrock-advisor-center-plugin": {
     "page": "https://blackrock.com",
-    "publisherEvidence": "https://github.com/blackrock/advisor-center-agent-skills"
+    "publisherEvidence": "https://github.com/blackrock/advisor-center-agent-skills",
+    "assetSource": "https://github.com/blackrock",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "boltz": {
     "page": "https://boltz.bio",
@@ -195,7 +209,9 @@
   },
   "build-with-wordpress": {
     "page": "https://wordpress.org",
-    "publisherEvidence": "https://developer.wordpress.com/wordpress-com-claude-code-plugin/"
+    "publisherEvidence": "https://developer.wordpress.com/wordpress-com-claude-code-plugin/",
+    "assetSource": "https://github.com/WordPress",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "buildkite": {
     "page": "https://buildkite.com",
@@ -203,7 +219,9 @@
   },
   "carbone-skill": {
     "page": "https://carbone.io",
-    "publisherEvidence": "https://carbone.io"
+    "publisherEvidence": "https://carbone.io",
+    "assetSource": "https://github.com/carboneio",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "carta-cap-table": {
     "page": "https://carta.com",
@@ -219,7 +237,9 @@
   },
   "catalyst-by-zoho": {
     "page": "https://catalyst.zoho.com",
-    "publisherEvidence": "https://catalyst.zoho.com/"
+    "publisherEvidence": "https://catalyst.zoho.com/",
+    "assetSource": "https://github.com/zoho",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "chrome-devtools-mcp": {
     "page": "https://developer.chrome.com",
@@ -324,11 +344,15 @@
   },
   "convex": {
     "page": "https://convex.dev",
-    "publisherEvidence": "https://github.com/get-convex/convex-backend-skill"
+    "publisherEvidence": "https://github.com/get-convex/convex-backend-skill",
+    "assetSource": "https://www.convex.dev",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "crowdsec": {
     "page": "https://crowdsec.net",
-    "publisherEvidence": "https://www.crowdsec.net"
+    "publisherEvidence": "https://www.crowdsec.net",
+    "assetSource": "https://github.com/crowdsecurity",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "crowdstrike-falcon-foundry": {
     "page": "https://crowdstrike.com",
@@ -343,7 +367,9 @@
     "publisherEvidence": {
       "name": "Anthropic",
       "email": "support@anthropic.com"
-    }
+    },
+    "assetSource": "https://github.com/dotnet",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "cwc-makers": {
     "page": "https://claude.com",
@@ -399,11 +425,15 @@
   },
   "discord": {
     "page": "https://discord.com",
-    "publisherEvidence": "./upstream/anthropics/claude-plugins-official/external_plugins/discord"
+    "publisherEvidence": "./upstream/anthropics/claude-plugins-official/external_plugins/discord",
+    "assetSource": "https://github.com/discord",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "dominodatalab": {
     "page": "https://www.domino.ai",
-    "publisherEvidence": "https://www.domino.ai"
+    "publisherEvidence": "https://www.domino.ai",
+    "assetSource": "https://github.com/dominodatalab",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "dropbox": {
     "page": "https://dropbox.com",
@@ -463,7 +493,9 @@
   },
   "gc-ai": {
     "page": "https://gc.ai",
-    "publisherEvidence": "https://docs.gc.ai/api-reference/mcp/overview"
+    "publisherEvidence": "https://docs.gc.ai/api-reference/mcp/overview",
+    "assetSource": "https://app.gc.ai",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "github": {
     "page": "https://github.com",
@@ -471,7 +503,9 @@
   },
   "gitkraken": {
     "page": "https://gitkraken.com",
-    "publisherEvidence": "https://www.gitkraken.com"
+    "publisherEvidence": "https://www.gitkraken.com",
+    "assetSource": "https://github.com/gitkraken",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "gitlab": {
     "page": "https://gitlab.com",
@@ -490,7 +524,9 @@
   },
   "govtribe": {
     "page": "https://govtribe.com",
-    "publisherEvidence": "https://govtribe.com"
+    "publisherEvidence": "https://govtribe.com",
+    "assetSource": "https://github.com/GovTribe",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "grafana-assistant": {
     "page": "https://grafana.com",
@@ -518,7 +554,9 @@
   },
   "hostinger": {
     "page": "https://hostinger.com",
-    "publisherEvidence": "https://www.hostinger.com"
+    "publisherEvidence": "https://www.hostinger.com",
+    "assetSource": "https://github.com/hostinger",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "hubspot-sales": {
     "page": "https://hubspot.com",
@@ -534,11 +572,15 @@
   },
   "idmp-plugin": {
     "page": "https://tdengine.com",
-    "publisherEvidence": "https://github.com/taosdata/agent-skills"
+    "publisherEvidence": "https://github.com/taosdata/agent-skills",
+    "assetSource": "https://github.com/taosdata",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "imessage": {
     "page": "https://www.apple.com",
-    "publisherEvidence": "./upstream/anthropics/claude-plugins-official/external_plugins/imessage"
+    "publisherEvidence": "./upstream/anthropics/claude-plugins-official/external_plugins/imessage",
+    "assetSource": "https://apps.apple.com/us/app/messages/id1146560473",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "incident-io": {
     "page": "https://incident.io",
@@ -550,18 +592,24 @@
   },
   "intercom": {
     "page": "https://intercom.com",
-    "publisherEvidence": "https://github.com/intercom/claude-plugin-external"
+    "publisherEvidence": "https://github.com/intercom/claude-plugin-external",
+    "assetSource": "https://github.com/intercom",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "intuit-quickbooks": {
     "page": "https://quickbooks.intuit.com",
-    "publisherEvidence": "https://github.com/intuit/quickbooks-claude-plugin"
+    "publisherEvidence": "https://github.com/intuit/quickbooks-claude-plugin",
+    "assetSource": "https://github.com/intuit",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "jdtls-lsp": {
     "page": "https://www.eclipse.org",
     "publisherEvidence": {
       "name": "Anthropic",
       "email": "support@anthropic.com"
-    }
+    },
+    "assetSource": "https://github.com/eclipse",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "jfrog": {
     "page": "https://jfrog.com",
@@ -600,7 +648,9 @@
   },
   "legalzoom": {
     "page": "https://legalzoom.com",
-    "publisherEvidence": "https://www.legalzoom.com/"
+    "publisherEvidence": "https://www.legalzoom.com/",
+    "assetSource": "https://github.com/legalzoom",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "linear": {
     "page": "https://linear.app",
@@ -612,11 +662,15 @@
   },
   "liquid-lsp": {
     "page": "https://shopify.dev",
-    "publisherEvidence": "https://github.com/Shopify/liquid-skills/tree/main/plugins/liquid-lsp"
+    "publisherEvidence": "https://github.com/Shopify/liquid-skills/tree/main/plugins/liquid-lsp",
+    "assetSource": "https://shopify.com",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "liquid-skills": {
     "page": "https://shopify.dev",
-    "publisherEvidence": "https://github.com/Shopify/liquid-skills/tree/main/plugins/liquid-skills"
+    "publisherEvidence": "https://github.com/Shopify/liquid-skills/tree/main/plugins/liquid-skills",
+    "assetSource": "https://shopify.com",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "logfire": {
     "page": "https://logfire.pydantic.dev",
@@ -640,7 +694,9 @@
   },
   "lseg": {
     "page": "https://lseg.com",
-    "publisherEvidence": "https://github.com/LSEG-API-Samples/lseg-claude-plugin"
+    "publisherEvidence": "https://github.com/LSEG-API-Samples/lseg-claude-plugin",
+    "assetSource": "https://github.com/LSEG",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "lua-lsp": {
     "page": "https://luals.github.io",
@@ -655,7 +711,9 @@
   },
   "lusha": {
     "page": "https://lusha.com",
-    "publisherEvidence": "https://www.lusha.com"
+    "publisherEvidence": "https://www.lusha.com",
+    "assetSource": "https://github.com/lusha-oss",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "make": {
     "page": "https://make.com",
@@ -671,7 +729,9 @@
   },
   "mcp-apps": {
     "page": "https://modelcontextprotocol.io",
-    "publisherEvidence": "https://modelcontextprotocol.io"
+    "publisherEvidence": "https://modelcontextprotocol.io",
+    "assetSource": "https://github.com/modelcontextprotocol",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "mercadopago": {
     "page": "https://mercadopago.com",
@@ -701,7 +761,9 @@
   },
   "mlflow": {
     "page": "https://mlflow.org",
-    "publisherEvidence": "https://mlflow.org/"
+    "publisherEvidence": "https://mlflow.org/",
+    "assetSource": "https://github.com/mlflow",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "modern-web-guidance": {
     "page": "https://developer.chrome.com",
@@ -717,11 +779,15 @@
   },
   "mongodb": {
     "page": "https://mongodb.com",
-    "publisherEvidence": "https://www.mongodb.com/docs/mcp-server/overview/"
+    "publisherEvidence": "https://www.mongodb.com/docs/mcp-server/overview/",
+    "assetSource": "https://github.com/mongodb",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "mongodb-atlas": {
     "page": "https://mongodb.com",
-    "publisherEvidence": "https://www.mongodb.com/docs/mcp-server/get-started/"
+    "publisherEvidence": "https://www.mongodb.com/docs/mcp-server/get-started/",
+    "assetSource": "https://github.com/mongodb",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "neon": {
     "page": "https://neon.com",
@@ -733,15 +799,21 @@
   },
   "netsuite-ai-companion": {
     "page": "https://netsuite.com",
-    "publisherEvidence": "https://github.com/oracle/netsuite-suitecloud-sdk/tree/ai-plugins-dist/anthropic/netsuite-ai-companion"
+    "publisherEvidence": "https://github.com/oracle/netsuite-suitecloud-sdk/tree/ai-plugins-dist/anthropic/netsuite-ai-companion",
+    "assetSource": "https://github.com/oracle/netsuite-suitecloud-sdk/blob/23793a10a9bb557c684c5cb8a97f926eb3463f12/openai/netsuite-ai-companion/assets/netsuite-icon.png",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "netsuite-finance-analyst": {
     "page": "https://netsuite.com",
-    "publisherEvidence": "https://github.com/oracle/netsuite-suitecloud-sdk/tree/ai-plugins-dist/anthropic/netsuite-finance-analyst"
+    "publisherEvidence": "https://github.com/oracle/netsuite-suitecloud-sdk/tree/ai-plugins-dist/anthropic/netsuite-finance-analyst",
+    "assetSource": "https://github.com/oracle/netsuite-suitecloud-sdk/blob/23793a10a9bb557c684c5cb8a97f926eb3463f12/openai/netsuite-finance-analyst/assets/netsuite-icon.png",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "netsuite-suitecloud": {
     "page": "https://netsuite.com",
-    "publisherEvidence": "https://github.com/oracle/netsuite-suitecloud-sdk/tree/ai-plugins-dist/anthropic/netsuite-suitecloud"
+    "publisherEvidence": "https://github.com/oracle/netsuite-suitecloud-sdk/tree/ai-plugins-dist/anthropic/netsuite-suitecloud",
+    "assetSource": "https://github.com/oracle/netsuite-suitecloud-sdk/blob/23793a10a9bb557c684c5cb8a97f926eb3463f12/openai/netsuite-suitecloud/assets/netsuite-icon.png",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "newrelic": {
     "page": "https://newrelic.com",
@@ -765,23 +837,33 @@
   },
   "nvidia-skills": {
     "page": "https://nvidia.com",
-    "publisherEvidence": "https://build.nvidia.com/skills/"
+    "publisherEvidence": "https://build.nvidia.com/skills/",
+    "assetSource": "https://github.com/NVIDIA",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "oracle-ai-data-platform-workbench-databricks-migrator": {
     "page": "https://oracle.com",
-    "publisherEvidence": "https://docs.oracle.com/en/cloud/paas/ai-data-platform/index.html"
+    "publisherEvidence": "https://docs.oracle.com/en/cloud/paas/ai-data-platform/index.html",
+    "assetSource": "https://github.com/oracle",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "oracle-ai-data-platform-workbench-engineer-agent": {
     "page": "https://oracle.com",
-    "publisherEvidence": "https://docs.oracle.com/en/cloud/paas/ai-data-platform/index.html"
+    "publisherEvidence": "https://docs.oracle.com/en/cloud/paas/ai-data-platform/index.html",
+    "assetSource": "https://github.com/oracle",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "oracle-ai-data-platform-workbench-spark-connectors": {
     "page": "https://oracle.com",
-    "publisherEvidence": "https://docs.oracle.com/en/cloud/paas/ai-data-platform/index.html"
+    "publisherEvidence": "https://docs.oracle.com/en/cloud/paas/ai-data-platform/index.html",
+    "assetSource": "https://github.com/oracle",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "oracledb": {
     "page": "https://oracle.com",
-    "publisherEvidence": "https://github.com/gemini-cli-extensions/oracledb"
+    "publisherEvidence": "https://github.com/gemini-cli-extensions/oracledb",
+    "assetSource": "https://github.com/oracle",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "outputai": {
     "page": "https://output.ai",
@@ -812,7 +894,9 @@
     "publisherEvidence": {
       "name": "Anthropic",
       "email": "support@anthropic.com"
-    }
+    },
+    "assetSource": "https://github.com/php",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "pigment": {
     "page": "https://www.pigment.com",
@@ -820,7 +904,9 @@
   },
   "pinecone": {
     "page": "https://pinecone.io",
-    "publisherEvidence": "https://github.com/pinecone-io/pinecone-claude-code-plugin"
+    "publisherEvidence": "https://github.com/pinecone-io/pinecone-claude-code-plugin",
+    "assetSource": "https://github.com/pinecone-io",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "pixeltable": {
     "page": "https://pixeltable.com",
@@ -867,7 +953,9 @@
     "publisherEvidence": {
       "name": "Anthropic",
       "email": "support@anthropic.com"
-    }
+    },
+    "assetSource": "https://github.com/python",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "qdrant-skills": {
     "page": "https://qdrant.tech",
@@ -883,11 +971,15 @@
   },
   "qt-development-skills": {
     "page": "https://qt.io",
-    "publisherEvidence": "https://github.com/TheQtCompanyRnD/agent-skills"
+    "publisherEvidence": "https://github.com/TheQtCompanyRnD/agent-skills",
+    "assetSource": "https://github.com/qt",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "quarkus-agent": {
     "page": "https://quarkus.io",
-    "publisherEvidence": "https://quarkus.io"
+    "publisherEvidence": "https://quarkus.io",
+    "assetSource": "https://github.com/quarkusio",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "railway": {
     "page": "https://railway.com",
@@ -903,7 +995,9 @@
   },
   "remember": {
     "page": "https://github.com/Digital-Process-Tools/claude-remember",
-    "publisherEvidence": "https://github.com/Digital-Process-Tools/claude-remember"
+    "publisherEvidence": "https://github.com/Digital-Process-Tools/claude-remember",
+    "assetSource": "https://github.com/Digital-Process-Tools",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "render": {
     "page": "https://render.com",
@@ -922,7 +1016,9 @@
     "publisherEvidence": {
       "name": "Anthropic",
       "email": "support@anthropic.com"
-    }
+    },
+    "assetSource": "https://github.com/ruby",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "runway-api": {
     "page": "https://runwayml.com",
@@ -949,7 +1045,9 @@
   },
   "save-to-spotify": {
     "page": "https://spotify.com",
-    "publisherEvidence": "https://github.com/spotify/save-to-spotify"
+    "publisherEvidence": "https://github.com/spotify/save-to-spotify",
+    "assetSource": "https://github.com/spotify",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "scandit-sdk": {
     "page": "https://scandit.com",
@@ -957,7 +1055,9 @@
   },
   "searchfit-seo": {
     "page": "https://searchfit.ai",
-    "publisherEvidence": "https://searchfit.ai"
+    "publisherEvidence": "https://searchfit.ai",
+    "assetSource": "https://github.com/searchfit",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "semgrep": {
     "page": "https://semgrep.dev",
@@ -973,11 +1073,15 @@
   },
   "serena": {
     "page": "https://github.com/oraios/serena",
-    "publisherEvidence": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/serena"
+    "publisherEvidence": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/serena",
+    "assetSource": "https://github.com/oraios/serena/blob/ede329aaf0c824bea75455a2926f01420d7aa620/resources/serena-logo.svg",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "servicenow-sdk": {
     "page": "https://servicenow.com",
-    "publisherEvidence": "https://servicenow.github.io/sdk/"
+    "publisherEvidence": "https://servicenow.github.io/sdk/",
+    "assetSource": "https://github.com/ServiceNow",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "setup-agent-analytics": {
     "page": "https://pendo.io",
@@ -1027,7 +1131,9 @@
   },
   "sp-global": {
     "page": "https://spglobal.com",
-    "publisherEvidence": "https://kensho.com"
+    "publisherEvidence": "https://kensho.com",
+    "assetSource": "https://github.com/kensho-technologies",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "spanner": {
     "page": "https://cloud.google.com",
@@ -1035,7 +1141,9 @@
   },
   "spotify-ads-api": {
     "page": "https://spotify.com",
-    "publisherEvidence": "https://github.com/spotify/ads-claude-plugin"
+    "publisherEvidence": "https://github.com/spotify/ads-claude-plugin",
+    "assetSource": "https://github.com/spotify",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "stackhawk-api": {
     "page": "https://stackhawk.com",
@@ -1059,14 +1167,18 @@
   },
   "superpowers": {
     "page": "https://github.com/obra/superpowers",
-    "publisherEvidence": "https://github.com/obra/superpowers.git"
+    "publisherEvidence": "https://github.com/obra/superpowers.git",
+    "assetSource": "https://github.com/obra/superpowers/blob/bb92a77741419a4ab5f06e711a283343f1ada0c3/assets/app-icon.png",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "swift-lsp": {
     "page": "https://sourcekit-lsp.swift.org",
     "publisherEvidence": {
       "name": "Anthropic",
       "email": "support@anthropic.com"
-    }
+    },
+    "assetSource": "https://github.com/swiftlang",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "synthflow": {
     "page": "https://synthflow.ai",
@@ -1129,7 +1241,9 @@
   },
   "unreal-engine-skills-for-claude-code": {
     "page": "https://unrealengine.com",
-    "publisherEvidence": "https://dev.epicgames.com/documentation/unreal-engine/unreal-mcp-in-unreal-editor"
+    "publisherEvidence": "https://dev.epicgames.com/documentation/unreal-engine/unreal-mcp-in-unreal-editor",
+    "assetSource": "https://github.com/EpicGames",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "unstructured-foundation": {
     "page": "https://unstructured.io",
@@ -1201,7 +1315,9 @@
   },
   "zoominfo": {
     "page": "https://zoominfo.com",
-    "publisherEvidence": "https://zoominfo.com"
+    "publisherEvidence": "https://zoominfo.com",
+    "assetSource": "https://github.com/Zoominfo",
+    "assetReview": "Official publisher avatar or vendor app/project icon; original geometry and pixels preserved."
   },
   "zscaler": {
     "page": "https://zscaler.com",

@@ -1,4 +1,28 @@
 {
+  "42crunch-api-security-testing": {
+    "entry": "42crunch-api-security-testing",
+    "sourcePage": "https://github.com/42Crunch-AI",
+    "assetURL": "https://github.com/42Crunch-AI.png?size=256",
+    "resolvedURL": "https://avatars.githubusercontent.com/u/272884374?s=256&v=4",
+    "file": "icons/42crunch-api-security-testing.png",
+    "sha256": "5c459e7f28fa24eaca2576f64c2c03997ef586daced0d381921902c1ed0ec2d3",
+    "bytes": 8683,
+    "contentType": "image/png",
+    "conversion": null,
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+  },
+  "activecampaign": {
+    "entry": "activecampaign",
+    "sourcePage": "https://github.com/ActiveCampaign",
+    "assetURL": "https://github.com/ActiveCampaign.png?size=256",
+    "resolvedURL": "https://avatars.githubusercontent.com/u/563440?s=256&v=4",
+    "file": "icons/activecampaign.png",
+    "sha256": "57180984a3bf2a3f8683f0ba613cc7b008f58406c88ac5d78df847d1ea8df172",
+    "bytes": 7726,
+    "contentType": "image/png",
+    "conversion": null,
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+  },
   "adobe-for-creativity": {
     "entry": "adobe-for-creativity",
     "sourcePage": "https://adobe.com",
@@ -42,6 +66,18 @@
     "bytes": 714,
     "contentType": "image/svg+xml",
     "conversion": null
+  },
+  "ai-firstify": {
+    "entry": "ai-firstify",
+    "sourcePage": "https://github.com/techwolf-ai",
+    "assetURL": "https://github.com/techwolf-ai.png?size=256",
+    "resolvedURL": "https://avatars.githubusercontent.com/u/179831386?s=256&v=4",
+    "file": "icons/ai-firstify.png",
+    "sha256": "6faaae3b3ae775ead47c5606a57f770b2b5b8dca43fa20d11a1186b1c6778cb7",
+    "bytes": 61798,
+    "contentType": "image/png",
+    "conversion": null,
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
   },
   "ai-plugins": {
     "entry": "ai-plugins",
@@ -150,6 +186,18 @@
     "contentType": "image/png",
     "conversion": null
   },
+  "amazon-selling-partner": {
+    "entry": "amazon-selling-partner",
+    "sourcePage": "https://github.com/amzn",
+    "assetURL": "https://github.com/amzn.png?size=256",
+    "resolvedURL": "https://avatars.githubusercontent.com/u/8594673?s=256&v=4",
+    "file": "icons/amazon-selling-partner.png",
+    "sha256": "2c445f79f01b4e01a90cbc5b169fcfdfe03d39349210efc4d82ee75e9a9bc5ff",
+    "bytes": 6496,
+    "contentType": "image/png",
+    "conversion": null,
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+  },
   "amplitude": {
     "entry": "amplitude",
     "sourcePage": "https://amplitude.com",
@@ -194,6 +242,18 @@
     "contentType": "image/png",
     "conversion": null
   },
+  "asana": {
+    "entry": "asana",
+    "sourcePage": "https://github.com/Asana",
+    "assetURL": "https://github.com/Asana.png?size=256",
+    "resolvedURL": "https://avatars.githubusercontent.com/u/1472111?s=256&v=4",
+    "file": "icons/asana.png",
+    "sha256": "8e7eaee0b2ddc85c10a0c784fdc128a8fa309f351bd024782003b1227a375789",
+    "bytes": 4780,
+    "contentType": "image/png",
+    "conversion": null,
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+  },
   "astronomer-data-agents": {
     "entry": "astronomer-data-agents",
     "sourcePage": "https://astronomer.io",
@@ -236,6 +296,18 @@
     "bytes": 4757,
     "contentType": "image/png",
     "conversion": null
+  },
+  "atomic-agents": {
+    "entry": "atomic-agents",
+    "sourcePage": "https://github.com/BrainBlend-AI",
+    "assetURL": "https://github.com/BrainBlend-AI.png?size=256",
+    "resolvedURL": "https://avatars.githubusercontent.com/u/178506378?s=256&v=4",
+    "file": "icons/atomic-agents.png",
+    "sha256": "7a589f1cfed06d32a4e8c83808b7d2778375445f46bd4c68ba48b11c0a7de577",
+    "bytes": 65928,
+    "contentType": "image/png",
+    "conversion": null,
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
   },
   "auth0": {
     "entry": "auth0",
@@ -401,14 +473,15 @@
   },
   "blackrock-advisor-center-plugin": {
     "entry": "blackrock-advisor-center-plugin",
-    "sourcePage": "https://blackrock.com",
-    "assetURL": "https://www.blackrock.com/amer-retail-c-assets/cache-1542298085000/images/media-bin/web/global/wordmark/blackrock-logo-nav.svg",
-    "resolvedURL": "https://www.blackrock.com/amer-retail-c-assets/cache-1542298085000/images/media-bin/web/global/wordmark/blackrock-logo-nav.svg",
-    "file": "icons/blackrock-advisor-center-plugin.svg",
-    "sha256": "ae777ca5a03f70f3cff73cc9ec986e64049ee8d45288d2d38943bc1ea61745d3",
-    "bytes": 6934,
-    "contentType": "image/svg+xml",
-    "conversion": null
+    "sourcePage": "https://github.com/blackrock",
+    "assetURL": "https://github.com/blackrock.png?size=256",
+    "resolvedURL": "https://avatars.githubusercontent.com/u/10467948?s=256&v=4",
+    "file": "icons/blackrock-advisor-center-plugin.png",
+    "sha256": "19b424def1de094ef634f3ebc65c0c6a6dcc3cbf84b1f801495296e0ef55f178",
+    "bytes": 5152,
+    "contentType": "image/png",
+    "conversion": null,
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
   },
   "boltz": {
     "entry": "boltz",
@@ -453,6 +526,18 @@
     "contentType": "image/png",
     "conversion": null
   },
+  "build-with-wordpress": {
+    "entry": "build-with-wordpress",
+    "sourcePage": "https://github.com/WordPress",
+    "assetURL": "https://github.com/WordPress.png?size=256",
+    "resolvedURL": "https://avatars.githubusercontent.com/u/276006?s=256&v=4",
+    "file": "icons/build-with-wordpress.png",
+    "sha256": "2fa2111df79a1670c8f08fe45adfad6b508baf77a56d4d40b9a3881d7594c706",
+    "bytes": 25185,
+    "contentType": "image/png",
+    "conversion": null,
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+  },
   "buildkite": {
     "entry": "buildkite",
     "sourcePage": "https://buildkite.com",
@@ -466,14 +551,15 @@
   },
   "carbone-skill": {
     "entry": "carbone-skill",
-    "sourcePage": "https://carbone.io",
-    "assetURL": "https://carbone.io/img/carbone-logo.svg",
-    "resolvedURL": "https://carbone.io/img/carbone-logo.svg",
-    "file": "icons/carbone-skill.svg",
-    "sha256": "62755b5e94aa505da6e418e4ad6307df34c179c22e201b6c81ad688278124c08",
-    "bytes": 7314,
-    "contentType": "image/svg+xml",
-    "conversion": null
+    "sourcePage": "https://github.com/carboneio",
+    "assetURL": "https://github.com/carboneio.png?size=256",
+    "resolvedURL": "https://avatars.githubusercontent.com/u/84321946?s=256&v=4",
+    "file": "icons/carbone-skill.png",
+    "sha256": "a2c4934a48ccb5194bb8f7ad43c5254b95f58f3dbdac6d3afa2aa26d75749c38",
+    "bytes": 7061,
+    "contentType": "image/png",
+    "conversion": null,
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
   },
   "carta-cap-table": {
     "entry": "carta-cap-table",
@@ -510,13 +596,15 @@
   },
   "catalyst-by-zoho": {
     "entry": "catalyst-by-zoho",
-    "sourcePage": "https://catalyst.zoho.com",
-    "assetURL": "https://www.zohowebstatic.com/sites/zweb/images/productlogos/catalyst.svg",
-    "file": "icons/catalyst-by-zoho.svg",
-    "sha256": "ef8b629197a1907438a6f7e1ff85e8beac8b8eaf0d5bbc209535e3db5a03afb0",
-    "bytes": 6393,
-    "contentType": "image/svg+xml",
-    "conversion": null
+    "sourcePage": "https://github.com/zoho",
+    "assetURL": "https://github.com/zoho.png?size=256",
+    "resolvedURL": "https://avatars.githubusercontent.com/u/5611631?s=256&v=4",
+    "file": "icons/catalyst-by-zoho.png",
+    "sha256": "416869b3dbb4dfafd09d26a4af832ccbb7d3ea449fd0bf8ca4e285ad322124de",
+    "bytes": 23606,
+    "contentType": "image/png",
+    "conversion": "Decoded official JPEG into lossless PNG at original dimensions; no resizing or recoloring.",
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
   },
   "chrome-devtools-mcp": {
     "entry": "chrome-devtools-mcp",
@@ -777,6 +865,30 @@
     "contentType": "image/png",
     "conversion": null
   },
+  "convex": {
+    "entry": "convex",
+    "sourcePage": "https://www.convex.dev",
+    "assetURL": "https://github.com/convex.png?size=256",
+    "resolvedURL": "https://avatars.githubusercontent.com/u/81530787?s=256&v=4",
+    "file": "icons/convex.png",
+    "sha256": "814d907da33e3712f86be9736bde8516cbfa3c29f82b1307ad9c76e53b3913e5",
+    "bytes": 23254,
+    "contentType": "image/png",
+    "conversion": null,
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+  },
+  "crowdsec": {
+    "entry": "crowdsec",
+    "sourcePage": "https://github.com/crowdsecurity",
+    "assetURL": "https://github.com/crowdsecurity.png?size=256",
+    "resolvedURL": "https://avatars.githubusercontent.com/u/63284097?s=256&v=4",
+    "file": "icons/crowdsec.png",
+    "sha256": "e8c111b4d61fe1dcd7e41e0bfeebd1685fa6b69b9546aef89ce24691069c37b0",
+    "bytes": 22328,
+    "contentType": "image/png",
+    "conversion": null,
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+  },
   "crowdstrike-falcon-foundry": {
     "entry": "crowdstrike-falcon-foundry",
     "sourcePage": "https://crowdstrike.com",
@@ -798,6 +910,18 @@
     "bytes": 2186,
     "contentType": "image/png",
     "conversion": null
+  },
+  "csharp-lsp": {
+    "entry": "csharp-lsp",
+    "sourcePage": "https://github.com/dotnet",
+    "assetURL": "https://github.com/dotnet.png?size=256",
+    "resolvedURL": "https://avatars.githubusercontent.com/u/9141961?s=256&v=4",
+    "file": "icons/csharp-lsp.png",
+    "sha256": "a38b8837cb6937ac8a7edea066d404e041d4799b4e7c0fc03a5b1a599c3dbd7f",
+    "bytes": 1340,
+    "contentType": "image/png",
+    "conversion": null,
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
   },
   "cwc-makers": {
     "entry": "cwc-makers",
@@ -942,24 +1066,27 @@
   },
   "discord": {
     "entry": "discord",
-    "sourcePage": "https://discord.com",
-    "assetURL": "https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66e90ab9506850e8a5dd48e3_Discrod_MainLogo.svg",
-    "resolvedURL": "https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/66e90ab9506850e8a5dd48e3_Discrod_MainLogo.svg",
-    "file": "icons/discord.svg",
-    "sha256": "cb0dc971141ae1d528b4d3c0ee46590ecf3f98c95a86ffb0d5c3ec2bc4739b3b",
-    "bytes": 6292,
-    "contentType": "image/svg+xml",
-    "conversion": null
+    "sourcePage": "https://github.com/discord",
+    "assetURL": "https://github.com/discord.png?size=256",
+    "resolvedURL": "https://avatars.githubusercontent.com/u/1965106?s=256&v=4",
+    "file": "icons/discord.png",
+    "sha256": "dea795c46ffb74b8641f1ef3e137f76def515ad93c55f814f69909bcf2c5396e",
+    "bytes": 6531,
+    "contentType": "image/png",
+    "conversion": null,
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
   },
   "dominodatalab": {
     "entry": "dominodatalab",
-    "sourcePage": "https://github.com/dominodatalab/domino-claude-plugin/blob/7949e3ac470cf2f3b1c97a790c571032c844a5a3/skills/domino-ui-design/assets/domino-logo.svg",
-    "assetURL": "https://raw.githubusercontent.com/dominodatalab/domino-claude-plugin/7949e3ac470cf2f3b1c97a790c571032c844a5a3/skills/domino-ui-design/assets/domino-logo.svg",
-    "file": "icons/dominodatalab.svg",
-    "sha256": "1c82cef498d7507e6d7b765ec38a48c2dfc9fd2f45b3dbd7a65f7e8966632ea5",
-    "bytes": 6030,
-    "contentType": "image/svg+xml",
-    "conversion": null
+    "sourcePage": "https://github.com/dominodatalab",
+    "assetURL": "https://github.com/dominodatalab.png?size=256",
+    "resolvedURL": "https://avatars.githubusercontent.com/u/8785569?s=256&v=4",
+    "file": "icons/dominodatalab.png",
+    "sha256": "94d7995ecc5e013e88b710f888ae422f05a98cc6bf7c6f1160be6d695a92a4d4",
+    "bytes": 11272,
+    "contentType": "image/png",
+    "conversion": null,
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
   },
   "dropbox": {
     "entry": "dropbox",
@@ -1113,6 +1240,18 @@
     "contentType": "image/svg+xml",
     "conversion": null
   },
+  "gc-ai": {
+    "entry": "gc-ai",
+    "sourcePage": "https://app.gc.ai",
+    "assetURL": "https://app.gc.ai/icon.png",
+    "resolvedURL": "https://app.gc.ai/icon.png",
+    "file": "icons/gc-ai.png",
+    "sha256": "9c2b9ffe8f7769c7c941331eaed179e7e6018111a06474830ccd1b78e930c811",
+    "bytes": 25133,
+    "contentType": "image/png",
+    "conversion": null,
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+  },
   "github": {
     "entry": "github",
     "sourcePage": "https://github.com",
@@ -1123,6 +1262,18 @@
     "bytes": 10942,
     "contentType": "image/png",
     "conversion": null
+  },
+  "gitkraken": {
+    "entry": "gitkraken",
+    "sourcePage": "https://github.com/gitkraken",
+    "assetURL": "https://github.com/gitkraken.png?size=256",
+    "resolvedURL": "https://avatars.githubusercontent.com/u/92606490?s=256&v=4",
+    "file": "icons/gitkraken.png",
+    "sha256": "111b3654b69b5561e1275e79c405f1bf396829e7e788ce4c1acfde046c0fc82c",
+    "bytes": 10504,
+    "contentType": "image/png",
+    "conversion": null,
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
   },
   "gitlab": {
     "entry": "gitlab",
@@ -1154,6 +1305,18 @@
     "bytes": 12840,
     "contentType": "image/png",
     "conversion": null
+  },
+  "govtribe": {
+    "entry": "govtribe",
+    "sourcePage": "https://github.com/GovTribe",
+    "assetURL": "https://github.com/GovTribe.png?size=256",
+    "resolvedURL": "https://avatars.githubusercontent.com/u/5221908?s=256&v=4",
+    "file": "icons/govtribe.png",
+    "sha256": "e184cf3e3d57420c484abb2a4ecdcd5069ab254b988b57f1d30810d80e0bea4c",
+    "bytes": 27182,
+    "contentType": "image/png",
+    "conversion": "Decoded official JPEG into lossless PNG at original dimensions; no resizing or recoloring.",
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
   },
   "grafana-assistant": {
     "entry": "grafana-assistant",
@@ -1216,6 +1379,18 @@
     "contentType": "image/png",
     "conversion": null
   },
+  "hostinger": {
+    "entry": "hostinger",
+    "sourcePage": "https://github.com/hostinger",
+    "assetURL": "https://github.com/hostinger.png?size=256",
+    "resolvedURL": "https://avatars.githubusercontent.com/u/2630767?s=256&v=4",
+    "file": "icons/hostinger.png",
+    "sha256": "4b2662b75d0b63a4e1ba68b2b7e8f0996a92728b262733f8efbbd04428915361",
+    "bytes": 5951,
+    "contentType": "image/png",
+    "conversion": null,
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+  },
   "hubspot-sales": {
     "entry": "hubspot-sales",
     "sourcePage": "https://hubspot.com",
@@ -1248,6 +1423,30 @@
     "contentType": "image/png",
     "conversion": null
   },
+  "idmp-plugin": {
+    "entry": "idmp-plugin",
+    "sourcePage": "https://github.com/taosdata",
+    "assetURL": "https://github.com/taosdata.png?size=256",
+    "resolvedURL": "https://avatars.githubusercontent.com/u/48876650?s=256&v=4",
+    "file": "icons/idmp-plugin.png",
+    "sha256": "4099aa62e509522eda127d653332524aacd1b774958084d30cd19472a358cb95",
+    "bytes": 18406,
+    "contentType": "image/png",
+    "conversion": null,
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+  },
+  "imessage": {
+    "entry": "imessage",
+    "sourcePage": "https://apps.apple.com/us/app/messages/id1146560473",
+    "assetURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9a/67/f2/9a67f2bc-be6d-6000-a189-660f06626d12/Placeholder.mill/200x200Icon.ApSiOS01-75.jpg",
+    "resolvedURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9a/67/f2/9a67f2bc-be6d-6000-a189-660f06626d12/Placeholder.mill/200x200Icon.ApSiOS01-75.jpg",
+    "file": "icons/imessage.png",
+    "sha256": "db5803a68c008775591c81bae1fb07007487b15846863c8a70b3ef4e05b287b2",
+    "bytes": 27578,
+    "contentType": "image/png",
+    "conversion": "Decoded official JPEG into lossless PNG at original dimensions; no resizing or recoloring.",
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+  },
   "incident-io": {
     "entry": "incident-io",
     "sourcePage": "https://incident.io",
@@ -1269,6 +1468,42 @@
     "bytes": 739,
     "contentType": "image/svg+xml",
     "conversion": null
+  },
+  "intercom": {
+    "entry": "intercom",
+    "sourcePage": "https://github.com/intercom",
+    "assetURL": "https://github.com/intercom.png?size=256",
+    "resolvedURL": "https://avatars.githubusercontent.com/u/6585?s=256&v=4",
+    "file": "icons/intercom.png",
+    "sha256": "b6c3e38f37308425d0812c40f61351b0b877b7bfd15ad8767461c657eba44ff5",
+    "bytes": 7368,
+    "contentType": "image/png",
+    "conversion": null,
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+  },
+  "intuit-quickbooks": {
+    "entry": "intuit-quickbooks",
+    "sourcePage": "https://github.com/intuit",
+    "assetURL": "https://github.com/intuit.png?size=256",
+    "resolvedURL": "https://avatars.githubusercontent.com/u/2495066?s=256&v=4",
+    "file": "icons/intuit-quickbooks.png",
+    "sha256": "25ea38a868fb962cc06b018a62b958b5a1f45c10511715be295b9dc18078a2e4",
+    "bytes": 3174,
+    "contentType": "image/png",
+    "conversion": null,
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+  },
+  "jdtls-lsp": {
+    "entry": "jdtls-lsp",
+    "sourcePage": "https://github.com/eclipse",
+    "assetURL": "https://github.com/eclipse.png?size=256",
+    "resolvedURL": "https://avatars.githubusercontent.com/u/56974?s=256&v=4",
+    "file": "icons/jdtls-lsp.png",
+    "sha256": "5d1908f73248f9796ab99f7bc2acd0e777b2fd729991ce444ca2b29f0a0b0b39",
+    "bytes": 9419,
+    "contentType": "image/png",
+    "conversion": null,
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
   },
   "jfrog": {
     "entry": "jfrog",
@@ -1358,6 +1593,18 @@
     "contentType": "image/svg+xml",
     "conversion": null
   },
+  "legalzoom": {
+    "entry": "legalzoom",
+    "sourcePage": "https://github.com/legalzoom",
+    "assetURL": "https://github.com/legalzoom.png?size=256",
+    "resolvedURL": "https://avatars.githubusercontent.com/u/92651296?s=256&v=4",
+    "file": "icons/legalzoom.png",
+    "sha256": "b54622000cadfa82f27890cd71c4f58df7ecbb02dc5947764d92023328496358",
+    "bytes": 15601,
+    "contentType": "image/png",
+    "conversion": "Decoded official JPEG into lossless PNG at original dimensions; no resizing or recoloring.",
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+  },
   "linear": {
     "entry": "linear",
     "sourcePage": "https://linear.app",
@@ -1382,25 +1629,27 @@
   },
   "liquid-lsp": {
     "entry": "liquid-lsp",
-    "sourcePage": "https://shopify.dev",
-    "assetURL": "https://shopify-assets.shopifycdn.com/shopifycloud/shopify-dev/production/assets/dev-docs-logo-2-light-D4UI1jxY.svg",
-    "resolvedURL": "https://shopify-assets.shopifycdn.com/shopifycloud/shopify-dev/production/assets/dev-docs-logo-2-light-D4UI1jxY.svg",
-    "file": "icons/liquid-lsp.svg",
-    "sha256": "41490f4171dc091ffe70f8b0b334946ac64dda50760c69000b319ee00e1c6ad0",
-    "bytes": 11661,
-    "contentType": "image/svg+xml",
-    "conversion": null
+    "sourcePage": "https://shopify.com",
+    "assetURL": "https://shopify.com/apple-touch-icon.png",
+    "resolvedURL": "https://www.shopify.com/apple-touch-icon.png",
+    "file": "icons/shopify-ai-toolkit.png",
+    "sha256": "b4f8929dca6d35346d63a49605eed3ab4f8ca0e706dfc5c3aa0a79eed98954fe",
+    "bytes": 3754,
+    "contentType": "image/png",
+    "conversion": null,
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
   },
   "liquid-skills": {
     "entry": "liquid-skills",
-    "sourcePage": "https://shopify.dev",
-    "assetURL": "https://shopify-assets.shopifycdn.com/shopifycloud/shopify-dev/production/assets/dev-docs-logo-2-light-D4UI1jxY.svg",
-    "resolvedURL": "https://shopify-assets.shopifycdn.com/shopifycloud/shopify-dev/production/assets/dev-docs-logo-2-light-D4UI1jxY.svg",
-    "file": "icons/liquid-skills.svg",
-    "sha256": "41490f4171dc091ffe70f8b0b334946ac64dda50760c69000b319ee00e1c6ad0",
-    "bytes": 11661,
-    "contentType": "image/svg+xml",
-    "conversion": null
+    "sourcePage": "https://shopify.com",
+    "assetURL": "https://shopify.com/apple-touch-icon.png",
+    "resolvedURL": "https://www.shopify.com/apple-touch-icon.png",
+    "file": "icons/shopify-ai-toolkit.png",
+    "sha256": "b4f8929dca6d35346d63a49605eed3ab4f8ca0e706dfc5c3aa0a79eed98954fe",
+    "bytes": 3754,
+    "contentType": "image/png",
+    "conversion": null,
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
   },
   "logfire": {
     "entry": "logfire",
@@ -1459,14 +1708,15 @@
   },
   "lseg": {
     "entry": "lseg",
-    "sourcePage": "https://lseg.com",
-    "assetURL": "https://www.lseg.com/content/dam/lseg/en_us/images/logos/bespoke/lseg-logo.svg",
-    "resolvedURL": "https://www.lseg.com/content/dam/lseg/en_us/images/logos/bespoke/lseg-logo.svg",
-    "file": "icons/lseg.svg",
-    "sha256": "ea32175d1075595c43fe02257d512a6c8f13a95e4d4d52c499df86a1e233dc82",
-    "bytes": 1455,
-    "contentType": "image/svg+xml",
-    "conversion": null
+    "sourcePage": "https://github.com/LSEG",
+    "assetURL": "https://github.com/LSEG.png?size=256",
+    "resolvedURL": "https://avatars.githubusercontent.com/u/12189631?s=256&v=4",
+    "file": "icons/lseg.png",
+    "sha256": "8b394ab2e9d68af8ecddd820f20ca4ea17566d1d46949ad22821a307fc5f11b7",
+    "bytes": 11374,
+    "contentType": "image/png",
+    "conversion": null,
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
   },
   "lua-lsp": {
     "entry": "lua-lsp",
@@ -1489,6 +1739,18 @@
     "bytes": 611,
     "contentType": "image/svg+xml",
     "conversion": null
+  },
+  "lusha": {
+    "entry": "lusha",
+    "sourcePage": "https://github.com/lusha-oss",
+    "assetURL": "https://github.com/lusha-oss.png?size=256",
+    "resolvedURL": "https://avatars.githubusercontent.com/u/215645364?s=256&v=4",
+    "file": "icons/lusha.png",
+    "sha256": "cc0fd6f7820b1925fa65aa8b3fdbe47a19b76f6a353a253bd8d504034182df36",
+    "bytes": 2145,
+    "contentType": "image/png",
+    "conversion": null,
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
   },
   "make": {
     "entry": "make",
@@ -1521,6 +1783,18 @@
     "bytes": 4764,
     "contentType": "image/png",
     "conversion": null
+  },
+  "mcp-apps": {
+    "entry": "mcp-apps",
+    "sourcePage": "https://github.com/modelcontextprotocol",
+    "assetURL": "https://github.com/modelcontextprotocol.png?size=256",
+    "resolvedURL": "https://avatars.githubusercontent.com/u/182288589?s=256&v=4",
+    "file": "icons/mcp-apps.png",
+    "sha256": "0aa263298b6423e00deb13fb499bc79ae6787caca589a37656dc8bddaa7ea8e4",
+    "bytes": 6091,
+    "contentType": "image/png",
+    "conversion": null,
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
   },
   "mercadopago": {
     "entry": "mercadopago",
@@ -1588,6 +1862,18 @@
     "contentType": "image/png",
     "conversion": null
   },
+  "mlflow": {
+    "entry": "mlflow",
+    "sourcePage": "https://github.com/mlflow",
+    "assetURL": "https://github.com/mlflow.png?size=256",
+    "resolvedURL": "https://avatars.githubusercontent.com/u/39938107?s=256&v=4",
+    "file": "icons/mlflow.png",
+    "sha256": "23b74594a6301544e2c6b00fe3edfaa9c74038c3b940b3ac007c27830b6a9063",
+    "bytes": 9435,
+    "contentType": "image/png",
+    "conversion": null,
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+  },
   "modern-web-guidance": {
     "entry": "modern-web-guidance",
     "sourcePage": "https://developer.chrome.com",
@@ -1623,25 +1909,27 @@
   },
   "mongodb": {
     "entry": "mongodb",
-    "sourcePage": "https://mongodb.com",
-    "assetURL": "https://webimages.mongodb.com/_com_assets/cms/kuyjf3vea2hg34taa-horizontal_default_slate_blue.svg?auto=format%252Ccompress",
-    "resolvedURL": "https://webimages.mongodb.com/_com_assets/cms/kuyjf3vea2hg34taa-horizontal_default_slate_blue.svg?auto=format%252Ccompress",
-    "file": "icons/mongodb.svg",
-    "sha256": "9f5435c8be18a834b2c2f8c4c03f117a997646c660fd6f28e3b6869a1bc2fcc1",
-    "bytes": 11428,
-    "contentType": "image/svg+xml",
-    "conversion": null
+    "sourcePage": "https://github.com/mongodb",
+    "assetURL": "https://github.com/mongodb.png?size=256",
+    "resolvedURL": "https://avatars.githubusercontent.com/u/45120?s=256&v=4",
+    "file": "icons/mongodb.png",
+    "sha256": "2739c874e961cdf8e04a35c2b0419497d030a94c91078823a6907a952bbb4af0",
+    "bytes": 20835,
+    "contentType": "image/png",
+    "conversion": "Decoded official JPEG into lossless PNG at original dimensions; no resizing or recoloring.",
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
   },
   "mongodb-atlas": {
     "entry": "mongodb-atlas",
-    "sourcePage": "https://mongodb.com",
-    "assetURL": "https://webimages.mongodb.com/_com_assets/cms/kuyjf3vea2hg34taa-horizontal_default_slate_blue.svg?auto=format%252Ccompress",
-    "resolvedURL": "https://webimages.mongodb.com/_com_assets/cms/kuyjf3vea2hg34taa-horizontal_default_slate_blue.svg?auto=format%252Ccompress",
-    "file": "icons/mongodb-atlas.svg",
-    "sha256": "9f5435c8be18a834b2c2f8c4c03f117a997646c660fd6f28e3b6869a1bc2fcc1",
-    "bytes": 11428,
-    "contentType": "image/svg+xml",
-    "conversion": null
+    "sourcePage": "https://github.com/mongodb",
+    "assetURL": "https://github.com/mongodb.png?size=256",
+    "resolvedURL": "https://avatars.githubusercontent.com/u/45120?s=256&v=4",
+    "file": "icons/mongodb.png",
+    "sha256": "2739c874e961cdf8e04a35c2b0419497d030a94c91078823a6907a952bbb4af0",
+    "bytes": 20835,
+    "contentType": "image/png",
+    "conversion": "Decoded official JPEG into lossless PNG at original dimensions; no resizing or recoloring.",
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
   },
   "neon": {
     "entry": "neon",
@@ -1664,6 +1952,39 @@
     "bytes": 1417,
     "contentType": "image/png",
     "conversion": null
+  },
+  "netsuite-ai-companion": {
+    "entry": "netsuite-ai-companion",
+    "sourcePage": "https://github.com/oracle/netsuite-suitecloud-sdk/blob/23793a10a9bb557c684c5cb8a97f926eb3463f12/openai/netsuite-ai-companion/assets/netsuite-icon.png",
+    "assetURL": "https://raw.githubusercontent.com/oracle/netsuite-suitecloud-sdk/23793a10a9bb557c684c5cb8a97f926eb3463f12/openai/netsuite-ai-companion/assets/netsuite-icon.png",
+    "file": "icons/netsuite-ai-companion.png",
+    "sha256": "c60168eefc6afad4539616d98563bc46718a655dc5639fdd9cdbf273e24028d0",
+    "bytes": 685696,
+    "contentType": "image/png",
+    "conversion": null,
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+  },
+  "netsuite-finance-analyst": {
+    "entry": "netsuite-finance-analyst",
+    "sourcePage": "https://github.com/oracle/netsuite-suitecloud-sdk/blob/23793a10a9bb557c684c5cb8a97f926eb3463f12/openai/netsuite-finance-analyst/assets/netsuite-icon.png",
+    "assetURL": "https://raw.githubusercontent.com/oracle/netsuite-suitecloud-sdk/23793a10a9bb557c684c5cb8a97f926eb3463f12/openai/netsuite-finance-analyst/assets/netsuite-icon.png",
+    "file": "icons/netsuite-finance-analyst.png",
+    "sha256": "c60168eefc6afad4539616d98563bc46718a655dc5639fdd9cdbf273e24028d0",
+    "bytes": 685696,
+    "contentType": "image/png",
+    "conversion": null,
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+  },
+  "netsuite-suitecloud": {
+    "entry": "netsuite-suitecloud",
+    "sourcePage": "https://github.com/oracle/netsuite-suitecloud-sdk/blob/23793a10a9bb557c684c5cb8a97f926eb3463f12/openai/netsuite-suitecloud/assets/netsuite-icon.png",
+    "assetURL": "https://raw.githubusercontent.com/oracle/netsuite-suitecloud-sdk/23793a10a9bb557c684c5cb8a97f926eb3463f12/openai/netsuite-suitecloud/assets/netsuite-icon.png",
+    "file": "icons/netsuite-suitecloud.png",
+    "sha256": "c60168eefc6afad4539616d98563bc46718a655dc5639fdd9cdbf273e24028d0",
+    "bytes": 685696,
+    "contentType": "image/png",
+    "conversion": null,
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
   },
   "newrelic": {
     "entry": "newrelic",
@@ -1717,6 +2038,66 @@
     "bytes": 8078,
     "contentType": "image/png",
     "conversion": null
+  },
+  "nvidia-skills": {
+    "entry": "nvidia-skills",
+    "sourcePage": "https://github.com/NVIDIA",
+    "assetURL": "https://github.com/NVIDIA.png?size=256",
+    "resolvedURL": "https://avatars.githubusercontent.com/u/1728152?s=256&v=4",
+    "file": "icons/nvidia-skills.png",
+    "sha256": "d60044815ae7362db559779fa690111eeac36f4a161c3a7cd57474879706b5ee",
+    "bytes": 10580,
+    "contentType": "image/png",
+    "conversion": null,
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+  },
+  "oracle-ai-data-platform-workbench-databricks-migrator": {
+    "entry": "oracle-ai-data-platform-workbench-databricks-migrator",
+    "sourcePage": "https://github.com/oracle",
+    "assetURL": "https://github.com/oracle.png?size=256",
+    "resolvedURL": "https://avatars.githubusercontent.com/u/4430336?s=256&v=4",
+    "file": "icons/oracle-ai-data-platform-workbench-databricks-migrator.png",
+    "sha256": "5e9469f5ec5d47cdad94f2fc48b7ebe062b6e807b8fea807ad339cb8fb6f558e",
+    "bytes": 6625,
+    "contentType": "image/png",
+    "conversion": null,
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+  },
+  "oracle-ai-data-platform-workbench-engineer-agent": {
+    "entry": "oracle-ai-data-platform-workbench-engineer-agent",
+    "sourcePage": "https://github.com/oracle",
+    "assetURL": "https://github.com/oracle.png?size=256",
+    "resolvedURL": "https://avatars.githubusercontent.com/u/4430336?s=256&v=4",
+    "file": "icons/oracle-ai-data-platform-workbench-engineer-agent.png",
+    "sha256": "5e9469f5ec5d47cdad94f2fc48b7ebe062b6e807b8fea807ad339cb8fb6f558e",
+    "bytes": 6625,
+    "contentType": "image/png",
+    "conversion": null,
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+  },
+  "oracle-ai-data-platform-workbench-spark-connectors": {
+    "entry": "oracle-ai-data-platform-workbench-spark-connectors",
+    "sourcePage": "https://github.com/oracle",
+    "assetURL": "https://github.com/oracle.png?size=256",
+    "resolvedURL": "https://avatars.githubusercontent.com/u/4430336?s=256&v=4",
+    "file": "icons/oracle-ai-data-platform-workbench-spark-connectors.png",
+    "sha256": "5e9469f5ec5d47cdad94f2fc48b7ebe062b6e807b8fea807ad339cb8fb6f558e",
+    "bytes": 6625,
+    "contentType": "image/png",
+    "conversion": null,
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+  },
+  "oracledb": {
+    "entry": "oracledb",
+    "sourcePage": "https://github.com/oracle",
+    "assetURL": "https://github.com/oracle.png?size=256",
+    "resolvedURL": "https://avatars.githubusercontent.com/u/4430336?s=256&v=4",
+    "file": "icons/oracledb.png",
+    "sha256": "5e9469f5ec5d47cdad94f2fc48b7ebe062b6e807b8fea807ad339cb8fb6f558e",
+    "bytes": 6625,
+    "contentType": "image/png",
+    "conversion": null,
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
   },
   "outputai": {
     "entry": "outputai",
@@ -1784,6 +2165,18 @@
     "contentType": "image/png",
     "conversion": null
   },
+  "php-lsp": {
+    "entry": "php-lsp",
+    "sourcePage": "https://github.com/php",
+    "assetURL": "https://github.com/php.png?size=256",
+    "resolvedURL": "https://avatars.githubusercontent.com/u/25158?s=256&v=4",
+    "file": "icons/php-lsp.png",
+    "sha256": "9ce0b4e7d90fec8322b769a6bd1de70fe257368638d4dc7ca4839d6680e46e2d",
+    "bytes": 17022,
+    "contentType": "image/png",
+    "conversion": null,
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+  },
   "pigment": {
     "entry": "pigment",
     "sourcePage": "https://gopigment.com",
@@ -1794,6 +2187,18 @@
     "bytes": 5811,
     "contentType": "image/png",
     "conversion": null
+  },
+  "pinecone": {
+    "entry": "pinecone",
+    "sourcePage": "https://github.com/pinecone-io",
+    "assetURL": "https://github.com/pinecone-io.png?size=256",
+    "resolvedURL": "https://avatars.githubusercontent.com/u/54333248?s=256&v=4",
+    "file": "icons/pinecone.png",
+    "sha256": "4f0f4fc86a618739795ab11a8fdaa61f691330044c99deb32324b9602c96672b",
+    "bytes": 4769,
+    "contentType": "image/png",
+    "conversion": null,
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
   },
   "pixeltable": {
     "entry": "pixeltable",
@@ -1902,6 +2307,18 @@
     "contentType": "image/png",
     "conversion": null
   },
+  "pyright-lsp": {
+    "entry": "pyright-lsp",
+    "sourcePage": "https://github.com/python",
+    "assetURL": "https://github.com/python.png?size=256",
+    "resolvedURL": "https://avatars.githubusercontent.com/u/1525981?s=256&v=4",
+    "file": "icons/pyright-lsp.png",
+    "sha256": "8a5117d4036e688d97b1aaae730dffae295a2151ebdb5a2d8f9184d43c199f05",
+    "bytes": 13379,
+    "contentType": "image/png",
+    "conversion": null,
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+  },
   "qdrant-skills": {
     "entry": "qdrant-skills",
     "sourcePage": "https://qdrant.tech",
@@ -1933,6 +2350,30 @@
     "contentType": "image/png",
     "conversion": null
   },
+  "qt-development-skills": {
+    "entry": "qt-development-skills",
+    "sourcePage": "https://github.com/qt",
+    "assetURL": "https://github.com/qt.png?size=256",
+    "resolvedURL": "https://avatars.githubusercontent.com/u/159455?s=256&v=4",
+    "file": "icons/qt-development-skills.png",
+    "sha256": "ec7f71f5c4c75e811f0617f11e54e14e846c862ef0e82b598de1275a06c8c3a0",
+    "bytes": 7653,
+    "contentType": "image/png",
+    "conversion": null,
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+  },
+  "quarkus-agent": {
+    "entry": "quarkus-agent",
+    "sourcePage": "https://github.com/quarkusio",
+    "assetURL": "https://github.com/quarkusio.png?size=256",
+    "resolvedURL": "https://avatars.githubusercontent.com/u/47638783?s=256&v=4",
+    "file": "icons/quarkus-agent.png",
+    "sha256": "870289aca7403bf1d8f80f46ccf9af0f3fd502cf70264638ed5c8a17d51036a5",
+    "bytes": 5404,
+    "contentType": "image/png",
+    "conversion": null,
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+  },
   "railway": {
     "entry": "railway",
     "sourcePage": "https://railway.com",
@@ -1963,6 +2404,18 @@
     "bytes": 3659,
     "contentType": "image/png",
     "conversion": null
+  },
+  "remember": {
+    "entry": "remember",
+    "sourcePage": "https://github.com/Digital-Process-Tools",
+    "assetURL": "https://github.com/Digital-Process-Tools.png?size=256",
+    "resolvedURL": "https://avatars.githubusercontent.com/u/150799090?s=256&v=4",
+    "file": "icons/remember.png",
+    "sha256": "7e29df277fcfc481cb97eceea661885a14d9d08ef49f03dfe003601483d788cf",
+    "bytes": 12759,
+    "contentType": "image/png",
+    "conversion": null,
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
   },
   "render": {
     "entry": "render",
@@ -1996,6 +2449,18 @@
     "bytes": 913,
     "contentType": "image/png",
     "conversion": null
+  },
+  "ruby-lsp": {
+    "entry": "ruby-lsp",
+    "sourcePage": "https://github.com/ruby",
+    "assetURL": "https://github.com/ruby.png?size=256",
+    "resolvedURL": "https://avatars.githubusercontent.com/u/210414?s=256&v=4",
+    "file": "icons/ruby-lsp.png",
+    "sha256": "850bcc4585e297fefab79459188b95782736de0aae62893b962f33059a32b57c",
+    "bytes": 59638,
+    "contentType": "image/png",
+    "conversion": null,
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
   },
   "runway-api": {
     "entry": "runway-api",
@@ -2052,6 +2517,18 @@
     "contentType": "image/png",
     "conversion": null
   },
+  "save-to-spotify": {
+    "entry": "save-to-spotify",
+    "sourcePage": "https://github.com/spotify",
+    "assetURL": "https://github.com/spotify.png?size=256",
+    "resolvedURL": "https://avatars.githubusercontent.com/u/251374?s=256&v=4",
+    "file": "icons/save-to-spotify.png",
+    "sha256": "3d41cfdef0e1d9d6b847a42c51a4ada78e76091bb5ea61b08038c83fd321d127",
+    "bytes": 12208,
+    "contentType": "image/png",
+    "conversion": null,
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+  },
   "scandit-sdk": {
     "entry": "scandit-sdk",
     "sourcePage": "https://scandit.com",
@@ -2062,6 +2539,18 @@
     "bytes": 2269,
     "contentType": "image/png",
     "conversion": null
+  },
+  "searchfit-seo": {
+    "entry": "searchfit-seo",
+    "sourcePage": "https://github.com/searchfit",
+    "assetURL": "https://github.com/searchfit.png?size=256",
+    "resolvedURL": "https://avatars.githubusercontent.com/u/243774486?s=256&v=4",
+    "file": "icons/searchfit-seo.png",
+    "sha256": "05ab155ae386b713c963231bd5991f2ed051707501abfa3b87c9a92832ab9195",
+    "bytes": 8544,
+    "contentType": "image/png",
+    "conversion": null,
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
   },
   "semgrep": {
     "entry": "semgrep",
@@ -2093,6 +2582,29 @@
     "bytes": 741,
     "contentType": "image/svg+xml",
     "conversion": null
+  },
+  "serena": {
+    "entry": "serena",
+    "sourcePage": "https://github.com/oraios/serena/blob/ede329aaf0c824bea75455a2926f01420d7aa620/resources/serena-logo.svg",
+    "assetURL": "https://raw.githubusercontent.com/oraios/serena/ede329aaf0c824bea75455a2926f01420d7aa620/resources/serena-logo.svg",
+    "file": "icons/serena.svg",
+    "sha256": "140e60def79d34d00f36dcc0abe42a250e8c37ef260ce2dc49420d4021823790",
+    "bytes": 217846,
+    "contentType": "image/svg+xml",
+    "conversion": null,
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+  },
+  "servicenow-sdk": {
+    "entry": "servicenow-sdk",
+    "sourcePage": "https://github.com/ServiceNow",
+    "assetURL": "https://github.com/ServiceNow.png?size=256",
+    "resolvedURL": "https://avatars.githubusercontent.com/u/6577392?s=256&v=4",
+    "file": "icons/servicenow-sdk.png",
+    "sha256": "fd42e84bbd92401a229ba67c65bf740b1631c25bc3aa6f66552debd73a49d345",
+    "bytes": 9074,
+    "contentType": "image/png",
+    "conversion": null,
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
   },
   "setup-agent-analytics": {
     "entry": "setup-agent-analytics",
@@ -2213,6 +2725,18 @@
     "contentType": "image/png",
     "conversion": null
   },
+  "sp-global": {
+    "entry": "sp-global",
+    "sourcePage": "https://github.com/kensho-technologies",
+    "assetURL": "https://github.com/kensho-technologies.png?size=256",
+    "resolvedURL": "https://avatars.githubusercontent.com/u/26574236?s=256&v=4",
+    "file": "icons/sp-global.png",
+    "sha256": "c1ba20a2ceb598c35e305e03a725b0cde19df522c21ff6f158485ae212f6b232",
+    "bytes": 11228,
+    "contentType": "image/png",
+    "conversion": null,
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+  },
   "spanner": {
     "entry": "spanner",
     "sourcePage": "https://cloud.google.com",
@@ -2223,6 +2747,18 @@
     "bytes": 9447,
     "contentType": "image/png",
     "conversion": null
+  },
+  "spotify-ads-api": {
+    "entry": "spotify-ads-api",
+    "sourcePage": "https://github.com/spotify",
+    "assetURL": "https://github.com/spotify.png?size=256",
+    "resolvedURL": "https://avatars.githubusercontent.com/u/251374?s=256&v=4",
+    "file": "icons/spotify-ads-api.png",
+    "sha256": "3d41cfdef0e1d9d6b847a42c51a4ada78e76091bb5ea61b08038c83fd321d127",
+    "bytes": 12208,
+    "contentType": "image/png",
+    "conversion": null,
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
   },
   "stackhawk-api": {
     "entry": "stackhawk-api",
@@ -2275,6 +2811,29 @@
     "bytes": 3639,
     "contentType": "image/png",
     "conversion": null
+  },
+  "superpowers": {
+    "entry": "superpowers",
+    "sourcePage": "https://github.com/obra/superpowers/blob/bb92a77741419a4ab5f06e711a283343f1ada0c3/assets/app-icon.png",
+    "assetURL": "https://raw.githubusercontent.com/obra/superpowers/bb92a77741419a4ab5f06e711a283343f1ada0c3/assets/app-icon.png",
+    "file": "icons/superpowers.png",
+    "sha256": "b7477eb39b5109617fe37e51dd65d8bdd8dff6c40fda49adfbc21eec445777ee",
+    "bytes": 48231,
+    "contentType": "image/png",
+    "conversion": null,
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
+  },
+  "swift-lsp": {
+    "entry": "swift-lsp",
+    "sourcePage": "https://github.com/swiftlang",
+    "assetURL": "https://github.com/swiftlang.png?size=256",
+    "resolvedURL": "https://avatars.githubusercontent.com/u/42816656?s=256&v=4",
+    "file": "icons/swift-lsp.png",
+    "sha256": "9706c24b6aa3e0581f52e25cf060e808ff1dcfff4917abc893c9252047c7ab26",
+    "bytes": 11346,
+    "contentType": "image/png",
+    "conversion": null,
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
   },
   "synthflow": {
     "entry": "synthflow",
@@ -2428,6 +2987,18 @@
     "bytes": 1420,
     "contentType": "image/png",
     "conversion": null
+  },
+  "unreal-engine-skills-for-claude-code": {
+    "entry": "unreal-engine-skills-for-claude-code",
+    "sourcePage": "https://github.com/EpicGames",
+    "assetURL": "https://github.com/EpicGames.png?size=256",
+    "resolvedURL": "https://avatars.githubusercontent.com/u/6615685?s=256&v=4",
+    "file": "icons/unreal-engine-skills-for-claude-code.png",
+    "sha256": "27278b3a8ca271f1b14f1ed8ce283eddf3fd2b3b9dee904c5cc5776010270883",
+    "bytes": 9987,
+    "contentType": "image/png",
+    "conversion": null,
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
   },
   "unstructured-foundation": {
     "entry": "unstructured-foundation",
@@ -2612,6 +3183,18 @@
     "bytes": 4380,
     "contentType": "image/png",
     "conversion": null
+  },
+  "zoominfo": {
+    "entry": "zoominfo",
+    "sourcePage": "https://github.com/Zoominfo",
+    "assetURL": "https://github.com/Zoominfo.png?size=256",
+    "resolvedURL": "https://avatars.githubusercontent.com/u/16402566?s=256&v=4",
+    "file": "icons/zoominfo.png",
+    "sha256": "8db6011bcb6aa60c4b4722a99b369ed5047533637e6985f9a3d66ad9b489ea2d",
+    "bytes": 1723,
+    "contentType": "image/png",
+    "conversion": null,
+    "catalogCommit": "3ca6ac4819b80ef9bd672f6dc5e2f34a7efe3de8"
   },
   "zscaler": {
     "entry": "zscaler",

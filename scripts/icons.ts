@@ -32,6 +32,12 @@ function iconData(root: string, source: any) {
  const bytes = readFileSync(resolve(root, source.file));
  if (bytes.length !== source.bytes || createHash('sha256').update(bytes).digest('hex') !== source.sha256) throw Error('icon provenance hash mismatch');
  if (!['image/png', 'image/svg+xml', 'image/webp'].includes(source.contentType)) throw Error('invalid icon media type');
+ if (source.catalogCommit !== undefined) {
+  if (!/^[a-f0-9]{40}$/.test(source.catalogCommit)) throw Error('icon catalog commit must be immutable');
+  const url = `https://raw.githubusercontent.com/compozy/plugins/${source.catalogCommit}/${source.file}`;
+  validateIcon(url);
+  return url;
+ }
  return `data:${source.contentType};base64,${bytes.toString('base64')}`;
 }
 export function checkIcons(doc: any, root: string) {
