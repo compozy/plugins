@@ -1,3 +1,4 @@
+import { applyIcons } from './icons';
 import { mkdirSync, cpSync, existsSync, readFileSync, readdirSync, rmSync } from 'node:fs';
 import { resolve, join } from 'node:path';
 import { validate, checkSnapshotQuota, reviewedCategory } from './check';
@@ -32,6 +33,7 @@ if(process.argv.includes('--repair-known')){
  repairEntries(root,entries,lock,curation,report,candidates);
  doc.plugins=[...entries.values()];
  lock.entries=Object.fromEntries(doc.plugins.map((p:any)=>[p.name,lock.entries[p.name]]));
+ applyIcons(doc,root);
  validate(doc,lock,root,curation);
  await json(join(root,'.claude-plugin/marketplace.json'),doc);await json(lockPath,lock);
  await json(join(root,'vendoring.json'),report);await json(join(root,'candidates.json'),candidates);
@@ -40,6 +42,7 @@ if(process.argv.includes('--repair-known')){
 if(process.argv.includes('--metadata-only')){
  const doc=await Bun.file(join(root,'.claude-plugin/marketplace.json')).json();
  for(const entry of doc.plugins)entry['x-compozy'].category=reviewedCategory(entry.name,curation.categories);
+ applyIcons(doc,root);
  validate(doc,lock,root,curation);
  const candidates=await Bun.file(join(root,'candidates.json')).json();
  candidates.registryCandidates=reviewCandidates(candidates.registryCandidates,curation.registryReview);
@@ -139,7 +142,8 @@ await json(join(root,'candidates.json'),candidates);
 await json(join(root,'vendoring.json'),vendoring);
 const doc={name:'compozy-plugins',owner:{name:'Compozy'},plugins:[...entries.values()].sort((a,b)=>a.name.localeCompare(b.name,'en'))};
 lock.entries=Object.fromEntries(doc.plugins.map(p=>[p.name,lock.entries[p.name]]));
-validate(doc,lock,root,curation);
+applyIcons(doc,root);
+ validate(doc,lock,root,curation);
 await json(join(root,'.claude-plugin/marketplace.json'),doc);await json(lockPath,lock);
 const generated=new Set(doc.plugins.map(p=>p.source).filter(s=>typeof s==='string'&&s.startsWith('./plugins/')).map(s=>s.slice('./plugins/'.length)));
 for(const dir of readdirSync(join(root,'plugins')))if(!generated.has(dir))rmSync(join(root,'plugins',dir),{recursive:true});

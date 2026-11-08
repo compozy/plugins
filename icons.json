@@ -1,0 +1,1214 @@
+{
+  "42crunch-api-security-testing": {
+    "page": "https://42crunch.com",
+    "publisherEvidence": "https://42crunch.com"
+  },
+  "activecampaign": {
+    "page": "https://activecampaign.com",
+    "publisherEvidence": "https://www.activecampaign.com"
+  },
+  "adobe-for-creativity": {
+    "page": "https://adobe.com",
+    "publisherEvidence": "https://github.com/adobe/skills/tree/main/plugins/creative-cloud/adobe-for-creativity"
+  },
+  "adspirer-ads-agent": {
+    "page": "https://adspirer.com",
+    "publisherEvidence": "https://www.adspirer.com"
+  },
+  "agent-sdk-dev": {
+    "page": "https://claude.com",
+    "publisherEvidence": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/agent-sdk-dev"
+  },
+  "agentforce-adlc": {
+    "page": "https://salesforce.com",
+    "publisherEvidence": "https://github.com/SalesforceAIResearch/agentforce-adlc"
+  },
+  "ai-firstify": {
+    "page": "https://ai-first.techwolf.ai",
+    "publisherEvidence": "https://ai-first.techwolf.ai"
+  },
+  "ai-plugins": {
+    "page": "https://endorlabs.com",
+    "publisherEvidence": "https://www.endorlabs.com"
+  },
+  "aikido": {
+    "page": "https://aikido.dev",
+    "publisherEvidence": "https://github.com/AikidoSec/aikido-claude-plugin"
+  },
+  "airtable": {
+    "page": "https://airtable.com",
+    "publisherEvidence": "https://www.airtable.com"
+  },
+  "airwallex-agentos": {
+    "page": "https://airwallex.com",
+    "publisherEvidence": "https://www.airwallex.com/docs"
+  },
+  "airwallex-dev": {
+    "page": "https://airwallex.com",
+    "publisherEvidence": "https://www.airwallex.com/docs"
+  },
+  "aiven": {
+    "page": "https://aiven.io",
+    "publisherEvidence": "https://aiven.io"
+  },
+  "alloydb": {
+    "page": "https://cloud.google.com",
+    "publisherEvidence": "https://cloud.google.com/alloydb"
+  },
+  "alloydb-omni": {
+    "page": "https://cloud.google.com",
+    "publisherEvidence": "https://github.com/gemini-cli-extensions/alloydb-omni"
+  },
+  "altimate-code": {
+    "page": "https://altimate.ai",
+    "publisherEvidence": "https://www.altimate.ai"
+  },
+  "amazon-location-service": {
+    "page": "https://aws.amazon.com",
+    "publisherEvidence": "https://github.com/awslabs/agent-plugins"
+  },
+  "amazon-selling-partner": {
+    "page": "https://sellercentral.amazon.com",
+    "publisherEvidence": "https://github.com/amzn/selling-partner-agentic-toolkit"
+  },
+  "amplitude": {
+    "page": "https://amplitude.com",
+    "publisherEvidence": "https://github.com/amplitude/mcp-marketplace"
+  },
+  "apollo": {
+    "page": "https://apollo.io",
+    "publisherEvidence": "https://www.apollo.io/"
+  },
+  "apollo-skills": {
+    "page": "https://apollographql.com",
+    "publisherEvidence": "https://www.apollographql.com"
+  },
+  "appwrite": {
+    "page": "https://appwrite.io",
+    "publisherEvidence": "https://appwrite.io"
+  },
+  "asana": {
+    "page": "https://asana.com",
+    "publisherEvidence": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/asana"
+  },
+  "astronomer-data-agents": {
+    "page": "https://astronomer.io",
+    "publisherEvidence": "https://github.com/astronomer/agents"
+  },
+  "atlan": {
+    "page": "https://atlan.com",
+    "publisherEvidence": "https://docs.atlan.com/"
+  },
+  "atlassian": {
+    "page": "https://atlassian.com",
+    "publisherEvidence": "https://github.com/atlassian/atlassian-mcp-server"
+  },
+  "atlassian-twg-cli": {
+    "page": "https://atlassian.com",
+    "publisherEvidence": "https://developer.atlassian.com/cloud/twg-cli/"
+  },
+  "atomic-agents": {
+    "page": "https://github.com/BrainBlend-AI/atomic-agents",
+    "publisherEvidence": "https://github.com/BrainBlend-AI/atomic-agents"
+  },
+  "auth0": {
+    "page": "https://auth0.com",
+    "publisherEvidence": "https://github.com/auth0/agent-skills"
+  },
+  "aws-agents": {
+    "page": "https://aws.amazon.com",
+    "publisherEvidence": "https://github.com/aws/agent-toolkit-for-aws"
+  },
+  "aws-agents-for-devsecops": {
+    "page": "https://aws.amazon.com",
+    "publisherEvidence": "https://github.com/aws/agent-toolkit-for-aws"
+  },
+  "aws-amplify": {
+    "page": "https://aws.amazon.com",
+    "publisherEvidence": "https://github.com/awslabs/agent-plugins"
+  },
+  "aws-core": {
+    "page": "https://aws.amazon.com",
+    "publisherEvidence": "https://github.com/aws/agent-toolkit-for-aws"
+  },
+  "aws-data-analytics": {
+    "page": "https://aws.amazon.com",
+    "publisherEvidence": "https://github.com/aws/agent-toolkit-for-aws"
+  },
+  "aws-serverless": {
+    "page": "https://aws.amazon.com",
+    "publisherEvidence": "https://github.com/awslabs/agent-plugins"
+  },
+  "aws-startup-advisor": {
+    "page": "https://aws.amazon.com",
+    "publisherEvidence": "https://github.com/aws/agent-toolkit-for-aws"
+  },
+  "aws-transform": {
+    "page": "https://aws.amazon.com",
+    "publisherEvidence": "https://github.com/awslabs/agent-plugins"
+  },
+  "azure": {
+    "page": "https://azure.microsoft.com",
+    "publisherEvidence": "https://github.com/microsoft/azure-skills"
+  },
+  "azure-cosmos-db-assistant": {
+    "page": "https://azure.microsoft.com",
+    "publisherEvidence": "https://github.com/AzureCosmosDB/cosmosdb-claude-code-plugin"
+  },
+  "azure-sql-developer": {
+    "page": "https://azure.microsoft.com",
+    "publisherEvidence": "https://github.com/microsoft/azure-sql-database-container"
+  },
+  "b12-claude-plugin": {
+    "page": "https://b12.io",
+    "publisherEvidence": "https://github.com/b12io/b12-claude-plugin"
+  },
+  "bigdata-com": {
+    "page": "https://bigdata.com",
+    "publisherEvidence": {
+      "name": "RavenPack"
+    }
+  },
+  "bigquery-data-analytics": {
+    "page": "https://cloud.google.com",
+    "publisherEvidence": "https://github.com/gemini-cli-extensions/bigquery-data-analytics"
+  },
+  "blackrock-advisor-center-plugin": {
+    "page": "https://blackrock.com",
+    "publisherEvidence": "https://github.com/blackrock/advisor-center-agent-skills"
+  },
+  "boltz": {
+    "page": "https://boltz.bio",
+    "publisherEvidence": "https://boltz.bio"
+  },
+  "box": {
+    "page": "https://box.com",
+    "publisherEvidence": "https://github.com/box/skills"
+  },
+  "brightdata-plugin": {
+    "page": "https://brightdata.com",
+    "publisherEvidence": "https://docs.brightdata.com"
+  },
+  "browser-use": {
+    "page": "https://browser-use.com",
+    "publisherEvidence": "https://browser-use.com"
+  },
+  "build-with-wordpress": {
+    "page": "https://wordpress.org",
+    "publisherEvidence": "https://developer.wordpress.com/wordpress-com-claude-code-plugin/"
+  },
+  "buildkite": {
+    "page": "https://buildkite.com",
+    "publisherEvidence": "https://github.com/buildkite/skills"
+  },
+  "carbone-skill": {
+    "page": "https://carbone.io",
+    "publisherEvidence": "https://carbone.io"
+  },
+  "carta-cap-table": {
+    "page": "https://carta.com",
+    "publisherEvidence": "https://carta.com"
+  },
+  "carta-crm": {
+    "page": "https://carta.com",
+    "publisherEvidence": "https://carta.com"
+  },
+  "carta-investors": {
+    "page": "https://carta.com",
+    "publisherEvidence": "https://carta.com"
+  },
+  "catalyst-by-zoho": {
+    "page": "https://catalyst.zoho.com",
+    "publisherEvidence": "https://catalyst.zoho.com/"
+  },
+  "chrome-devtools-mcp": {
+    "page": "https://developer.chrome.com",
+    "publisherEvidence": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
+  },
+  "chronograph-gp": {
+    "page": "https://chronograph.pe",
+    "publisherEvidence": "https://www.chronograph.pe/"
+  },
+  "chronograph-lp": {
+    "page": "https://chronograph.pe",
+    "publisherEvidence": "https://www.chronograph.pe/"
+  },
+  "circle-skills": {
+    "page": "https://circle.com",
+    "publisherEvidence": "https://www.circle.com"
+  },
+  "circleback": {
+    "page": "https://circleback.ai",
+    "publisherEvidence": "https://github.com/circlebackai/claude-code-plugin.git"
+  },
+  "ckeditor": {
+    "page": "https://ckeditor.com",
+    "publisherEvidence": "https://ckeditor.com"
+  },
+  "clangd-lsp": {
+    "page": "https://clangd.llvm.org",
+    "publisherEvidence": {
+      "name": "Anthropic",
+      "email": "support@anthropic.com"
+    }
+  },
+  "claude-code-setup": {
+    "page": "https://claude.com",
+    "publisherEvidence": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/claude-code-setup"
+  },
+  "claude-for-financial-advisors": {
+    "page": "https://claude.com",
+    "publisherEvidence": "https://github.com/anthropics/claude-for-financial-advisors"
+  },
+  "claude-md-management": {
+    "page": "https://claude.com",
+    "publisherEvidence": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/claude-md-management"
+  },
+  "claude-security": {
+    "page": "https://claude.com",
+    "publisherEvidence": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/claude-security"
+  },
+  "clay": {
+    "page": "https://clay.com",
+    "publisherEvidence": "https://github.com/clay-run/agent-plugins/tree/main/clay"
+  },
+  "clickhouse": {
+    "page": "https://clickhouse.com",
+    "publisherEvidence": "https://github.com/ClickHouse/clickhouse-claude-code-plugin"
+  },
+  "clickhouse-best-practices": {
+    "page": "https://clickhouse.com",
+    "publisherEvidence": "https://clickhouse.com"
+  },
+  "cloud-sql-mysql": {
+    "page": "https://cloud.google.com",
+    "publisherEvidence": "https://github.com/gemini-cli-extensions/cloud-sql-mysql"
+  },
+  "cloud-sql-postgresql": {
+    "page": "https://cloud.google.com",
+    "publisherEvidence": "https://cloud.google.com/sql"
+  },
+  "cloud-sql-sqlserver": {
+    "page": "https://cloud.google.com",
+    "publisherEvidence": "https://github.com/gemini-cli-extensions/cloud-sql-sqlserver"
+  },
+  "cloudflare": {
+    "page": "https://cloudflare.com",
+    "publisherEvidence": "https://github.com/cloudflare/skills"
+  },
+  "cloudinary": {
+    "page": "https://cloudinary.com",
+    "publisherEvidence": "https://cloudinary.com/documentation"
+  },
+  "cockroachdb": {
+    "page": "https://cockroachlabs.com",
+    "publisherEvidence": "https://github.com/cockroachdb/claude-plugin"
+  },
+  "coderabbit": {
+    "page": "https://coderabbit.ai",
+    "publisherEvidence": "https://github.com/coderabbitai/skills"
+  },
+  "common-room": {
+    "page": "https://commonroom.io",
+    "publisherEvidence": {
+      "name": "Common Room"
+    }
+  },
+  "confidence": {
+    "page": "https://confidence.spotify.com",
+    "publisherEvidence": "https://confidence.spotify.com"
+  },
+  "context7": {
+    "page": "https://context7.com",
+    "publisherEvidence": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/context7"
+  },
+  "convex": {
+    "page": "https://convex.dev",
+    "publisherEvidence": "https://github.com/get-convex/convex-backend-skill"
+  },
+  "crowdsec": {
+    "page": "https://crowdsec.net",
+    "publisherEvidence": "https://www.crowdsec.net"
+  },
+  "crowdstrike-falcon-foundry": {
+    "page": "https://crowdstrike.com",
+    "publisherEvidence": "https://github.com/CrowdStrike/foundry-skills"
+  },
+  "crowdstrike-falcon-fusion": {
+    "page": "https://crowdstrike.com",
+    "publisherEvidence": "https://github.com/CrowdStrike/fusion-skills"
+  },
+  "csharp-lsp": {
+    "page": "https://github.com/dotnet/roslyn",
+    "publisherEvidence": {
+      "name": "Anthropic",
+      "email": "support@anthropic.com"
+    }
+  },
+  "cwc-makers": {
+    "page": "https://claude.com",
+    "publisherEvidence": "https://claude.com/cwc-makers"
+  },
+  "daloopa": {
+    "page": "https://daloopa.com",
+    "publisherEvidence": "https://github.com/daloopa/plugin"
+  },
+  "dash0": {
+    "page": "https://dash0.com",
+    "publisherEvidence": "https://dash0.com/"
+  },
+  "data-agent-kit": {
+    "page": "https://cloud.google.com",
+    "publisherEvidence": "https://cloud.google.com/products/data-agent-kit"
+  },
+  "databases-on-aws": {
+    "page": "https://aws.amazon.com",
+    "publisherEvidence": "https://github.com/awslabs/agent-plugins"
+  },
+  "databricks": {
+    "page": "https://databricks.com",
+    "publisherEvidence": "https://developers.databricks.com/"
+  },
+  "datadog": {
+    "page": "https://datadoghq.com",
+    "publisherEvidence": "https://docs.datadoghq.com/bits_ai/mcp_server/setup?tab=claudecode"
+  },
+  "dataproc": {
+    "page": "https://cloud.google.com",
+    "publisherEvidence": "https://github.com/gemini-cli-extensions/dataproc"
+  },
+  "dataverse": {
+    "page": "https://learn.microsoft.com",
+    "publisherEvidence": "https://github.com/microsoft/Dataverse-skills"
+  },
+  "deepeval": {
+    "page": "https://confident-ai.com",
+    "publisherEvidence": "https://github.com/confident-ai/deepeval"
+  },
+  "deploy-on-aws": {
+    "page": "https://aws.amazon.com",
+    "publisherEvidence": "https://github.com/awslabs/agent-plugins"
+  },
+  "desktop-commander": {
+    "page": "https://desktopcommander.app",
+    "publisherEvidence": "https://desktopcommander.app"
+  },
+  "digitalocean": {
+    "page": "https://digitalocean.com",
+    "publisherEvidence": "./plugins/digitalocean"
+  },
+  "discord": {
+    "page": "https://discord.com",
+    "publisherEvidence": "./upstream/anthropics/claude-plugins-official/external_plugins/discord"
+  },
+  "dominodatalab": {
+    "page": "https://www.domino.ai",
+    "publisherEvidence": "https://www.domino.ai"
+  },
+  "dropbox": {
+    "page": "https://dropbox.com",
+    "publisherEvidence": "https://www.dropbox.com"
+  },
+  "duckdb-skills": {
+    "page": "https://duckdb.org",
+    "publisherEvidence": "https://duckdb.org"
+  },
+  "duende-skills": {
+    "page": "https://duendesoftware.com",
+    "publisherEvidence": "https://duendesoftware.com"
+  },
+  "dynatrace": {
+    "page": "https://dynatrace.com",
+    "publisherEvidence": "https://www.dynatrace.com/hub/detail/claude-code-cli/"
+  },
+  "exa": {
+    "page": "https://exa.ai",
+    "publisherEvidence": "https://exa.ai/docs/reference/exa-mcp"
+  },
+  "expo": {
+    "page": "https://expo.dev",
+    "publisherEvidence": "https://github.com/expo/skills/blob/main/plugins/expo/README.md"
+  },
+  "fastly-agent-toolkit": {
+    "page": "https://fastly.com",
+    "publisherEvidence": "https://github.com/fastly/fastly-agent-toolkit/blob/main/README.md"
+  },
+  "fiftyone": {
+    "page": "https://voxel51.com",
+    "publisherEvidence": "https://docs.voxel51.com/"
+  },
+  "figma": {
+    "page": "https://figma.com",
+    "publisherEvidence": "https://github.com/figma/mcp-server-guide"
+  },
+  "firebase": {
+    "page": "https://firebase.google.com",
+    "publisherEvidence": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/firebase"
+  },
+  "firecrawl": {
+    "page": "https://firecrawl.dev",
+    "publisherEvidence": "https://github.com/firecrawl/firecrawl-claude-plugin.git"
+  },
+  "firestore-native": {
+    "page": "https://cloud.google.com",
+    "publisherEvidence": "https://github.com/gemini-cli-extensions/firestore-native"
+  },
+  "forge-skills": {
+    "page": "https://atlassian.com",
+    "publisherEvidence": "https://developer.atlassian.com/platform/forge/"
+  },
+  "fullstory": {
+    "page": "https://fullstory.com",
+    "publisherEvidence": "https://www.fullstory.com"
+  },
+  "gc-ai": {
+    "page": "https://gc.ai",
+    "publisherEvidence": "https://docs.gc.ai/api-reference/mcp/overview"
+  },
+  "github": {
+    "page": "https://github.com",
+    "publisherEvidence": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/github"
+  },
+  "gitkraken": {
+    "page": "https://gitkraken.com",
+    "publisherEvidence": "https://www.gitkraken.com"
+  },
+  "gitlab": {
+    "page": "https://gitlab.com",
+    "publisherEvidence": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/gitlab"
+  },
+  "google-cloud-storage": {
+    "page": "https://cloud.google.com",
+    "publisherEvidence": "https://cloud.google.com/storage"
+  },
+  "gopls-lsp": {
+    "page": "https://go.dev",
+    "publisherEvidence": {
+      "name": "Anthropic",
+      "email": "support@anthropic.com"
+    }
+  },
+  "govtribe": {
+    "page": "https://govtribe.com",
+    "publisherEvidence": "https://govtribe.com"
+  },
+  "grafana-assistant": {
+    "page": "https://grafana.com",
+    "publisherEvidence": "https://grafana.com"
+  },
+  "grafana-cloud-mcp": {
+    "page": "https://grafana.com",
+    "publisherEvidence": "https://grafana.com"
+  },
+  "grafana-mcp": {
+    "page": "https://grafana.com",
+    "publisherEvidence": "https://grafana.com"
+  },
+  "grasp": {
+    "page": "https://www.grasp-ai.com",
+    "publisherEvidence": "https://www.grasp-ai.com/"
+  },
+  "greptile": {
+    "page": "https://greptile.com",
+    "publisherEvidence": "https://www.greptile.com/docs/mcp-v2/overview"
+  },
+  "honeycomb": {
+    "page": "https://honeycomb.io",
+    "publisherEvidence": "https://github.com/honeycombio/agent-skill"
+  },
+  "hostinger": {
+    "page": "https://hostinger.com",
+    "publisherEvidence": "https://www.hostinger.com"
+  },
+  "hubspot-sales": {
+    "page": "https://hubspot.com",
+    "publisherEvidence": "https://www.hubspot.com"
+  },
+  "huggingface-skills": {
+    "page": "https://huggingface.co",
+    "publisherEvidence": "https://github.com/huggingface/skills.git"
+  },
+  "hunter": {
+    "page": "https://hunter.io",
+    "publisherEvidence": "https://hunter.io"
+  },
+  "idmp-plugin": {
+    "page": "https://tdengine.com",
+    "publisherEvidence": "https://github.com/taosdata/agent-skills"
+  },
+  "imessage": {
+    "page": "https://www.apple.com",
+    "publisherEvidence": "./upstream/anthropics/claude-plugins-official/external_plugins/imessage"
+  },
+  "incident-io": {
+    "page": "https://incident.io",
+    "publisherEvidence": "https://incident.io"
+  },
+  "informatica-for-claude-platform": {
+    "page": "https://informatica.com",
+    "publisherEvidence": "https://github.com/forcedotcom/informatica-claude-plugins/tree/main/informatica-for-claude-platform"
+  },
+  "intercom": {
+    "page": "https://intercom.com",
+    "publisherEvidence": "https://github.com/intercom/claude-plugin-external"
+  },
+  "intuit-quickbooks": {
+    "page": "https://quickbooks.intuit.com",
+    "publisherEvidence": "https://github.com/intuit/quickbooks-claude-plugin"
+  },
+  "jdtls-lsp": {
+    "page": "https://www.eclipse.org",
+    "publisherEvidence": {
+      "name": "Anthropic",
+      "email": "support@anthropic.com"
+    }
+  },
+  "jfrog": {
+    "page": "https://jfrog.com",
+    "publisherEvidence": "https://jfrog.com"
+  },
+  "jotform": {
+    "page": "https://jotform.com",
+    "publisherEvidence": "./plugins/jotform"
+  },
+  "knowledge-catalog": {
+    "page": "https://cloud.google.com",
+    "publisherEvidence": "https://github.com/gemini-cli-extensions/knowledge-catalog"
+  },
+  "kotlin-lsp": {
+    "page": "https://kotlinlang.org",
+    "publisherEvidence": {
+      "name": "Anthropic",
+      "email": "support@anthropic.com"
+    }
+  },
+  "langfuse": {
+    "page": "https://langfuse.com",
+    "publisherEvidence": "https://langfuse.com"
+  },
+  "langfuse-observability": {
+    "page": "https://langfuse.com",
+    "publisherEvidence": "https://langfuse.com/integrations/other/claude-code"
+  },
+  "laravel-boost": {
+    "page": "https://laravel.com",
+    "publisherEvidence": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/laravel-boost"
+  },
+  "leadfeeder": {
+    "page": "https://leadfeeder.com",
+    "publisherEvidence": "https://www.leadfeeder.com"
+  },
+  "legalzoom": {
+    "page": "https://legalzoom.com",
+    "publisherEvidence": "https://www.legalzoom.com/"
+  },
+  "linear": {
+    "page": "https://linear.app",
+    "publisherEvidence": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/linear"
+  },
+  "linq-alpha": {
+    "page": "https://linqalpha.com",
+    "publisherEvidence": "https://www.linqalpha.com"
+  },
+  "liquid-lsp": {
+    "page": "https://shopify.dev",
+    "publisherEvidence": "https://github.com/Shopify/liquid-skills/tree/main/plugins/liquid-lsp"
+  },
+  "liquid-skills": {
+    "page": "https://shopify.dev",
+    "publisherEvidence": "https://github.com/Shopify/liquid-skills/tree/main/plugins/liquid-skills"
+  },
+  "logfire": {
+    "page": "https://logfire.pydantic.dev",
+    "publisherEvidence": "https://github.com/pydantic/skills/tree/main/plugins/logfire"
+  },
+  "logrocket": {
+    "page": "https://logrocket.com",
+    "publisherEvidence": "https://logrocket.com"
+  },
+  "looker": {
+    "page": "https://cloud.google.com",
+    "publisherEvidence": "https://github.com/gemini-cli-extensions/looker"
+  },
+  "lottiefiles": {
+    "page": "https://lottiefiles.com",
+    "publisherEvidence": "./plugins/lottiefiles"
+  },
+  "lovable": {
+    "page": "https://lovable.dev",
+    "publisherEvidence": "https://lovable.dev"
+  },
+  "lseg": {
+    "page": "https://lseg.com",
+    "publisherEvidence": "https://github.com/LSEG-API-Samples/lseg-claude-plugin"
+  },
+  "lua-lsp": {
+    "page": "https://luals.github.io",
+    "publisherEvidence": {
+      "name": "Anthropic",
+      "email": "support@anthropic.com"
+    }
+  },
+  "lumen": {
+    "page": "https://ory.sh",
+    "publisherEvidence": "https://www.ory.sh"
+  },
+  "lusha": {
+    "page": "https://lusha.com",
+    "publisherEvidence": "https://www.lusha.com"
+  },
+  "make": {
+    "page": "https://make.com",
+    "publisherEvidence": "./plugins/make"
+  },
+  "mapbox": {
+    "page": "https://mapbox.com",
+    "publisherEvidence": "https://www.mapbox.com"
+  },
+  "maven-bio": {
+    "page": "https://mavenbio.com",
+    "publisherEvidence": "https://mavenbio.com/mcp/docs"
+  },
+  "mcp-apps": {
+    "page": "https://modelcontextprotocol.io",
+    "publisherEvidence": "https://modelcontextprotocol.io"
+  },
+  "mercadopago": {
+    "page": "https://mercadopago.com",
+    "publisherEvidence": "https://github.com/mercadopago/mercadopago-claude-marketplace/tree/main/plugins/mercadopago"
+  },
+  "mergify": {
+    "page": "https://mergify.com",
+    "publisherEvidence": "https://mergify.com"
+  },
+  "microsoft-docs": {
+    "page": "https://learn.microsoft.com",
+    "publisherEvidence": "https://github.com/microsoftdocs/mcp"
+  },
+  "migration-to-aws": {
+    "page": "https://aws.amazon.com",
+    "publisherEvidence": "https://github.com/awslabs/startups"
+  },
+  "mintlify": {
+    "page": "https://mintlify.com",
+    "publisherEvidence": "https://www.mintlify.com/"
+  },
+  "miro": {
+    "page": "https://miro.com",
+    "publisherEvidence": {
+      "name": "Miro"
+    }
+  },
+  "mlflow": {
+    "page": "https://mlflow.org",
+    "publisherEvidence": "https://mlflow.org/"
+  },
+  "modern-web-guidance": {
+    "page": "https://developer.chrome.com",
+    "publisherEvidence": "https://goo.gle/modern-web-guidance"
+  },
+  "monday-com": {
+    "page": "https://monday.com",
+    "publisherEvidence": "https://monday.com"
+  },
+  "monday-crm": {
+    "page": "https://monday.com",
+    "publisherEvidence": "https://monday.com"
+  },
+  "mongodb": {
+    "page": "https://mongodb.com",
+    "publisherEvidence": "https://www.mongodb.com/docs/mcp-server/overview/"
+  },
+  "mongodb-atlas": {
+    "page": "https://mongodb.com",
+    "publisherEvidence": "https://www.mongodb.com/docs/mcp-server/get-started/"
+  },
+  "neon": {
+    "page": "https://neon.com",
+    "publisherEvidence": "https://github.com/neondatabase/agent-skills/tree/main/plugins/neon-postgres"
+  },
+  "netlify-skills": {
+    "page": "https://netlify.com",
+    "publisherEvidence": "https://github.com/netlify/context-and-tools"
+  },
+  "netsuite-ai-companion": {
+    "page": "https://netsuite.com",
+    "publisherEvidence": "https://github.com/oracle/netsuite-suitecloud-sdk/tree/ai-plugins-dist/anthropic/netsuite-ai-companion"
+  },
+  "netsuite-finance-analyst": {
+    "page": "https://netsuite.com",
+    "publisherEvidence": "https://github.com/oracle/netsuite-suitecloud-sdk/tree/ai-plugins-dist/anthropic/netsuite-finance-analyst"
+  },
+  "netsuite-suitecloud": {
+    "page": "https://netsuite.com",
+    "publisherEvidence": "https://github.com/oracle/netsuite-suitecloud-sdk/tree/ai-plugins-dist/anthropic/netsuite-suitecloud"
+  },
+  "newrelic": {
+    "page": "https://newrelic.com",
+    "publisherEvidence": "https://newrelic.com"
+  },
+  "nightvision": {
+    "page": "https://nightvision.net",
+    "publisherEvidence": "https://github.com/nvsecurity/nightvision-skills"
+  },
+  "nimble": {
+    "page": "https://nimbleway.com",
+    "publisherEvidence": "https://docs.nimbleway.com/integrations/agent-skills/plugin-installation"
+  },
+  "noibu": {
+    "page": "https://noibu.com",
+    "publisherEvidence": "https://help.noibu.com/articles/3918362002-overview-of-the-noibu-plugin-for-claude"
+  },
+  "notion": {
+    "page": "https://notion.com",
+    "publisherEvidence": "https://github.com/makenotion/claude-code-notion-plugin"
+  },
+  "nvidia-skills": {
+    "page": "https://nvidia.com",
+    "publisherEvidence": "https://build.nvidia.com/skills/"
+  },
+  "oracle-ai-data-platform-workbench-databricks-migrator": {
+    "page": "https://oracle.com",
+    "publisherEvidence": "https://docs.oracle.com/en/cloud/paas/ai-data-platform/index.html"
+  },
+  "oracle-ai-data-platform-workbench-engineer-agent": {
+    "page": "https://oracle.com",
+    "publisherEvidence": "https://docs.oracle.com/en/cloud/paas/ai-data-platform/index.html"
+  },
+  "oracle-ai-data-platform-workbench-spark-connectors": {
+    "page": "https://oracle.com",
+    "publisherEvidence": "https://docs.oracle.com/en/cloud/paas/ai-data-platform/index.html"
+  },
+  "oracledb": {
+    "page": "https://oracle.com",
+    "publisherEvidence": "https://github.com/gemini-cli-extensions/oracledb"
+  },
+  "outputai": {
+    "page": "https://output.ai",
+    "publisherEvidence": "https://output.ai"
+  },
+  "pagerduty": {
+    "page": "https://pagerduty.com",
+    "publisherEvidence": "https://github.com/PagerDuty/claude-code-plugins"
+  },
+  "paypal": {
+    "page": "https://paypal.com",
+    "publisherEvidence": "https://developer.paypal.com/"
+  },
+  "pendo-analytics": {
+    "page": "https://pendo.io",
+    "publisherEvidence": "https://www.pendo.io"
+  },
+  "pendo-guides": {
+    "page": "https://pendo.io",
+    "publisherEvidence": "https://www.pendo.io"
+  },
+  "pendo-orchestrate": {
+    "page": "https://pendo.io",
+    "publisherEvidence": "https://www.pendo.io"
+  },
+  "php-lsp": {
+    "page": "https://intelephense.com",
+    "publisherEvidence": {
+      "name": "Anthropic",
+      "email": "support@anthropic.com"
+    }
+  },
+  "pigment": {
+    "page": "https://www.pigment.com",
+    "publisherEvidence": "https://www.pigment.com"
+  },
+  "pinecone": {
+    "page": "https://pinecone.io",
+    "publisherEvidence": "https://github.com/pinecone-io/pinecone-claude-code-plugin"
+  },
+  "pixeltable": {
+    "page": "https://pixeltable.com",
+    "publisherEvidence": "https://docs.pixeltable.com"
+  },
+  "planetscale": {
+    "page": "https://planetscale.com",
+    "publisherEvidence": "https://planetscale.com/"
+  },
+  "playwright": {
+    "page": "https://playwright.dev",
+    "publisherEvidence": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/playwright"
+  },
+  "posthog": {
+    "page": "https://posthog.com",
+    "publisherEvidence": "https://posthog.com/docs/model-context-protocol"
+  },
+  "postiz": {
+    "page": "https://postiz.com",
+    "publisherEvidence": "https://postiz.com/agent"
+  },
+  "postman": {
+    "page": "https://postman.com",
+    "publisherEvidence": "https://github.com/postmanlabs/postman-plugin"
+  },
+  "preset-cli-skills": {
+    "page": "https://preset.io",
+    "publisherEvidence": "https://www.preset.io"
+  },
+  "prisma": {
+    "page": "https://prisma.io",
+    "publisherEvidence": "https://prisma.io"
+  },
+  "product-tracking-skills": {
+    "page": "https://accoil.com",
+    "publisherEvidence": "https://www.accoil.com/product-tracking"
+  },
+  "pydantic-ai": {
+    "page": "https://pydantic.dev",
+    "publisherEvidence": "https://github.com/pydantic/skills/tree/main/plugins/ai"
+  },
+  "pyright-lsp": {
+    "page": "https://github.com/microsoft/pyright",
+    "publisherEvidence": {
+      "name": "Anthropic",
+      "email": "support@anthropic.com"
+    }
+  },
+  "qdrant-skills": {
+    "page": "https://qdrant.tech",
+    "publisherEvidence": "https://skills.qdrant.tech"
+  },
+  "qodo": {
+    "page": "https://qodo.ai",
+    "publisherEvidence": "https://qodo.ai"
+  },
+  "qodo-standards": {
+    "page": "https://qodo.ai",
+    "publisherEvidence": "https://qodo.ai"
+  },
+  "qt-development-skills": {
+    "page": "https://qt.io",
+    "publisherEvidence": "https://github.com/TheQtCompanyRnD/agent-skills"
+  },
+  "quarkus-agent": {
+    "page": "https://quarkus.io",
+    "publisherEvidence": "https://quarkus.io"
+  },
+  "railway": {
+    "page": "https://railway.com",
+    "publisherEvidence": "https://docs.railway.com/ai/claude-code-plugin"
+  },
+  "rc": {
+    "page": "https://revenuecat.com",
+    "publisherEvidence": "https://www.revenuecat.com"
+  },
+  "redis-development": {
+    "page": "https://redis.io",
+    "publisherEvidence": "https://redis.io"
+  },
+  "remember": {
+    "page": "https://github.com/Digital-Process-Tools/claude-remember",
+    "publisherEvidence": "https://github.com/Digital-Process-Tools/claude-remember"
+  },
+  "render": {
+    "page": "https://render.com",
+    "publisherEvidence": "https://render.com"
+  },
+  "rill": {
+    "page": "https://rilldata.com",
+    "publisherEvidence": "https://docs.rilldata.com/developers/build/ai-configuration"
+  },
+  "rootly": {
+    "page": "https://rootly.com",
+    "publisherEvidence": "https://rootly.com"
+  },
+  "ruby-lsp": {
+    "page": "https://ruby-lsp.github.io",
+    "publisherEvidence": {
+      "name": "Anthropic",
+      "email": "support@anthropic.com"
+    }
+  },
+  "runway-api": {
+    "page": "https://runwayml.com",
+    "publisherEvidence": "https://runwayml.com"
+  },
+  "rust-analyzer-lsp": {
+    "page": "https://rust-analyzer.github.io",
+    "publisherEvidence": {
+      "name": "Anthropic",
+      "email": "support@anthropic.com"
+    }
+  },
+  "sagemaker-ai": {
+    "page": "https://aws.amazon.com",
+    "publisherEvidence": "https://github.com/awslabs/agent-plugins"
+  },
+  "sanity-plugin": {
+    "page": "https://sanity.io",
+    "publisherEvidence": "https://www.sanity.io"
+  },
+  "sap-hana-cli": {
+    "page": "https://sap.com",
+    "publisherEvidence": "https://github.com/SAP-samples/hana-cli-claude-plugin"
+  },
+  "save-to-spotify": {
+    "page": "https://spotify.com",
+    "publisherEvidence": "https://github.com/spotify/save-to-spotify"
+  },
+  "scandit-sdk": {
+    "page": "https://scandit.com",
+    "publisherEvidence": "https://www.scandit.com"
+  },
+  "searchfit-seo": {
+    "page": "https://searchfit.ai",
+    "publisherEvidence": "https://searchfit.ai"
+  },
+  "semgrep": {
+    "page": "https://semgrep.dev",
+    "publisherEvidence": "https://github.com/semgrep/mcp-marketplace.git"
+  },
+  "sentry": {
+    "page": "https://sentry.io",
+    "publisherEvidence": "https://github.com/getsentry/plugin-claude"
+  },
+  "sentry-cli": {
+    "page": "https://sentry.io",
+    "publisherEvidence": "https://sentry.io"
+  },
+  "serena": {
+    "page": "https://github.com/oraios/serena",
+    "publisherEvidence": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/serena"
+  },
+  "servicenow-sdk": {
+    "page": "https://servicenow.com",
+    "publisherEvidence": "https://servicenow.github.io/sdk/"
+  },
+  "setup-agent-analytics": {
+    "page": "https://pendo.io",
+    "publisherEvidence": "https://github.com/pendo-io/claude-pendo-plugin/tree/main/plugins/setup-agent-analytics"
+  },
+  "setup-mcp-agent-analytics": {
+    "page": "https://pendo.io",
+    "publisherEvidence": "https://github.com/pendo-io/claude-pendo-plugin/tree/main/plugins/setup-mcp-agent-analytics"
+  },
+  "shippo": {
+    "page": "https://shippo.com",
+    "publisherEvidence": "https://docs.goshippo.com"
+  },
+  "shopify-ai-toolkit": {
+    "page": "https://shopify.com",
+    "publisherEvidence": "https://shopify.dev"
+  },
+  "signoz": {
+    "page": "https://signoz.io",
+    "publisherEvidence": "https://signoz.io/docs/ai/agent-skills"
+  },
+  "slack": {
+    "page": "https://slack.com",
+    "publisherEvidence": "https://github.com/slackapi/slack-mcp-plugin/tree/main"
+  },
+  "slack-by-salesforce": {
+    "page": "https://slack.com",
+    "publisherEvidence": {
+      "name": "Salesforce"
+    }
+  },
+  "snowflake-cortex-code": {
+    "page": "https://snowflake.com",
+    "publisherEvidence": "https://docs.snowflake.com/en/user-guide/cortex-code"
+  },
+  "sonarqube": {
+    "page": "https://sonarsource.com",
+    "publisherEvidence": "https://www.sonarsource.com"
+  },
+  "sonatype-guide": {
+    "page": "https://sonatype.com",
+    "publisherEvidence": "https://github.com/sonatype/sonatype-guide-claude-plugin.git"
+  },
+  "sourcegraph": {
+    "page": "https://sourcegraph.com",
+    "publisherEvidence": "https://sourcegraph.com"
+  },
+  "sp-global": {
+    "page": "https://spglobal.com",
+    "publisherEvidence": "https://kensho.com"
+  },
+  "spanner": {
+    "page": "https://cloud.google.com",
+    "publisherEvidence": "https://github.com/gemini-cli-extensions/spanner"
+  },
+  "spotify-ads-api": {
+    "page": "https://spotify.com",
+    "publisherEvidence": "https://github.com/spotify/ads-claude-plugin"
+  },
+  "stackhawk-api": {
+    "page": "https://stackhawk.com",
+    "publisherEvidence": "https://docs.stackhawk.com/ai-security/"
+  },
+  "stackhawk-hawkscan": {
+    "page": "https://stackhawk.com",
+    "publisherEvidence": "https://docs.stackhawk.com/ai-security/"
+  },
+  "streaming-skills-plugin": {
+    "page": "https://confluent.io",
+    "publisherEvidence": "https://www.confluent.io"
+  },
+  "stripe": {
+    "page": "https://stripe.com",
+    "publisherEvidence": "https://github.com/stripe/ai/tree/main/providers/claude/plugin"
+  },
+  "sumup": {
+    "page": "https://sumup.com",
+    "publisherEvidence": "https://www.sumup.com/"
+  },
+  "superpowers": {
+    "page": "https://github.com/obra/superpowers",
+    "publisherEvidence": "https://github.com/obra/superpowers.git"
+  },
+  "swift-lsp": {
+    "page": "https://sourcekit-lsp.swift.org",
+    "publisherEvidence": {
+      "name": "Anthropic",
+      "email": "support@anthropic.com"
+    }
+  },
+  "synthflow": {
+    "page": "https://synthflow.ai",
+    "publisherEvidence": "https://synthflow.ai"
+  },
+  "tavily": {
+    "page": "https://tavily.com",
+    "publisherEvidence": "https://www.tavily.com/"
+  },
+  "telegram": {
+    "page": "https://telegram.org",
+    "publisherEvidence": "./upstream/anthropics/claude-plugins-official/external_plugins/telegram"
+  },
+  "terraform": {
+    "page": "https://developer.hashicorp.com",
+    "publisherEvidence": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/terraform"
+  },
+  "tinyfish": {
+    "page": "https://tinyfish.ai",
+    "publisherEvidence": "https://docs.tinyfish.ai"
+  },
+  "togetherai-skills": {
+    "page": "https://together.ai",
+    "publisherEvidence": "https://www.together.ai"
+  },
+  "twilio-developer-kit": {
+    "page": "https://twilio.com",
+    "publisherEvidence": "https://www.twilio.com"
+  },
+  "typeform": {
+    "page": "https://typeform.com",
+    "publisherEvidence": "./plugins/typeform"
+  },
+  "typescript-lsp": {
+    "page": "https://typescriptlang.org",
+    "publisherEvidence": {
+      "name": "Anthropic",
+      "email": "support@anthropic.com"
+    }
+  },
+  "ui-theme-designer": {
+    "page": "https://sap.com",
+    "publisherEvidence": "https://github.com/SAP/ui-theme-designer-plugins-for-coding-agents"
+  },
+  "ui5": {
+    "page": "https://sap.com",
+    "publisherEvidence": "https://github.com/UI5/plugins-coding-agents"
+  },
+  "ui5-modernization": {
+    "page": "https://sap.com",
+    "publisherEvidence": "https://github.com/UI5/plugins-coding-agents"
+  },
+  "ui5-typescript-conversion": {
+    "page": "https://sap.com",
+    "publisherEvidence": "https://github.com/UI5/plugins-coding-agents"
+  },
+  "unity": {
+    "page": "https://unity.com",
+    "publisherEvidence": "https://unity.com"
+  },
+  "unreal-engine-skills-for-claude-code": {
+    "page": "https://unrealengine.com",
+    "publisherEvidence": "https://dev.epicgames.com/documentation/unreal-engine/unreal-mcp-in-unreal-editor"
+  },
+  "unstructured-foundation": {
+    "page": "https://unstructured.io",
+    "publisherEvidence": "https://unstructured.io"
+  },
+  "valtown": {
+    "page": "https://val.town",
+    "publisherEvidence": "https://val.town"
+  },
+  "vanguard-advisor-tools": {
+    "page": "https://vanguard.com",
+    "publisherEvidence": "https://advisors.vanguard.com"
+  },
+  "vanta-mcp-plugin": {
+    "page": "https://vanta.com",
+    "publisherEvidence": "https://help.vanta.com/en/articles/14094979-connecting-to-vanta-mcp#h_887ce3f337"
+  },
+  "vercel": {
+    "page": "https://vercel.com",
+    "publisherEvidence": "https://github.com/vercel/vercel-plugin"
+  },
+  "vibe-prospecting": {
+    "page": "https://explorium.ai",
+    "publisherEvidence": "https://www.vibeprospecting.ai/product/claude-plugin"
+  },
+  "vsql-extension-builder": {
+    "page": "https://villagesql.com",
+    "publisherEvidence": "https://villagesql.com"
+  },
+  "webflow": {
+    "page": "https://webflow.com",
+    "publisherEvidence": "./plugins/webflow"
+  },
+  "windsor-ai": {
+    "page": "https://windsor.ai",
+    "publisherEvidence": "https://windsor.ai"
+  },
+  "wingspan": {
+    "page": "https://wingspan.app",
+    "publisherEvidence": "https://github.com/wingspanHQ/mcp-claude-plugin"
+  },
+  "wix": {
+    "page": "https://wix.com",
+    "publisherEvidence": "https://dev.wix.com/docs/wix-cli/guides/development/about-wix-skills"
+  },
+  "workos": {
+    "page": "https://workos.com",
+    "publisherEvidence": "https://workos.com"
+  },
+  "youdotcom-agent-skills": {
+    "page": "https://you.com",
+    "publisherEvidence": "https://you.com"
+  },
+  "zapier": {
+    "page": "https://zapier.com",
+    "publisherEvidence": "https://github.com/zapier/zapier-mcp/tree/main/plugins/zapier"
+  },
+  "zilliz": {
+    "page": "https://zilliz.com",
+    "publisherEvidence": "https://docs.zilliz.com"
+  },
+  "zocks-advisor": {
+    "page": "https://zocks.io",
+    "publisherEvidence": "https://github.com/zocks-communications/zocks-agent-plugins"
+  },
+  "zoom-plugin": {
+    "page": "https://zoom.com",
+    "publisherEvidence": "https://developers.zoom.us/"
+  },
+  "zoominfo": {
+    "page": "https://zoominfo.com",
+    "publisherEvidence": "https://zoominfo.com"
+  },
+  "zscaler": {
+    "page": "https://zscaler.com",
+    "publisherEvidence": "https://github.com/zscaler/zscaler-mcp-server"
+  },
+  "zyte-web-data": {
+    "page": "https://zyte.com",
+    "publisherEvidence": "https://www.zyte.com"
+  }
+}

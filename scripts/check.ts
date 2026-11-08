@@ -1,8 +1,10 @@
+import { checkIcons } from './icons';
 import { existsSync, readdirSync, lstatSync } from 'node:fs';
 import { resolve, relative } from 'node:path';
 export const categories = ['productivity','communication','design','development','data','cloud','finance','sales-marketing','research','security','ai-agents','more'];
 export function validate(doc: any, lock: any, root: string, curation?: any) {
-  if (doc.name !== 'compozy-plugins' || !doc.plugins.length || doc.plugins.length > 1000) throw Error('invalid catalog size or name');
+  if (Buffer.byteLength(JSON.stringify(doc,null,2)+'\n') > 2 * 1024 * 1024) throw Error('catalog exceeds daemon 2 MiB document limit');
+ if (doc.name !== 'compozy-plugins' || !doc.plugins.length || doc.plugins.length > 1000) throw Error('invalid catalog size or name');
   const names = new Set<string>();
   for (const p of doc.plugins) {
     if (!/^[A-Za-z0-9][A-Za-z0-9._-]{0,127}$/.test(p.name) || names.has(p.name)) throw Error(`invalid or duplicate name: ${p.name}`);
@@ -36,14 +38,15 @@ if (import.meta.main) {
  const curation=await Bun.file(`${root}/curation.json`).json();
  curation.categories=await Bun.file(`${root}/categories.json`).json();
  validate(await Bun.file(`${root}/.claude-plugin/marketplace.json`).json(),await Bun.file(`${root}/sources.lock.json`).json(),root,curation);
+ checkIcons(await Bun.file(`${root}/.claude-plugin/marketplace.json`).json(),root);
  console.log(checkSnapshotQuota(root));
  console.log('Catalog validation passed (size, identities, categories, pins, local paths, supersedes).');
 }
 
-export function checkSnapshotQuota(root:string) {
+export function checkSnapshotQuota(root:string, reservedDirectories:string[] = []) {
  let nodes=0,bytes=0;
  function walk(dir:string){for(const name of readdirSync(dir)){
-  if(name==='.git'||name==='.cache')continue;
+  if(name==='.git'||name==='.cache'||(dir===root&&reservedDirectories.includes(name)))continue;
   const path=resolve(dir,name),stat=lstatSync(path);nodes++;
   if(stat.isDirectory())walk(path);else bytes+=stat.size;
  }}

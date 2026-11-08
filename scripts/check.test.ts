@@ -83,3 +83,31 @@ test('rejects reintroduced known unloadable packages and unmaterialized sources'
  expect(()=>validate(doc(entry),{...lock,entries:{fixture:{commit:'a'.repeat(40)}}},'.',{...curation,exclusions:{fixture:{commit:'a'.repeat(40)}}})).toThrow('excluded package listed');
  expect(()=>validate(doc(entry),lock,'.',{...curation,materializeEntries:['fixture']})).toThrow('requires materialized source');
 });
+
+// Invariant: published icons obey the daemon URL contract and match reviewed asset bytes.
+// Owner: catalog generation; canonical suite: check.test.ts.
+import { validateIcon, checkIcons, applyIcons } from './icons';
+test('accepts supported HTTPS and inline icons', () => {
+ for (const value of ['', 'https://vendor.example/icon.SVG?v=1', 'data:image/png;base64,YQ==', 'data:image/svg+xml,%3Csvg%3E']) expect(() => validateIcon(value)).not.toThrow();
+});
+test('rejects unsupported, malformed and oversized icons', () => {
+ for (const value of ['http://vendor.example/a.png', 'https://user:pass@vendor.example/a.png', 'https://vendor.example/a.png#x', 'https://vendor.example/a.ico', 'data:text/html;base64,YQ==', 'data:image/png;base64,***', 'data:image/png,%XX', 'data:image/png,', 'data:image/png,' + 'a'.repeat(65536)]) expect(() => validateIcon(value)).toThrow();
+});
+test('requires provenance and rejects modified asset bytes', () => {
+ const root=mkdtempSync(join(tmpdir(),'mpc-icons-'));
+ try {
+  mkdirSync(join(root,'icons'));
+  writeFileSync(join(root,'icons.json'), JSON.stringify({fixture:{page:'https://vendor.example'}}));
+  writeFileSync(join(root,'icons/sources.json'), '{}');
+  expect(() => checkIcons(doc({...entry,icon:'data:image/png;base64,YQ=='}),root)).toThrow('provenance');
+  writeFileSync(join(root,'icons/sources.json'), JSON.stringify({fixture:{entry:'fixture',sourcePage:'https://vendor.example',assetURL:'https://vendor.example/a.svg',file:'icons/fixture.svg',sha256:'bad',bytes:6,contentType:'image/svg+xml'}}));
+  writeFileSync(join(root,'icons/fixture.svg'), '<svg/>');
+  expect(() => applyIcons(doc(entry),root)).toThrow('hash mismatch');
+ } finally { rmSync(root,{recursive:true,force:true}); }
+});
+
+// Invariant: the complete published document fits the daemon decoder budget.
+// Owner: catalog generation; canonical suite: check.test.ts.
+test('rejects a document beyond the daemon byte limit', () => {
+ expect(() => validate({...doc(entry),description:'x'.repeat(2*1024*1024)},lock,'.',curation)).toThrow('2 MiB');
+});

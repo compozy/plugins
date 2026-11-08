@@ -26,8 +26,10 @@ export function repairEntries(root:string,entries:Map<string,any>,lock:any,curat
    const governing=license(pkg)??license(checkout);
    if(governing){const licensePath=relative(realpathSync(checkout),realpathSync(governing));if(licensePath==='..'||licensePath.startsWith('../'))throw Error('license escapes publisher checkout');}
    if(!governing||!permissive(governing))throw Error('no recognized permissive publisher license');
-   const tree=inspectMaterializedTree(pkg),quota=checkSnapshotQuota(root);
+   const tree=inspectMaterializedTree(pkg),quota=checkSnapshotQuota(root, ['icons']);
    const local=`upstream/publishers/${id}`,destination=join(root,local);
+   // Icons consume the existing authoring reserve, not the package materialization budget.
+   // The final quota check still counts every icon against the unchanged snapshot limit.
    // Retain headroom for attribution files, candidates and generator reports.
    const old=existsSync(destination)?inspectMaterializedTree(destination):{nodes:0,bytes:0};
    if(quota.nodes-old.nodes+tree.nodes>9000||quota.bytes-old.bytes+tree.bytes>100*1048576)throw Error('materialized package exceeds catalog snapshot quota');
